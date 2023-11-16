@@ -1,4 +1,4 @@
-# 🥞 Pancake Frontend
+# BlueLotusDAO Frontend
 
 <p align="center">
   <a href="https://bluelotusdaotemp.bluelotusdao.org">
@@ -6,7 +6,7 @@
   </a>
 </p>
 
-This project contains the main features of the pancake application.
+This project contains the main features of the BlueLotusDAO application.
 
 If you want to contribute, please refer to the [contributing guidelines](./CONTRIBUTING.md) of this project.
 
