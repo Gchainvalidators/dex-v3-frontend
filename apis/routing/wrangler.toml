@@ -1,0 +1,34 @@
+compatibility_date = "2022-05-20"
+kv_namespaces = [
+  {binding = "POOLS", id = "cc27691cf5b2438b895e0c11c3131d0a", preview_id = "18dd370566d349eea3e22b69f31c10ca"},
+]
+r2_buckets = [
+  { binding = "MIX_SUBGRAPH_POOLS", bucket_name = "gsys-subgraph-pools", preview_bucket_name = "gsys-subgraph-pools-dev" }
+]
+main = "src/index.ts"
+name = "miex-routing-dev"
+node_compat = true
+[triggers]
+crons = ["0 0 * * *"]
+
+[env.production]
+kv_namespaces = [
+  {binding = "POOLS", id = "cc27691cf5b2438b895e0c11c3131d0a"},
+]
+r2_buckets = [
+  { binding = "MIX_SUBGRAPH_POOLS", bucket_name = "gsys-subgraph-pools", preview_bucket_name = "gsys-subgraph-pools-dev" }
+]
+name = "miex-routing"
+[env.production.triggers]
+crons = ["0 0 * * *"]
+
+[dev]
+port = 8788
+
+# - AXIOM_TOKEN
+# The necessary secrets are:
+# - ETH_NODE
+# - GOERLI_NODE
+# - BSC_NODE
+# - BSC_TESTNET_NODE
+# Run `echo <VALUE> | wrangler secret put <NAME>` for each of these

@@ -1,0 +1,46 @@
+[
+  {
+    "pid": 34,
+    "vaultPid": 3,
+    "lpSymbol": "CELR-WETH LP",
+    "lpAddress": "0xF8E1FA0648F87c115F26E43271B3D6e4a80A2944",
+    "quoteToken": {
+      "address": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+      "chainId": 5,
+      "decimals": 18,
+      "symbol": "WETH",
+      "name": "Wrapped Ether",
+      "projectLink": "https://weth.io"
+    },
+    "token": {
+      "address": "0x5D3c0F4cA5EE99f8E8F59Ff9A5fAb04F6a7e007f",
+      "chainId": 5,
+      "decimals": 18,
+      "symbol": "CELR",
+      "name": "CelerToken",
+      "projectLink": ""
+    }
+  },
+  {
+    "pid": 23,
+    "vaultPid": 3,
+    "lpSymbol": "LEET-WETH LP",
+    "lpAddress": "0x846f5e6DDb29dC5D07f8dE0a980E30cb5aa07109",
+    "quoteToken": {
+      "address": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+      "chainId": 5,
+      "decimals": 18,
+      "symbol": "WETH",
+      "name": "Wrapped Ether",
+      "projectLink": "https://weth.io"
+    },
+    "token": {
+      "address": "0xBd509651E6374c327d24b9d7E3Ea46704f6F31E8",
+      "chainId": 5,
+      "decimals": 18,
+      "symbol": "LEET",
+      "name": "Leet Token",
+      "projectLink": ""
+    }
+  }
+]

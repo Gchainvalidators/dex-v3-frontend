@@ -1,0 +1,3316 @@
+[
+  {
+    "pid": 0,
+    "v1pid": 0,
+    "lpSymbol": "BLDT",
+    "lpAddress": "0x7E9808c731ce79B2DfC18B88e3Baad3D115DB102",
+    "token": {
+      "address": "0xC61DD39ed3dC2f6547b099a1cEEce87B8dD9cDf6",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "SYRUP",
+      "name": "SyrupBar Token",
+      "projectLink": "https://pancakeswap.finance/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 2,
+    "v1pid": 251,
+    "lpSymbol": "BLDT-BNB LP",
+    "lpAddress": "0x0eD7e52944161450477ee417DE9Cd3a859b14fD0",
+    "token": {
+      "address": "0x7E9808c731ce79B2DfC18B88e3Baad3D115DB102",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BLDT",
+      "name": "BlueLotusDAO",
+      "projectLink": "https://pancakeswap.finance/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    },
+    "boosted": true
+  },
+  {
+    "pid": 39,
+    "v1pid": 389,
+    "lpSymbol": "BLDT-BUSD LP",
+    "lpAddress": "0x804678fa97d91B974ec2af3c843270886528a9E6",
+    "boosted": true,
+    "token": {
+      "address": "0x7E9808c731ce79B2DfC18B88e3Baad3D115DB102",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BLDT",
+      "name": "BlueLotusDAO",
+      "projectLink": "https://pancakeswap.finance/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 47,
+    "v1pid": 422,
+    "lpSymbol": "BLDT-USDT LP",
+    "lpAddress": "0xA39Af17CE4a8eb807E076805Da1e2B8EA7D0755b",
+    "token": {
+      "address": "0x7E9808c731ce79B2DfC18B88e3Baad3D115DB102",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BLDT",
+      "name": "BlueLotusDAO",
+      "projectLink": "https://pancakeswap.finance/"
+    },
+    "quoteToken": {
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "projectLink": "https://tether.to/"
+    },
+    "boosted": true
+  },
+  {
+    "pid": 3,
+    "v1pid": 252,
+    "lpSymbol": "BUSD-BNB LP",
+    "lpAddress": "0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16",
+    "token": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 167,
+    "lpSymbol": "SABLE-BNB LP",
+    "lpAddress": "0xa0D4e270D9EB4E41f7aB02337c21692D7eECCCB0",
+    "token": {
+      "address": "0x1eE098cBaF1f846d5Df1993f7e2d10AFb35A878d",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "SABLE",
+      "name": "SABLE",
+      "projectLink": "https://sable.finance/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 147,
+    "lpSymbol": "axlUSDC-USDT LP",
+    "lpAddress": "0x1c7e5a3A72b6D94DE5Ec20812E3e68713978a584",
+    "token": {
+      "address": "0x4268B8F0B87b6Eae5d897996E6b845ddbD99Adf3",
+      "chainId": 56,
+      "decimals": 6,
+      "symbol": "axlUSDC",
+      "name": "Axelar Wrapped USDC",
+      "projectLink": "https://axelarscan.io/assets/"
+    },
+    "quoteToken": {
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "projectLink": "https://tether.to/"
+    },
+    "stableSwapAddress": "0x6D8fba276ec6F1EDa2344DA48565AdbCA7e4FFa5",
+    "infoStableSwapAddress": "0x150c8AbEB487137acCC541925408e73b92F39A50",
+    "stableLpFee": 0.0002,
+    "stableLpFeeRateOfTotalFee": 0.5
+  },
+  {
+    "pid": 163,
+    "lpSymbol": "HAY-USDT LP",
+    "lpAddress": "0xB2Aa63f363196caba3154D4187949283F085a488",
+    "token": {
+      "address": "0x0782b6d8c4551B9760e74c0545a9bCD90bdc41E5",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "HAY",
+      "name": "Hay Destablecoin",
+      "projectLink": "https://helio.money/"
+    },
+    "quoteToken": {
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "projectLink": "https://tether.to/"
+    },
+    "stableSwapAddress": "0xb1Da7D2C257c5700612BdE35C8d7187dc80d79f1",
+    "infoStableSwapAddress": "0x150c8AbEB487137acCC541925408e73b92F39A50",
+    "stableLpFee": 0.0002,
+    "stableLpFeeRateOfTotalFee": 0.5
+  },
+  {
+    "pid": 160,
+    "lpSymbol": "RDNT-BNB LP",
+    "lpAddress": "0x346575fC7f07E6994D76199E41D13dC1575322E1",
+    "token": {
+      "address": "0xf7DE7E8A6bd59ED41a4b5fe50278b3B7f31384dF",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "RDNT",
+      "name": "Radiant",
+      "projectLink": "https://radiant.capital/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 158,
+    "lpSymbol": "ID-USDT LP",
+    "lpAddress": "0x9Ed9E9aA51670A3210fD6078024c21ec6c1d61d9",
+    "token": {
+      "address": "0x2dfF88A56767223A5529eA5960Da7A3F5f766406",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "ID",
+      "name": "SPACE ID",
+      "projectLink": "https://space.id/"
+    },
+    "quoteToken": {
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "projectLink": "https://tether.to/"
+    }
+  },
+  {
+    "pid": 157,
+    "lpSymbol": "UNW-BNB LP",
+    "lpAddress": "0x5CF69395345614e349b2117dBC5F6cf5A500a43d",
+    "token": {
+      "address": "0x5b65cd9feb54F1Df3D0C60576003344079f8Dc06",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "UNW",
+      "name": "Uniwhale Token",
+      "projectLink": "https://www.uniwhale.co/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 156,
+    "lpSymbol": "LVL-BNB LP",
+    "lpAddress": "0x70f16782010fa7dDf032A6aaCdeed05ac6B0BC85",
+    "token": {
+      "address": "0xB64E280e9D1B5DbEc4AcceDb2257A87b400DB149",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "LVL",
+      "name": "Level Token",
+      "projectLink": "https://level.finance/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 155,
+    "lpSymbol": "CAPS-BNB LP",
+    "lpAddress": "0x9Bafeea2A8bC72b1910AB102ca5F8eCa6a67D929",
+    "token": {
+      "address": "0xFfBa7529AC181c2Ee1844548e6D7061c9A597dF4",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "CAPS",
+      "name": "Capsule Coin",
+      "projectLink": "https://www.ternoa.network/en"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 153,
+    "lpSymbol": "agEUR-USDT LP",
+    "lpAddress": "0x1DEC73074cE9cAbEd47D7748410277109B23Cda2",
+    "token": {
+      "address": "0x12f31B73D812C6Bb0d735a218c086d44D5fe5f89",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "agEUR",
+      "name": "agEUR",
+      "projectLink": "https://app.angle.money/#/"
+    },
+    "quoteToken": {
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "projectLink": "https://tether.to/"
+    }
+  },
+  {
+    "pid": 152,
+    "lpSymbol": "BNBx-BNB LP",
+    "lpAddress": "0x92357Ab9003CA881E08e32CDAE59B10B3161b05C",
+    "token": {
+      "address": "0x1bdd3Cf7F79cfB8EdbB955f20ad99211551BA275",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BNBx",
+      "name": "Liquid Staking BNB",
+      "projectLink": "https://www.staderlabs.com/bnb/liquid-staking/bnbx/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    },
+    "stableSwapAddress": "0x9c138bE1D76ee4C5162E0fe9D4eEA5542a23D1bD",
+    "infoStableSwapAddress": "0x150c8AbEB487137acCC541925408e73b92F39A50",
+    "stableLpFee": 0.0002,
+    "stableLpFeeRateOfTotalFee": 0.5
+  },
+  {
+    "pid": 151,
+    "lpSymbol": "WBNB-stkBNB LP",
+    "lpAddress": "0x9976f5c8BEfDee650226d5571d5F5551e8722b75",
+    "token": {
+      "address": "0xc2E9d07F66A89c44062459A47a0D2Dc038E4fb16",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "stkBNB",
+      "name": "Staked BNB",
+      "projectLink": "https://pstake.finance/bnb"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    },
+    "stableSwapAddress": "0x0b03e3d6Ec0c5e5bBf993dED8D947C6fb6eEc18D",
+    "infoStableSwapAddress": "0x150c8AbEB487137acCC541925408e73b92F39A50",
+    "stableLpFee": 0.0002,
+    "stableLpFeeRateOfTotalFee": 0.5
+  },
+  {
+    "pid": 150,
+    "lpSymbol": "APX-BNB LP",
+    "lpAddress": "0xAf839f4D3620a1EED00cCc21dDC01119C26a75E1",
+    "token": {
+      "address": "0x78F5d389F5CDCcFc41594aBaB4B0Ed02F31398b3",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "APX",
+      "name": "ApolloX Token",
+      "projectLink": "https://www.apollox.finance/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 148,
+    "lpSymbol": "CSIX-BLDT LP",
+    "lpAddress": "0x43C2aBe5e3bceC619072D8668Ac83Ad825da707f",
+    "token": {
+      "address": "0x04756126F044634C9a0f0E985e60c88a51ACC206",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "CSIX",
+      "name": "Carbon",
+      "projectLink": "https://carbon.website/"
+    },
+    "quoteToken": {
+      "address": "0x7E9808c731ce79B2DfC18B88e3Baad3D115DB102",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BLDT",
+      "name": "BlueLotusDAO",
+      "projectLink": "https://pancakeswap.finance/"
+    }
+  },
+  {
+    "pid": 146,
+    "lpSymbol": "SDAO-BNB",
+    "lpAddress": "0x43b95976cF0929478bC13332C9cd2D63Bf060976",
+    "token": {
+      "address": "0x90Ed8F1dc86388f14b64ba8fb4bbd23099f18240",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "SDAO",
+      "name": "Singularity Dao",
+      "projectLink": "https://app.singularitydao.ai/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 144,
+    "lpSymbol": "CHAMP-BUSD LP",
+    "lpAddress": "0x1D0F31Bf6171EdFEED3d202104ed69B04C936B02",
+    "token": {
+      "address": "0x7e9AB560d37E62883E882474b096643caB234B65",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "CHAMP",
+      "name": "Ultimate Champions Token",
+      "projectLink": "https://beta.ultimate-champions.com/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 142,
+    "lpSymbol": "ARENA-BLDT LP",
+    "lpAddress": "0xfcc860289819c8b754ef31a1709a7952EB940223",
+    "token": {
+      "address": "0xCfFD4D3B517b77BE32C76DA768634dE6C738889B",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "ARENA",
+      "name": "ESPL ARENA",
+      "projectLink": "https://espl.co/"
+    },
+    "quoteToken": {
+      "address": "0x7E9808c731ce79B2DfC18B88e3Baad3D115DB102",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BLDT",
+      "name": "BlueLotusDAO",
+      "projectLink": "https://pancakeswap.finance/"
+    }
+  },
+  {
+    "pid": 140,
+    "lpSymbol": "PRIMAL-BUSD LP",
+    "lpAddress": "0x4D4310f465C6db2081C3d24fA3B571cb29aBddB7",
+    "token": {
+      "address": "0xCb5327Ed4649548e0d73E70b633cdfd99aF6Da87",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "PRIMAL",
+      "name": "PRIMAL Token",
+      "projectLink": "https://www.getprimal.com/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 139,
+    "lpSymbol": "ZBC-BLDT LP",
+    "lpAddress": "0x269043694D070e8811c620bf95485314BCC7B4b7",
+    "token": {
+      "address": "0x37a56cdcD83Dce2868f721De58cB3830C44C6303",
+      "chainId": 56,
+      "decimals": 9,
+      "symbol": "ZBC",
+      "name": "ZEBEC",
+      "projectLink": "https://zebec.io/"
+    },
+    "quoteToken": {
+      "address": "0x7E9808c731ce79B2DfC18B88e3Baad3D115DB102",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BLDT",
+      "name": "BlueLotusDAO",
+      "projectLink": "https://pancakeswap.finance/"
+    }
+  },
+  {
+    "pid": 138,
+    "lpSymbol": "SQUAD-BLDT LP",
+    "lpAddress": "0x54cd9d6Ce45cEF4fCc1AC568329254661B28711d",
+    "token": {
+      "address": "0x724A32dFFF9769A0a0e1F0515c0012d1fB14c3bd",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "SQUAD",
+      "name": "Token SQUAD",
+      "projectLink": "https://ssquad.games/"
+    },
+    "quoteToken": {
+      "address": "0x7E9808c731ce79B2DfC18B88e3Baad3D115DB102",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BLDT",
+      "name": "BlueLotusDAO",
+      "projectLink": "https://pancakeswap.finance/"
+    }
+  },
+  {
+    "pid": 135,
+    "lpSymbol": "USDT-USDC LP",
+    "lpAddress": "0xee1bcc9F1692E81A281b3a302a4b67890BA4be76",
+    "token": {
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "projectLink": "https://tether.to/"
+    },
+    "quoteToken": {
+      "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "USDC",
+      "name": "Binance-Peg USD Coin",
+      "projectLink": "https://www.centre.io/usdc"
+    },
+    "stableSwapAddress": "0x3EFebC418efB585248A0D2140cfb87aFcc2C63DD",
+    "infoStableSwapAddress": "0xa680d27f63Fa5E213C502d1B3Ca1EB6a3C1b31D6",
+    "stableLpFee": 0.00005,
+    "stableLpFeeRateOfTotalFee": 0.5
+  },
+  {
+    "pid": 134,
+    "lpSymbol": "USDC-BUSD LP",
+    "lpAddress": "0x1A77C359D0019cD8F4d36b7CDf5a88043D801072",
+    "token": {
+      "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "USDC",
+      "name": "Binance-Peg USD Coin",
+      "projectLink": "https://www.centre.io/usdc"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    },
+    "stableSwapAddress": "0xc2F5B9a3d9138ab2B74d581fC11346219eBf43Fe",
+    "infoStableSwapAddress": "0xa680d27f63Fa5E213C502d1B3Ca1EB6a3C1b31D6",
+    "stableLpFee": 0.00005,
+    "stableLpFeeRateOfTotalFee": 0.5
+  },
+  {
+    "pid": 133,
+    "lpSymbol": "USDT-BUSD LP",
+    "lpAddress": "0x36842F8fb99D55477C0Da638aF5ceb6bBf86aA98",
+    "token": {
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "projectLink": "https://tether.to/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    },
+    "stableSwapAddress": "0x169F653A54ACD441aB34B73dA9946e2C451787EF",
+    "infoStableSwapAddress": "0xa680d27f63Fa5E213C502d1B3Ca1EB6a3C1b31D6",
+    "stableLpFee": 0.00005,
+    "stableLpFeeRateOfTotalFee": 0.5
+  },
+  {
+    "pid": 132,
+    "lpSymbol": "HFT-BUSD",
+    "lpAddress": "0xC9853537DC498F4667f9E50bF2BE6aBeF9D53149",
+    "token": {
+      "address": "0x44Ec807ce2F4a6F2737A92e985f318d035883e47",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "HFT",
+      "name": "Hashflow",
+      "projectLink": "https://www.hashflow.com/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 131,
+    "lpSymbol": "HOOK-BLDT",
+    "lpAddress": "0x9e9b768174eF24233BF8AC2f4131F10ff5E72Dee",
+    "token": {
+      "address": "0xa260E12d2B924cb899AE80BB58123ac3fEE1E2F0",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "HOOK",
+      "name": "Hook Token",
+      "projectLink": "https://hooked.io/"
+    },
+    "quoteToken": {
+      "address": "0x7E9808c731ce79B2DfC18B88e3Baad3D115DB102",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BLDT",
+      "name": "BlueLotusDAO",
+      "projectLink": "https://pancakeswap.finance/"
+    }
+  },
+  {
+    "pid": 109,
+    "lpSymbol": "XCAD-BUSD LP",
+    "lpAddress": "0x07C10ecFb0e1CF81E3e05ddb693Cc114C8EBe498",
+    "token": {
+      "address": "0xa026Ad2ceDa16Ca5FC28fd3C72f99e2C332c8a26",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "XCAD",
+      "name": "Chainport.io-Peg XCAD Token",
+      "projectLink": "https://xcadnetwork.com/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    },
+    "isCommunity": true,
+    "auctionHostingStartSeconds": 1668153600
+  },
+  {
+    "pid": 130,
+    "lpSymbol": "XCAD-BLDT",
+    "lpAddress": "0x50e4837Fc2eEFFD34EF78483A89c6Afb7Dd70c77",
+    "token": {
+      "address": "0xa026Ad2ceDa16Ca5FC28fd3C72f99e2C332c8a26",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "XCAD",
+      "name": "Chainport.io-Peg XCAD Token",
+      "projectLink": "https://xcadnetwork.com/"
+    },
+    "quoteToken": {
+      "address": "0x7E9808c731ce79B2DfC18B88e3Baad3D115DB102",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BLDT",
+      "name": "BlueLotusDAO",
+      "projectLink": "https://pancakeswap.finance/"
+    }
+  },
+  {
+    "pid": 106,
+    "lpSymbol": "MHUNT-BNB LP",
+    "lpAddress": "0x58aED290F42963A502626774Bd8fa03f33c9B71f",
+    "token": {
+      "address": "0x2C717059b366714d267039aF8F59125CAdce6D8c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "MHUNT",
+      "name": "MetaShooter",
+      "projectLink": "https://metashooter.gg/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    },
+    "isCommunity": true
+  },
+  {
+    "pid": 91,
+    "v1pid": 522,
+    "lpSymbol": "TINC-BNB LP",
+    "lpAddress": "0x0d5b9A0f4315a4bcE36D1Ea7d6B6d3123167aFAa",
+    "token": {
+      "address": "0x05aD6E30A855BE07AfA57e08a4f30d00810a402e",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "TINC",
+      "name": "Tiny Coin",
+      "projectLink": "https://tinyworlds.io/"
+    },
+    "isCommunity": true,
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 129,
+    "lpSymbol": "MGP-BUSD LP",
+    "lpAddress": "0x76B0d10A4540B6743aa086EA31DC48E8AB691c4d",
+    "token": {
+      "address": "0xD06716E1Ff2E492Cc5034c2E81805562dd3b45fa",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "MGP",
+      "name": "Magpie Token",
+      "projectLink": "https://www.magpiexyz.io/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 128,
+    "lpSymbol": "WMX-BUSD LP",
+    "lpAddress": "0xe86eaAD81C32ffbb88B7ec9B325C8f75C8c9f1Ab",
+    "token": {
+      "address": "0xa75d9ca2a0a1D547409D82e1B06618EC284A2CeD",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WMX",
+      "name": "Wombex Token",
+      "projectLink": "https://wombex.finance/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 127,
+    "lpSymbol": "KRS-BUSD LP",
+    "lpAddress": "0xac747ad9D61884986aD7A4A6cC5de998ce21B253",
+    "token": {
+      "address": "0x37b53894e7429f794B56F22a32E1695567Ee9913",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "KRS",
+      "name": "Kingdom Raids",
+      "projectLink": "https://kingdomraids.io/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 123,
+    "lpSymbol": "ARV-BNB LP",
+    "lpAddress": "0xA63E32FeEFC6590bBf869070Fd2e706Eb7881bd2",
+    "token": {
+      "address": "0x6679eB24F59dFe111864AEc72B443d1Da666B360",
+      "chainId": 56,
+      "decimals": 8,
+      "symbol": "ARV",
+      "name": "ARIVA",
+      "projectLink": "https://ariva.digital"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 90,
+    "v1pid": 520,
+    "lpSymbol": "PEX-BNB LP",
+    "lpAddress": "0x5ca96E8bDe0Bc587DaC9e02422Fd205b1102DAa4",
+    "token": {
+      "address": "0x6a0b66710567b6beb81A71F7e9466450a91a384b",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "PEX",
+      "name": "PearDAO",
+      "projectLink": "https://peardao.io/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    },
+    "isCommunity": true
+  },
+  {
+    "pid": 117,
+    "lpSymbol": "SPIN-BNB LP",
+    "lpAddress": "0x89c68051543Fa135B31c2CE7BD8Cdf392345FF01",
+    "token": {
+      "address": "0x6AA217312960A21aDbde1478DC8cBCf828110A67",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "SPIN",
+      "name": "Spintop",
+      "projectLink": "https://spintop.network/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    },
+    "isCommunity": true
+  },
+  {
+    "pid": 122,
+    "lpSymbol": "CO-BUSD LP",
+    "lpAddress": "0x800946D29e40199963100d67c9265B1725F80333",
+    "token": {
+      "address": "0x936B6659Ad0C1b244Ba8Efe639092acae30dc8d6",
+      "chainId": 56,
+      "decimals": 6,
+      "symbol": "CO",
+      "name": "CO",
+      "projectLink": "https://corite.com/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 120,
+    "lpSymbol": "HOOP-BUSD LP",
+    "lpAddress": "0xdE8a4f457af12F98DB090841579Feed384684819",
+    "token": {
+      "address": "0xF19cfb40B3774dF6Eed83169Ad5aB0Aaf6865F25",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "HOOP",
+      "name": "Chibi Dinos",
+      "projectLink": "https://www.chibidinos.io/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 119,
+    "lpSymbol": "MONI-BNB LP",
+    "lpAddress": "0xbcfd0d4a37fEb4dceAAeFa9da28CD833E5f04e9f",
+    "token": {
+      "address": "0x9573c88aE3e37508f87649f87c4dd5373C9F31e0",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "MONI",
+      "name": "Monsta Infinite",
+      "projectLink": "https://monstainfinite.com/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 118,
+    "lpSymbol": "GQ-BUSD LP",
+    "lpAddress": "0x72121d60b0e2F01c0FB7FE32cA24021b42165A40",
+    "token": {
+      "address": "0xF700D4c708C2be1463E355F337603183D20E0808",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "GQ",
+      "name": "Galactic Quadrant",
+      "projectLink": "https://outerringmmo.com/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 93,
+    "v1pid": 524,
+    "lpSymbol": "HAPPY-BNB",
+    "lpAddress": "0x008604A38cD589680F7B8f085DC2D5B4F81151dB",
+    "token": {
+      "address": "0xF5d8A096CcCb31b9D7bcE5afE812BE23e3D4690d",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "Happy",
+      "name": "HappyFans",
+      "projectLink": "https://happyfans.club/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    },
+    "isCommunity": true
+  },
+  {
+    "pid": 116,
+    "lpSymbol": "WOM-BUSD LP",
+    "lpAddress": "0xe68D05418A8d7969D9CA6761ad46F449629d928c",
+    "token": {
+      "address": "0xAD6742A35fB341A9Cc6ad674738Dd8da98b94Fb1",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WOM",
+      "name": "Wombat Token",
+      "projectLink": "https://www.wombat.exchange/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 115,
+    "lpSymbol": "HAY-BUSD LP",
+    "lpAddress": "0x70c26e9805ec5Df3d4aB0b2a3dF86BBA2231B6c1",
+    "token": {
+      "address": "0x0782b6d8c4551B9760e74c0545a9bCD90bdc41E5",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "HAY",
+      "name": "Hay Destablecoin",
+      "projectLink": "https://helio.money/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 59,
+    "v1pid": 450,
+    "lpSymbol": "SFUND-BNB LP",
+    "lpAddress": "0x74fA517715C4ec65EF01d55ad5335f90dce7CC87",
+    "token": {
+      "address": "0x477bC8d23c634C154061869478bce96BE6045D12",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "SFUND",
+      "name": "Seedify Fund Token",
+      "projectLink": "https://seedify.fund/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 111,
+    "lpSymbol": "AOG-BLDT LP",
+    "lpAddress": "0xF8cA29a3BF6d34691981D3Ee8D4c9Cd1C437EfeE",
+    "token": {
+      "address": "0x40C8225329Bd3e28A043B029E0D07a5344d2C27C",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "AOG",
+      "name": "AgeOfGods",
+      "projectLink": "https://ageofgods.net/"
+    },
+    "quoteToken": {
+      "address": "0x7E9808c731ce79B2DfC18B88e3Baad3D115DB102",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BLDT",
+      "name": "BlueLotusDAO",
+      "projectLink": "https://pancakeswap.finance/"
+    },
+    "isCommunity": true
+  },
+  {
+    "pid": 114,
+    "lpSymbol": "stkBNB-BNB LP",
+    "lpAddress": "0xaA2527ff1893e0D40d4a454623d362B79E8bb7F1",
+    "token": {
+      "address": "0xc2E9d07F66A89c44062459A47a0D2Dc038E4fb16",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "stkBNB",
+      "name": "Staked BNB",
+      "projectLink": "https://pstake.finance/bnb"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 113,
+    "lpSymbol": "PSTAKE-BUSD LP",
+    "lpAddress": "0x009C58e79779982eB53a9941F9F4a2269d093566",
+    "token": {
+      "address": "0x4C882ec256823eE773B25b414d36F92ef58a7c0C",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "PSTAKE",
+      "name": "pStake Finance",
+      "projectLink": "https://pstake.finance/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 112,
+    "lpSymbol": "PEEL-BUSD LP",
+    "lpAddress": "0x25bfD3162360BbD8FF97b86169288b311c2A68D7",
+    "token": {
+      "address": "0x734548a9e43d2D564600b1B2ed5bE9C2b911c6aB",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "PEEL",
+      "name": "Meta Apes Peel",
+      "projectLink": "https://metaapesgame.com/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 110,
+    "lpSymbol": "SHELL-BUSD LP",
+    "lpAddress": "0x02D75D7beebF6D5228A3Fa5f810CedF2BEa5aB1E",
+    "token": {
+      "address": "0x208cfEc94d2BA8B8537da7A9BB361c6baAD77272",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "SHELL",
+      "name": "Meta Apes Shell",
+      "projectLink": "https://metaapesgame.com/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 94,
+    "v1pid": 525,
+    "lpSymbol": "WZRD-BUSD LP",
+    "lpAddress": "0xee456d906a38e10680c9d157FFf143390e9681bA",
+    "token": {
+      "address": "0xFa40d8FC324bcdD6Bbae0e086De886c571C225d4",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WZRD",
+      "name": "Wizardia Token",
+      "projectLink": "https://wizardia.io/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    },
+    "isCommunity": true
+  },
+  {
+    "pid": 73,
+    "v1pid": 491,
+    "lpSymbol": "HIGH-BUSD LP",
+    "lpAddress": "0xe98ac95A1dB2fCaaa9c7D4ba7ecfCE4877ca2bEa",
+    "token": {
+      "address": "0x5f4Bde007Dc06b867f86EBFE4802e34A1fFEEd63",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "HIGH",
+      "name": "Highstreet Token",
+      "projectLink": "https://highstreet.market/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 38,
+    "v1pid": 386,
+    "lpSymbol": "HOTCROSS-BNB LP",
+    "lpAddress": "0xF23BAD605E94dE0e3B60c9718a43A94A5aF43915",
+    "token": {
+      "address": "0x4FA7163E153419E0E1064e418dd7A99314Ed27b6",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "HOTCROSS",
+      "name": "Hotcross Token",
+      "projectLink": "https://www.hotcross.com/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 108,
+    "lpSymbol": "OLE-BUSD LP",
+    "lpAddress": "0xe9F369298565B60a0DC19A6fA93cEE934Fd1A58c",
+    "token": {
+      "address": "0xa865197A84E780957422237B5D152772654341F3",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "OLE",
+      "name": "OpenLeverage",
+      "projectLink": "https://openleverage.finance/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 107,
+    "lpSymbol": "TRIVIA-BNB LP",
+    "lpAddress": "0xEF642c40EebBc964881dD7Bd1A0b50e90441E73A",
+    "token": {
+      "address": "0xb465f3cb6Aba6eE375E12918387DE1eaC2301B05",
+      "chainId": 56,
+      "decimals": 3,
+      "symbol": "TRIVIA",
+      "name": "Trivian Token",
+      "projectLink": "https://trivians.io/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 105,
+    "lpSymbol": "SDAO-BUSD LP",
+    "lpAddress": "0x3d12E4381901a6b94438758B90881cB03F10b01E",
+    "token": {
+      "address": "0x90Ed8F1dc86388f14b64ba8fb4bbd23099f18240",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "SDAO",
+      "name": "Singularity Dao",
+      "projectLink": "https://app.singularitydao.ai/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 104,
+    "lpSymbol": "NBT-USDT LP",
+    "lpAddress": "0x401AbD5327542c25baD057614935BfD98186a8a1",
+    "token": {
+      "address": "0x1D3437E570e93581Bd94b2fd8Fbf202d4a65654A",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "NBT",
+      "name": "NanoByte Token",
+      "projectLink": "https://www.nanobyte.finance/"
+    },
+    "quoteToken": {
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "projectLink": "https://tether.to/"
+    },
+    "isCommunity": true
+  },
+  {
+    "pid": 103,
+    "lpSymbol": "BBT-BNB LP",
+    "lpAddress": "0x3D5A3E3824da092851026fCda3D8a0B7438c4573",
+    "token": {
+      "address": "0xD48474E7444727bF500a32D5AbE01943f3A59A64",
+      "chainId": 56,
+      "decimals": 8,
+      "symbol": "BBT",
+      "name": "BitBook",
+      "projectLink": "https://www.bitbook.network/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    },
+    "isCommunity": true
+  },
+  {
+    "pid": 102,
+    "lpSymbol": "PEAK-BNB LP",
+    "lpAddress": "0x41140a1650372Fb8cb2f71e335448ab8cfc1c4f3",
+    "token": {
+      "address": "0x630d98424eFe0Ea27fB1b3Ab7741907DFFEaAd78",
+      "chainId": 56,
+      "decimals": 8,
+      "symbol": "PEAK",
+      "name": "PEAKDEFI",
+      "projectLink": "https://peakdefi.com/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    },
+    "isCommunity": true
+  },
+  {
+    "pid": 40,
+    "v1pid": 390,
+    "lpSymbol": "CHR-BUSD LP",
+    "lpAddress": "0x6045931E511EF7e53A4A817F971e0CA28c758809",
+    "token": {
+      "address": "0xf9CeC8d50f6c8ad3Fb6dcCEC577e05aA32B224FE",
+      "chainId": 56,
+      "decimals": 6,
+      "symbol": "CHR",
+      "name": "Chroma Token",
+      "projectLink": "https://chromia.com/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 96,
+    "lpSymbol": "8PAY-BUSD LP",
+    "lpAddress": "0x92c3E2cddDb0CE886bCA864151BD4d611A86E563",
+    "token": {
+      "address": "0xFeea0bDd3D07eb6FE305938878C0caDBFa169042",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "8PAY",
+      "name": "8PAY Network",
+      "projectLink": "https://8pay.network/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    },
+    "isCommunity": true
+  },
+  {
+    "pid": 101,
+    "lpSymbol": "MIX-BUSD LP",
+    "lpAddress": "0x7618fdAb208aE23690dadD3aa4a42a442313d24E",
+    "token": {
+      "address": "0x398f7827DcCbeFe6990478876bBF3612D93baF05",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "MIX",
+      "name": "MixMarvel Token",
+      "projectLink": "https://www.mixmarvel.com/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 100,
+    "lpSymbol": "METIS-BNB LP",
+    "lpAddress": "0x69AFe59e88614501c3fDEb7480f12DBA0A414032",
+    "token": {
+      "address": "0xe552Fb52a4F19e44ef5A967632DBc320B0820639",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "Metis",
+      "name": "Metis Token",
+      "projectLink": "https://www.metis.io/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 99,
+    "lpSymbol": "XCN-BNB LP",
+    "lpAddress": "0xF01eD80d46759c0cf6A3e9c66856017d81284962",
+    "token": {
+      "address": "0x7324c7C0d95CEBC73eEa7E85CbAac0dBdf88a05b",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "XCN",
+      "name": "Chain",
+      "projectLink": "https://chain.com/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    },
+    "isCommunity": true
+  },
+  {
+    "pid": 98,
+    "lpSymbol": "GAL-BNB LP",
+    "lpAddress": "0xbe6A4f74fdDc88853612C50D7404E059b37692D8",
+    "token": {
+      "address": "0xe4Cc45Bb5DBDA06dB6183E8bf016569f40497Aa5",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "GAL",
+      "name": "Galxe",
+      "projectLink": "https://galaxy.eco/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 97,
+    "lpSymbol": "RPG-BUSD LP",
+    "lpAddress": "0x55cdb14855220b239Cf857A03849D96736b9103f",
+    "token": {
+      "address": "0xc2098a8938119A52B1F7661893c0153A6CB116d5",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "RPG",
+      "name": "Rangers Protocol",
+      "projectLink": "https://www.rangersprotocol.com/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 92,
+    "v1pid": 523,
+    "lpSymbol": "CEEK-BNB",
+    "lpAddress": "0x046A9B3A9b743340eE2Bc4C6dDD35543E237C6c2",
+    "token": {
+      "address": "0xe0F94Ac5462997D2BC57287Ac3a3aE4C31345D66",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "CEEK",
+      "name": "CEEK",
+      "projectLink": "https://www.ceek.com/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 89,
+    "v1pid": 519,
+    "lpSymbol": "GMI-BNB LP",
+    "lpAddress": "0x58d4B61983Ca0aFE6E352e90719F403E24e016F4",
+    "token": {
+      "address": "0x93D8d25E3C9A847a5Da79F79ecaC89461FEcA846",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "GMI",
+      "name": "Gamifi",
+      "projectLink": "https://gamifi.gg/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 88,
+    "v1pid": 518,
+    "lpSymbol": "FROYO-BLDT LP",
+    "lpAddress": "0x1CCc3cC95c8148477Afd18a552f03835Be9D182a",
+    "token": {
+      "address": "0xe369fec23380f9F14ffD07a1DC4b7c1a9fdD81c9",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "FROYO",
+      "name": "Froyo Games",
+      "projectLink": "https://froyo.games/"
+    },
+    "quoteToken": {
+      "address": "0x7E9808c731ce79B2DfC18B88e3Baad3D115DB102",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BLDT",
+      "name": "BlueLotusDAO",
+      "projectLink": "https://pancakeswap.finance/"
+    }
+  },
+  {
+    "pid": 87,
+    "v1pid": 516,
+    "lpSymbol": "BSW-BNB LP",
+    "lpAddress": "0x8CA3fF14A52b080C54A6d1a405eecA02959d39fE",
+    "token": {
+      "address": "0x965F527D9159dCe6288a2219DB51fc6Eef120dD1",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BSW",
+      "name": "Biswap",
+      "projectLink": "https://biswap.org/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 86,
+    "v1pid": 515,
+    "lpSymbol": "DUET-BLDT LP",
+    "lpAddress": "0xbDF0aA1D1985Caa357A6aC6661D838DA8691c569",
+    "token": {
+      "address": "0x95EE03e1e2C5c4877f9A298F1C0D6c98698FAB7B",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "DUET",
+      "name": "Duet Governance Token",
+      "projectLink": "https://duet.finance"
+    },
+    "quoteToken": {
+      "address": "0x7E9808c731ce79B2DfC18B88e3Baad3D115DB102",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BLDT",
+      "name": "BlueLotusDAO",
+      "projectLink": "https://pancakeswap.finance/"
+    }
+  },
+  {
+    "pid": 85,
+    "v1pid": 514,
+    "lpSymbol": "GMT-USDC LP",
+    "lpAddress": "0x007EC643C7Cc33a70C083fC305c283dd009C8b94",
+    "token": {
+      "address": "0x3019BF2a2eF8040C242C9a4c5c4BD4C81678b2A1",
+      "chainId": 56,
+      "decimals": 8,
+      "symbol": "GMT",
+      "name": "Green Metaverse Token",
+      "projectLink": "https://www.stepn.com/"
+    },
+    "quoteToken": {
+      "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "USDC",
+      "name": "Binance-Peg USD Coin",
+      "projectLink": "https://www.centre.io/usdc"
+    }
+  },
+  {
+    "pid": 84,
+    "v1pid": 513,
+    "lpSymbol": "ERA-BNB LP",
+    "lpAddress": "0x53a63ac301D6410915385294527f947aFf616599",
+    "token": {
+      "address": "0x6f9F0c4ad9Af7EbD61Ac5A1D4e0F2227F7B0E5f9",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "ERA",
+      "name": "Era Token",
+      "projectLink": "https://www.era7.io/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 83,
+    "v1pid": 510,
+    "lpSymbol": "BTT-BUSD",
+    "lpAddress": "0xB7E73DaEe6A6Ca37A21f8E4bfba4DA448DFE4d92",
+    "token": {
+      "address": "0x352Cb5E19b12FC216548a2677bD0fce83BaE434B",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BTT",
+      "name": "BitTorrent",
+      "projectLink": "https://bittorrent.com/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 82,
+    "v1pid": 509,
+    "lpSymbol": "ACH-USDT",
+    "lpAddress": "0x28BDb16b623176426305a70D8B475bE73Aca71f3",
+    "token": {
+      "address": "0xBc7d6B50616989655AfD682fb42743507003056D",
+      "chainId": 56,
+      "decimals": 8,
+      "symbol": "ACH",
+      "name": "Alchemy Token",
+      "projectLink": "https://alchemytech.io/"
+    },
+    "quoteToken": {
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "projectLink": "https://tether.to/"
+    }
+  },
+  {
+    "pid": 81,
+    "v1pid": 507,
+    "lpSymbol": "RACA-BUSD LP",
+    "lpAddress": "0x8e744Ec2795c8B836689d1b4EBE1489204357dAC",
+    "token": {
+      "address": "0x12BB890508c125661E03b09EC06E404bc9289040",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "RACA",
+      "name": "Radio Caca V2",
+      "projectLink": "https://www.radiocaca.com/#/home"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 80,
+    "v1pid": 506,
+    "lpSymbol": "ERTHA-BNB LP",
+    "lpAddress": "0x70531B39E2Bb4d8dA59E2Ce41a98eBA2990F8497",
+    "token": {
+      "address": "0x62823659d09F9F9D2222058878f89437425eB261",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "ERTHA",
+      "name": "Ertha Token",
+      "projectLink": "https://ertha.io/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 79,
+    "v1pid": 505,
+    "lpSymbol": "FUSE-BNB LP",
+    "lpAddress": "0x6483F166b9E4310A165a55FEa04F867499aded06",
+    "token": {
+      "address": "0x5857c96DaE9cF8511B08Cb07f85753C472D36Ea3",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "FUSE",
+      "name": "Fuse Token",
+      "projectLink": "https://fuse.io/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 78,
+    "v1pid": 503,
+    "lpSymbol": "FROYO-BNB LP",
+    "lpAddress": "0x1Ce76390Dd210B9C9ae28373FDf79714206ECb73",
+    "token": {
+      "address": "0xe369fec23380f9F14ffD07a1DC4b7c1a9fdD81c9",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "FROYO",
+      "name": "Froyo Games",
+      "projectLink": "https://froyo.games/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 77,
+    "v1pid": 502,
+    "lpSymbol": "APX-BUSD",
+    "lpAddress": "0xa0Ee789a8F581CB92dD9742ed0B5d54a0916976C",
+    "token": {
+      "address": "0x78F5d389F5CDCcFc41594aBaB4B0Ed02F31398b3",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "APX",
+      "name": "ApolloX Token",
+      "projectLink": "https://www.apollox.finance/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 76,
+    "v1pid": 501,
+    "lpSymbol": "BCOIN-BNB",
+    "lpAddress": "0x2Eebe0C34da9ba65521E98CBaA7D97496d05f489",
+    "token": {
+      "address": "0x00e1656e45f18ec6747F5a8496Fd39B50b38396D",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BCOIN",
+      "name": "Bomb Crypto",
+      "projectLink": "https://bombcrypto.io/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 75,
+    "v1pid": 497,
+    "lpSymbol": "AOG-BUSD LP",
+    "lpAddress": "0x88c9bf5E334e2591C6A866D5E20683E31226Be3d",
+    "token": {
+      "address": "0x40C8225329Bd3e28A043B029E0D07a5344d2C27C",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "AOG",
+      "name": "AgeOfGods",
+      "projectLink": "https://ageofgods.net/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 74,
+    "v1pid": 495,
+    "lpSymbol": "WOOP-BNB LP",
+    "lpAddress": "0x2AE94A6C768D59f5DDc25bd7f12C7cBE1D51dc04",
+    "token": {
+      "address": "0x8b303d5BbfBbf46F1a4d9741E491e06986894e18",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WOOP",
+      "name": "Woonkly Power",
+      "projectLink": "https://www.woonkly.com/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 72,
+    "v1pid": 489,
+    "lpSymbol": "DPT-BNB LP",
+    "lpAddress": "0x141e9558f66Cc21c93628400cCa7d830c15c2c24",
+    "token": {
+      "address": "0xE69cAef10A488D7AF31Da46c89154d025546e990",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "DPT",
+      "name": "Diviner Protocol",
+      "projectLink": "https://diviner.finance/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 71,
+    "v1pid": 488,
+    "lpSymbol": "THG-BNB LP",
+    "lpAddress": "0x486697ae24469cB1122F537924Aa46E705B142Aa",
+    "token": {
+      "address": "0x9fD87aEfe02441B123c3c32466cD9dB4c578618f",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "THG",
+      "name": "Thetan Gem",
+      "projectLink": "https://thetanarena.com/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 70,
+    "v1pid": 484,
+    "lpSymbol": "IDIA-BUSD LP",
+    "lpAddress": "0x71E6de81381eFE0Aa98f56b3B43eB3727D640715",
+    "token": {
+      "address": "0x0b15Ddf19D47E6a86A56148fb4aFFFc6929BcB89",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "IDIA",
+      "name": "Impossible Decentralized Incubator Access Token",
+      "projectLink": "https://impossible.finance/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 69,
+    "v1pid": 481,
+    "lpSymbol": "SANTOS-BNB LP",
+    "lpAddress": "0x06043B346450BbCfdE066ebc39fdc264FdFFeD74",
+    "token": {
+      "address": "0xA64455a4553C9034236734FadDAddbb64aCE4Cc7",
+      "chainId": 56,
+      "decimals": 8,
+      "symbol": "SANTOS",
+      "name": "FC Santos Fan Token",
+      "projectLink": "https://launchpad.binance.com/en/launchpool/SANTOS_BNB"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 68,
+    "v1pid": 476,
+    "lpSymbol": "QI-BNB",
+    "lpAddress": "0xf924E642f05ACC57fc3b14990c2B1a137683b201",
+    "token": {
+      "address": "0x8729438EB15e2C8B576fCc6AeCdA6A148776C0F5",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "QI",
+      "name": "BENQI",
+      "projectLink": "https://benqi.fi/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 67,
+    "v1pid": 474,
+    "lpSymbol": "PORTO-BNB LP",
+    "lpAddress": "0x0A292e96ABb35297786a38fDD67Dc4f82689E670",
+    "token": {
+      "address": "0x49f2145d6366099e13B10FbF80646C0F377eE7f6",
+      "chainId": 56,
+      "decimals": 8,
+      "symbol": "PORTO",
+      "name": "FC Porto Fan Token",
+      "projectLink": "https://launchpad.binance.com/en/subscription/PORTO_BNB"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 66,
+    "v1pid": 472,
+    "lpSymbol": "XWG-USDC LP",
+    "lpAddress": "0x936928146a21AfCcd30DfA84824A780572B1630B",
+    "token": {
+      "address": "0x6b23C89196DeB721e6Fd9726E6C76E4810a464bc",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "XWG",
+      "name": "X World Games",
+      "projectLink": "https://xwg.games/"
+    },
+    "quoteToken": {
+      "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "USDC",
+      "name": "Binance-Peg USD Coin",
+      "projectLink": "https://www.centre.io/usdc"
+    }
+  },
+  {
+    "pid": 65,
+    "v1pid": 471,
+    "lpSymbol": "DAR-BNB LP",
+    "lpAddress": "0x062f88E2B4896e823ac78Ac314468c29eEC4186d",
+    "token": {
+      "address": "0x23CE9e926048273eF83be0A3A8Ba9Cb6D45cd978",
+      "chainId": 56,
+      "decimals": 6,
+      "symbol": "DAR",
+      "name": "Mines of Dalarnia",
+      "projectLink": "https://www.minesofdalarnia.com/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 64,
+    "v1pid": 470,
+    "lpSymbol": "FINA-BUSD LP",
+    "lpAddress": "0x6dB23b5360c9D2859fDcbf41c56494e7b8573649",
+    "token": {
+      "address": "0x426c72701833fdDBdFc06c944737C6031645c708",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "FINA",
+      "name": "Defina Finance",
+      "projectLink": "https://defina.finance/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 63,
+    "v1pid": 466,
+    "lpSymbol": "DKT-BNB LP",
+    "lpAddress": "0x365c3F921b2915a480308D0b1C04aEF7B99c2876",
+    "token": {
+      "address": "0x7Ceb519718A80Dd78a8545AD8e7f401dE4f2faA7",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "DKT",
+      "name": "Duelist King",
+      "projectLink": "https://duelistking.com/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 62,
+    "v1pid": 464,
+    "lpSymbol": "LAZIO-BNB LP",
+    "lpAddress": "0x11c0b2BB4fbB430825d07507A9E24e4c32f7704D",
+    "token": {
+      "address": "0x77d547256A2cD95F32F67aE0313E450Ac200648d",
+      "chainId": 56,
+      "decimals": 8,
+      "symbol": "LAZIO",
+      "name": "FC Lazio Fan Token",
+      "projectLink": "https://launchpad.binance.com/en/subscription/LAZIO_BNB"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 61,
+    "v1pid": 461,
+    "lpSymbol": "BETA-BNB LP",
+    "lpAddress": "0x88a02D94F437799f06f8c256ff07Aa397E6D0016",
+    "token": {
+      "address": "0xBe1a001FE942f96Eea22bA08783140B9Dcc09D28",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BETA",
+      "name": "Beta Finance",
+      "projectLink": "https://betafinance.org"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 60,
+    "v1pid": 457,
+    "lpSymbol": "NFT-BNB LP",
+    "lpAddress": "0x0ecc84c9629317a494f12Bc56aA2522475bF32e8",
+    "token": {
+      "address": "0x1fC9004eC7E5722891f5f38baE7678efCB11d34D",
+      "chainId": 56,
+      "decimals": 6,
+      "symbol": "NFT",
+      "name": "APENFT",
+      "projectLink": "https://apenft.org"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 58,
+    "v1pid": 449,
+    "lpSymbol": "BP-BNB LP",
+    "lpAddress": "0x2bF2dEB40639201C9A94c9e33b4852D9AEa5fd2D",
+    "token": {
+      "address": "0xACB8f52DC63BB752a51186D1c55868ADbFfEe9C1",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BP",
+      "name": "BunnyPark Token",
+      "projectLink": "https://www.bunnypark.com/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 57,
+    "v1pid": 448,
+    "lpSymbol": "RUSD-BUSD LP",
+    "lpAddress": "0x59FaC9e98479fc9979aE2a0C7422Af50bCBB9B26",
+    "token": {
+      "address": "0x07663837218A003e66310a01596af4bf4e44623D",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "rUSD",
+      "name": "rUSD Token",
+      "projectLink": "https://appv2.rampdefi.com/#/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 56,
+    "v1pid": 442,
+    "lpSymbol": "TRX-BUSD LP",
+    "lpAddress": "0xb5D108578Be3750209d1b3A8f45FFee8C5a75146",
+    "token": {
+      "address": "0x85EAC5Ac2F758618dFa09bDbe0cf174e7d574D5B",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "TRX",
+      "name": "TRON Token",
+      "projectLink": "https://tron.network/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 55,
+    "v1pid": 441,
+    "lpSymbol": "WIN-BUSD LP",
+    "lpAddress": "0x6a445cEB72c8B1751755386c3990055ff92e14A0",
+    "token": {
+      "address": "0xaeF0d72a118ce24feE3cD1d43d383897D05B4e99",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WIN",
+      "name": "WIN Token",
+      "projectLink": "https://winklink.org/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 54,
+    "v1pid": 432,
+    "lpSymbol": "SPS-BNB LP",
+    "lpAddress": "0xFdFde3aF740A22648B9dD66D05698e5095940850",
+    "token": {
+      "address": "0x1633b7157e7638C4d6593436111Bf125Ee74703F",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "SPS",
+      "name": "Splinterlands Token",
+      "projectLink": "https://splinterlands.com"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 53,
+    "v1pid": 431,
+    "lpSymbol": "C98-BNB LP",
+    "lpAddress": "0x92247860A03F48d5c6425c7CA35CDcFCB1013AA1",
+    "token": {
+      "address": "0xaEC945e04baF28b135Fa7c640f624f8D90F1C3a6",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "c98",
+      "name": "Coin98 Token",
+      "projectLink": "https://coin98.com/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 52,
+    "v1pid": 430,
+    "lpSymbol": "AXS-BNB LP",
+    "lpAddress": "0xC2d00De94795e60FB76Bc37d899170996cBdA436",
+    "token": {
+      "address": "0x715D400F88C167884bbCc41C5FeA407ed4D2f8A0",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "AXS",
+      "name": "Binance-Pegged Axie Infinity Shard",
+      "projectLink": "https://axieinfinity.com/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 51,
+    "v1pid": 429,
+    "lpSymbol": "CHESS-USDC LP",
+    "lpAddress": "0x1472976E0B97F5B2fC93f1FFF14e2b5C4447b64F",
+    "token": {
+      "address": "0x20de22029ab63cf9A7Cf5fEB2b737Ca1eE4c82A6",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "CHESS",
+      "name": "Chess Token",
+      "projectLink": "https://tranchess.com/"
+    },
+    "quoteToken": {
+      "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "USDC",
+      "name": "Binance-Peg USD Coin",
+      "projectLink": "https://www.centre.io/usdc"
+    }
+  },
+  {
+    "pid": 50,
+    "v1pid": 427,
+    "lpSymbol": "ONE-BNB LP",
+    "lpAddress": "0x9D2296e2Fe3CdBf2EB3e3e2CA8811BaFA42eeDFF",
+    "token": {
+      "address": "0x03fF0ff224f904be3118461335064bB48Df47938",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "ONE",
+      "name": "Harmony ONE Token",
+      "projectLink": "https://www.harmony.one/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 49,
+    "v1pid": 425,
+    "lpSymbol": "DVI-BNB LP",
+    "lpAddress": "0x89EBF9cD99864f6E51bd7a578965922029cAB977",
+    "token": {
+      "address": "0x758FB037A375F17c7e195CC634D77dA4F554255B",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "DVI",
+      "name": "Dvision Network Token",
+      "projectLink": "https://dvision.network/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 48,
+    "v1pid": 423,
+    "lpSymbol": "USDC-USDT LP",
+    "lpAddress": "0xEc6557348085Aa57C72514D67070dC863C0a5A8c",
+    "token": {
+      "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "USDC",
+      "name": "Binance-Peg USD Coin",
+      "projectLink": "https://www.centre.io/usdc"
+    },
+    "quoteToken": {
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "projectLink": "https://tether.to/"
+    }
+  },
+  {
+    "pid": 46,
+    "v1pid": 421,
+    "lpSymbol": "BSCPAD-BNB LP",
+    "lpAddress": "0xba01662E978DE7d67F8FfC937726215eb8995d17",
+    "token": {
+      "address": "0x5A3010d4d8D3B5fB49f8B6E57FB9E48063f16700",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BSCPAD",
+      "name": "Bscpad Token",
+      "projectLink": "https://bscpad.com/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 45,
+    "v1pid": 414,
+    "lpSymbol": "WOO-BNB LP",
+    "lpAddress": "0x89eE0491CE55d2f7472A97602a95426216167189",
+    "token": {
+      "address": "0x4691937a7508860F876c9c0a2a617E7d9E945D4B",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WOO",
+      "name": "Wootrade Network Token",
+      "projectLink": "https://woo.network/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 44,
+    "v1pid": 409,
+    "lpSymbol": "ETH-USDC LP",
+    "lpAddress": "0xEa26B78255Df2bBC31C1eBf60010D78670185bD0",
+    "token": {
+      "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "ETH",
+      "name": "Binance-Peg Ethereum Token",
+      "projectLink": "https://ethereum.org/en/"
+    },
+    "quoteToken": {
+      "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "USDC",
+      "name": "Binance-Peg USD Coin",
+      "projectLink": "https://www.centre.io/usdc"
+    }
+  },
+  {
+    "pid": 43,
+    "v1pid": 408,
+    "lpSymbol": "BTCB-ETH LP",
+    "lpAddress": "0xD171B26E4484402de70e3Ea256bE5A2630d7e88D",
+    "token": {
+      "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BTCB",
+      "name": "Binance BTC",
+      "projectLink": "https://bitcoin.org/"
+    },
+    "quoteToken": {
+      "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "ETH",
+      "name": "Binance-Peg Ethereum Token",
+      "projectLink": "https://ethereum.org/en/"
+    }
+  },
+  {
+    "pid": 42,
+    "v1pid": 405,
+    "lpSymbol": "MBOX-BNB LP",
+    "lpAddress": "0x8FA59693458289914dB0097F5F366d771B7a7C3F",
+    "token": {
+      "address": "0x3203c9E46cA618C8C1cE5dC67e7e9D75f5da2377",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "MBOX",
+      "name": "Mobox Token",
+      "projectLink": "https://www.mobox.io/#/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 41,
+    "v1pid": 397,
+    "lpSymbol": "TUSDOLD-BUSD LP",
+    "lpAddress": "0x2E28b9B74D6d99D4697e913b82B41ef1CAC51c6C",
+    "token": {
+      "address": "0x14016E85a25aeb13065688cAFB43044C2ef86784",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "TUSDOLD",
+      "name": "Binance-Peg TrueUSD Token",
+      "projectLink": "https://www.trueusd.com/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 37,
+    "v1pid": 376,
+    "lpSymbol": "DOGE-BNB LP",
+    "lpAddress": "0xac109C8025F272414fd9e2faA805a583708A017f",
+    "token": {
+      "address": "0xbA2aE424d960c26247Dd6c32edC70B295c744C43",
+      "chainId": 56,
+      "decimals": 8,
+      "symbol": "DOGE",
+      "name": "Binance-Peg Dogecoin",
+      "projectLink": "https://dogecoin.com/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 36,
+    "v1pid": 365,
+    "lpSymbol": "BTCB-BUSD LP",
+    "lpAddress": "0xF45cd219aEF8618A92BAa7aD848364a158a24F33",
+    "token": {
+      "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BTCB",
+      "name": "Binance BTC",
+      "projectLink": "https://bitcoin.org/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 35,
+    "v1pid": 362,
+    "lpSymbol": "ALPACA-BUSD LP",
+    "lpAddress": "0x7752e1FA9F3a2e860856458517008558DEb989e3",
+    "token": {
+      "address": "0x8F0528cE5eF7B51152A59745bEfDD91D97091d2F",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "ALPACA",
+      "name": "AlpacaToken",
+      "projectLink": "https://www.alpacafinance.org/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 34,
+    "v1pid": 352,
+    "lpSymbol": "TLM-BNB LP",
+    "lpAddress": "0xE6b421a4408c82381b226Ab5B6F8C4b639044359",
+    "token": {
+      "address": "0x2222227E22102Fe3322098e4CBfE18cFebD57c95",
+      "chainId": 56,
+      "decimals": 4,
+      "symbol": "TLM",
+      "name": "Alien Worlds Trilium Token",
+      "projectLink": "https://alienworlds.io/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 33,
+    "v1pid": 350,
+    "lpSymbol": "EPS-BNB LP",
+    "lpAddress": "0xddE420cbB3794ebD8FFC3Ac69F9c78e5d1411870",
+    "token": {
+      "address": "0xA7f552078dcC247C2684336020c03648500C6d9F",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "EPS",
+      "name": "Ellipsis Finance Token",
+      "projectLink": "https://ellipsis.finance/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 32,
+    "v1pid": 346,
+    "lpSymbol": "TKO-BNB LP",
+    "lpAddress": "0xFFd4B200d3C77A0B691B5562D804b3bd54294e6e",
+    "token": {
+      "address": "0x9f589e3eabe42ebC94A44727b3f3531C0c877809",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "TKO",
+      "name": "Tokocrypto Token",
+      "projectLink": "https://www.tokocrypto.com/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 31,
+    "v1pid": 326,
+    "lpSymbol": "BIFI-BNB LP",
+    "lpAddress": "0x3f1A9f3D9aaD8bD339eD4853F345d2eF89fbfE0c",
+    "token": {
+      "address": "0xCa3F508B8e4Dd382eE878A314789373D80A5190A",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BIFI",
+      "name": "Beefy Finance Token",
+      "projectLink": "https://beefy.finance/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 30,
+    "v1pid": 322,
+    "lpSymbol": "ALICE-BNB LP",
+    "lpAddress": "0xcAD7019D6d84a3294b0494aEF02e73BD0f2572Eb",
+    "token": {
+      "address": "0xAC51066d7bEC65Dc4589368da368b212745d63E8",
+      "chainId": 56,
+      "decimals": 6,
+      "symbol": "ALICE",
+      "name": "My Neighbor Alice Token",
+      "projectLink": "https://www.myneighboralice.com/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 29,
+    "v1pid": 318,
+    "lpSymbol": "BELT-BNB LP",
+    "lpAddress": "0xF3Bc6FC080ffCC30d93dF48BFA2aA14b869554bb",
+    "token": {
+      "address": "0xE0e514c71282b6f4e823703a39374Cf58dc3eA4f",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BELT",
+      "name": "Belt Token",
+      "projectLink": "https://beta.belt.fi/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 28,
+    "v1pid": 317,
+    "lpSymbol": "RAMP-BUSD LP",
+    "lpAddress": "0xE834bf723f5bDff34a5D1129F3c31Ea4787Bc76a",
+    "token": {
+      "address": "0x8519EA49c997f50cefFa444d240fB655e89248Aa",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "RAMP",
+      "name": "RAMP DEFI Token",
+      "projectLink": "https://rampdefi.com/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 27,
+    "v1pid": 309,
+    "lpSymbol": "IOTX-BUSD LP",
+    "lpAddress": "0xc13aA76AAc067c86aE38028019F414D731b3D86A",
+    "token": {
+      "address": "0x9678E42ceBEb63F23197D726B29b1CB20d0064E5",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "IOTX",
+      "name": "Binance-Peg IoTeX Network Token",
+      "projectLink": "https://iotex.io/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 26,
+    "v1pid": 306,
+    "lpSymbol": "SUSHI-ETH LP",
+    "lpAddress": "0x16aFc4F2Ad82986bbE2a4525601F8199AB9c832D",
+    "token": {
+      "address": "0x947950BcC74888a40Ffa2593C5798F11Fc9124C4",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "SUSHI",
+      "name": "Binance-Peg SushiToken",
+      "projectLink": "https://sushi.com/"
+    },
+    "quoteToken": {
+      "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "ETH",
+      "name": "Binance-Peg Ethereum Token",
+      "projectLink": "https://ethereum.org/en/"
+    }
+  },
+  {
+    "pid": 25,
+    "v1pid": 299,
+    "lpSymbol": "SFP-BNB LP",
+    "lpAddress": "0x942b294e59a8c47a0F7F20DF105B082710F7C305",
+    "token": {
+      "address": "0xD41FDb03Ba84762dD66a0af1a6C8540FF1ba5dfb",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "SFP",
+      "name": "Safepal Token",
+      "projectLink": "https://www.safepal.io/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 24,
+    "v1pid": 298,
+    "lpSymbol": "LINA-BUSD LP",
+    "lpAddress": "0xC5768c5371568Cf1114cddD52CAeD163A42626Ed",
+    "token": {
+      "address": "0x762539b45A1dCcE3D36d080F74d1AED37844b878",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "LINA",
+      "name": "Linear Finance Token",
+      "projectLink": "https://linear.finance/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 23,
+    "v1pid": 293,
+    "lpSymbol": "UST-BUSD LP",
+    "lpAddress": "0x05faf555522Fa3F93959F86B41A3808666093210",
+    "token": {
+      "address": "0x23396cF899Ca06c4472205fC903bDB4de249D6fC",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "UST",
+      "name": "Wrapped UST Token",
+      "projectLink": "https://mirror.finance/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 22,
+    "v1pid": 285,
+    "lpSymbol": "BTCST-BNB LP",
+    "lpAddress": "0xB2678C414ebC63c9CC6d1a0fC45f43E249B50fdE",
+    "token": {
+      "address": "0x78650B139471520656b9E7aA7A5e9276814a38e9",
+      "chainId": 56,
+      "decimals": 17,
+      "symbol": "BTCST",
+      "name": "StandardBTCHashrate Token",
+      "projectLink": "https://www.1-b.tc/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 21,
+    "v1pid": 284,
+    "lpSymbol": "LTC-BNB LP",
+    "lpAddress": "0x71b01eBdDD797c8E9E0b003ea2f4FD207fBF46cC",
+    "token": {
+      "address": "0x4338665CBB7B2485A8855A139b75D5e34AB0DB94",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "LTC",
+      "name": "Binance-Peg Litecoin Token",
+      "projectLink": "https://litecoin.org/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 20,
+    "v1pid": 283,
+    "lpSymbol": "USDC-BUSD LP",
+    "lpAddress": "0x2354ef4DF11afacb85a5C7f98B624072ECcddbB1",
+    "token": {
+      "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "USDC",
+      "name": "Binance-Peg USD Coin",
+      "projectLink": "https://www.centre.io/usdc"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 19,
+    "v1pid": 282,
+    "lpSymbol": "DAI-BUSD LP",
+    "lpAddress": "0x66FDB2eCCfB58cF098eaa419e5EfDe841368e489",
+    "token": {
+      "address": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "DAI",
+      "name": "Dai Stablecoin",
+      "projectLink": "https://www.makerdao.com/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 18,
+    "v1pid": 276,
+    "lpSymbol": "VAI-BUSD LP",
+    "lpAddress": "0x133ee93FE93320e1182923E1a640912eDE17C90C",
+    "token": {
+      "address": "0x4BD17003473389A42DAF6a0a729f6Fdb328BbBd7",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "VAI",
+      "name": "VAI Stablecoin",
+      "projectLink": "0x4BD17003473389A42DAF6a0a729f6Fdb328BbBd7"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 17,
+    "v1pid": 268,
+    "lpSymbol": "SXP-BNB LP",
+    "lpAddress": "0xD8E2F8b6Db204c405543953Ef6359912FE3A88d6",
+    "token": {
+      "address": "0x47BEAd2563dCBf3bF2c9407fEa4dC236fAbA485A",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "SXP",
+      "name": "Swipe Token",
+      "projectLink": "https://swipe.io/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 16,
+    "v1pid": 270,
+    "lpSymbol": "INJ-BNB LP",
+    "lpAddress": "0x1BdCebcA3b93af70b58C41272AEa2231754B23ca",
+    "token": {
+      "address": "0xa2B726B1145A4773F68593CF171187d8EBe4d495",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "INJ",
+      "name": "Injective Protocol Token",
+      "projectLink": "https://injectiveprotocol.com/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 15,
+    "v1pid": 268,
+    "lpSymbol": "UNI-BNB LP",
+    "lpAddress": "0x014608E87AF97a054C9a49f81E1473076D51d9a3",
+    "token": {
+      "address": "0xBf5140A22578168FD562DCcF235E5D43A02ce9B1",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "UNI",
+      "name": "Binance-Peg Uniswap Token",
+      "projectLink": "https://uniswap.org/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 14,
+    "v1pid": 265,
+    "lpSymbol": "XRP-BNB LP",
+    "lpAddress": "0x03F18135c44C64ebFdCBad8297fe5bDafdBbdd86",
+    "token": {
+      "address": "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "XRP",
+      "name": "Binance-Peg XRP Token",
+      "projectLink": "https://ripple.com/xrp/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 13,
+    "v1pid": 264,
+    "lpSymbol": "USDT-BNB LP",
+    "lpAddress": "0x16b9a82891338f9bA80E2D6970FddA79D1eb0daE",
+    "token": {
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "projectLink": "https://tether.to/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 12,
+    "v1pid": 263,
+    "lpSymbol": "ALPHA-BNB LP",
+    "lpAddress": "0xACF47CBEaab5c8A6Ee99263cfE43995f89fB3206",
+    "token": {
+      "address": "0xa1faa113cbE53436Df28FF0aEe54275c13B40975",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "ALPHA",
+      "name": "Alpha Finance Token",
+      "projectLink": "https://alphafinance.io/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 11,
+    "v1pid": 262,
+    "lpSymbol": "BTCB-BNB LP",
+    "lpAddress": "0x61EB789d75A95CAa3fF50ed7E47b96c132fEc082",
+    "token": {
+      "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BTCB",
+      "name": "Binance BTC",
+      "projectLink": "https://bitcoin.org/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 10,
+    "v1pid": 261,
+    "lpSymbol": "ETH-BNB LP",
+    "lpAddress": "0x74E4716E431f45807DCF19f284c7aA99F18a4fbc",
+    "token": {
+      "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "ETH",
+      "name": "Binance-Peg Ethereum Token",
+      "projectLink": "https://ethereum.org/en/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 9,
+    "v1pid": 260,
+    "lpSymbol": "XVS-BNB LP",
+    "lpAddress": "0x7EB5D86FD78f3852a3e0e064f2842d45a3dB6EA2",
+    "token": {
+      "address": "0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "XVS",
+      "name": "Venus Token",
+      "projectLink": "https://venus.io/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 8,
+    "v1pid": 259,
+    "lpSymbol": "TWT-BNB LP",
+    "lpAddress": "0x3DcB1787a95D2ea0Eb7d00887704EeBF0D79bb13",
+    "token": {
+      "address": "0x4B0F1812e5Df2A09796481Ff14017e6005508003",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "TWT",
+      "name": "Trust Wallet Token",
+      "projectLink": "https://trustwallet.com/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 7,
+    "v1pid": 258,
+    "lpSymbol": "USDT-BUSD LP",
+    "lpAddress": "0x7EFaEf62fDdCCa950418312c6C91Aef321375A00",
+    "token": {
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "projectLink": "https://tether.to/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 6,
+    "v1pid": 257,
+    "lpSymbol": "LINK-BNB LP",
+    "lpAddress": "0x824eb9faDFb377394430d2744fa7C42916DE3eCe",
+    "token": {
+      "address": "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "LINK",
+      "name": "Binance-Peg Chainlink Token",
+      "projectLink": "https://chain.link/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 5,
+    "v1pid": 255,
+    "lpSymbol": "DOT-BNB LP",
+    "lpAddress": "0xDd5bAd8f8b360d76d12FdA230F8BAF42fe0022CF",
+    "token": {
+      "address": "0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "DOT",
+      "name": "Binance-Peg Polkadot Token",
+      "projectLink": "https://polkadot.network/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 4,
+    "v1pid": 253,
+    "lpSymbol": "ADA-BNB LP",
+    "lpAddress": "0x28415ff2C35b65B9E5c7de82126b4015ab9d031F",
+    "token": {
+      "address": "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "ADA",
+      "name": "Binance-Peg Cardano Token",
+      "projectLink": "https://www.cardano.org/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 121,
+    "lpSymbol": "HAY-BUSD LP",
+    "lpAddress": "0xB6040A9F294477dDAdf5543a24E5463B8F2423Ae",
+    "token": {
+      "address": "0x0782b6d8c4551B9760e74c0545a9bCD90bdc41E5",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "HAY",
+      "name": "Hay Destablecoin",
+      "projectLink": "https://helio.money/"
+    },
+    "quoteToken": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    },
+    "stableSwapAddress": "0x49079d07ef47449af808a4f36c2a8dec975594ec",
+    "infoStableSwapAddress": "0xa680d27f63Fa5E213C502d1B3Ca1EB6a3C1b31D6",
+    "stableLpFee": 0.0002,
+    "stableLpFeeRateOfTotalFee": 0.5
+  },
+  {
+    "pid": 95,
+    "lpSymbol": "aBNBc-BNB LP",
+    "lpAddress": "0x272c2CF847A49215A3A1D4bFf8760E503A06f880",
+    "token": {
+      "address": "0xE85aFCcDaFBE7F2B096f268e31ccE3da8dA2990A",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "aBNBc",
+      "name": "Ankr BNB Reward Bearing Certificate",
+      "projectLink": "https://www.ankr.com/"
+    },
+    "quoteToken": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  }
+]

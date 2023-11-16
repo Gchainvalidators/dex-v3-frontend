@@ -1,0 +1,32 @@
+compatibility_date = "2022-05-20"
+kv_namespaces = [
+  {binding = "FARMS", id = "992ae7ffc92348df8bc911d7d5d91839", preview_id = "317ab29e2df245eca242c633febbce5a"},
+]
+main = "src/index.ts"
+name = "gsys-farms-dev"
+node_compat = true
+[vars]
+FORCE_UPDATE_KEY = "force"
+KV_CACHE = false
+[triggers]
+crons = []
+
+[env.production]
+kv_namespaces = [
+  {binding = "FARMS", id = "992ae7ffc92348df8bc911d7d5d91839"},
+]
+name = "gsys-farms"
+node_compat = true
+[env.production.vars]
+KV_CACHE = true
+[env.production.triggers]
+crons = ["0 0 * * *", "*/1 * * * *"]
+
+# The necessary secrets are:
+# - ETH_NODE
+# - GOERLI_NODE
+# - BSC_NODE
+# - BSC_TESTNET_NODE
+# - POLYGON_ZKEVM_NODE
+# - ZKSYNC_NODE
+# Run `echo <VALUE> | wrangler secret put <NAME>` for each of these

@@ -1,0 +1,153 @@
+[
+  {
+    "pid": 154,
+    "vaultPid": 7,
+    "lpSymbol": "CAPS-ETH LP",
+    "lpAddress": "0x829e9CC8D05d0D55B4494Ecb5a43D71546dd4DDb",
+    "quoteToken": {
+      "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "chainId": 1,
+      "decimals": 18,
+      "symbol": "WETH",
+      "name": "Wrapped Ether",
+      "projectLink": "https://weth.io"
+    },
+    "token": {
+      "address": "0x03Be5C903c727Ee2C8C4e9bc0AcC860Cca4715e2",
+      "chainId": 1,
+      "decimals": 18,
+      "symbol": "CAPS",
+      "name": "Capsule Coin",
+      "projectLink": "https://www.ternoa.network/en"
+    }
+  },
+  {
+    "pid": 145,
+    "vaultPid": 6,
+    "lpSymbol": "FUSE-ETH LP",
+    "lpAddress": "0xF9b026786522251c08d8C49e154d036Ef3Ad8Cc7",
+    "quoteToken": {
+      "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "chainId": 1,
+      "decimals": 18,
+      "symbol": "WETH",
+      "name": "Wrapped Ether",
+      "projectLink": "https://weth.io"
+    },
+    "token": {
+      "address": "0x970B9bB2C0444F5E81e9d0eFb84C8ccdcdcAf84d",
+      "chainId": 1,
+      "decimals": 18,
+      "symbol": "FUSE",
+      "name": "Fuse Token",
+      "projectLink": "https://fuse.io/"
+    }
+  },
+  {
+    "pid": 143,
+    "vaultPid": 5,
+    "lpSymbol": "STG-USDC LP",
+    "lpAddress": "0x6cCA86CC27EB8c7C2d10B0672FE392CFC88e62ff",
+    "quoteToken": {
+      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "chainId": 1,
+      "decimals": 6,
+      "symbol": "USDC",
+      "name": "USD Coin"
+    },
+    "token": {
+      "address": "0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6",
+      "chainId": 1,
+      "decimals": 18,
+      "symbol": "STG",
+      "name": "StargateToken",
+      "projectLink": "https://stargate.finance/"
+    }
+  },
+  {
+    "pid": 141,
+    "vaultPid": 4,
+    "lpSymbol": "SDAO-ETH LP",
+    "lpAddress": "0xDA7cF6a0CD5d5e8D10AB55d8bA58257813a239cA",
+    "quoteToken": {
+      "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "chainId": 1,
+      "decimals": 18,
+      "symbol": "WETH",
+      "name": "Wrapped Ether",
+      "projectLink": "https://weth.io"
+    },
+    "token": {
+      "address": "0x993864E43Caa7F7F12953AD6fEb1d1Ca635B875F",
+      "chainId": 1,
+      "decimals": 18,
+      "symbol": "SDAO",
+      "name": "Singularity Dao",
+      "projectLink": "https://www.singularitydao.ai/"
+    }
+  },
+  {
+    "pid": 126,
+    "vaultPid": 3,
+    "lpSymbol": "WBTC-ETH LP",
+    "lpAddress": "0x4AB6702B3Ed3877e9b1f203f90cbEF13d663B0e8",
+    "quoteToken": {
+      "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "chainId": 1,
+      "decimals": 18,
+      "symbol": "WETH",
+      "name": "Wrapped Ether",
+      "projectLink": "https://weth.io"
+    },
+    "token": {
+      "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+      "chainId": 1,
+      "decimals": 8,
+      "symbol": "WBTC",
+      "name": "Wrapped BTC"
+    }
+  },
+  {
+    "pid": 125,
+    "vaultPid": 2,
+    "lpSymbol": "ETH-USDT LP",
+    "lpAddress": "0x17C1Ae82D99379240059940093762c5e4539aba5",
+    "quoteToken": {
+      "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "chainId": 1,
+      "decimals": 18,
+      "symbol": "WETH",
+      "name": "Wrapped Ether",
+      "projectLink": "https://weth.io"
+    },
+    "token": {
+      "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "chainId": 1,
+      "decimals": 6,
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "projectLink": "https://tether.to/"
+    }
+  },
+  {
+    "pid": 124,
+    "vaultPid": 1,
+    "lpSymbol": "ETH-USDC LP",
+    "lpAddress": "0x2E8135bE71230c6B1B4045696d41C09Db0414226",
+    "quoteToken": {
+      "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "chainId": 1,
+      "decimals": 18,
+      "symbol": "WETH",
+      "name": "Wrapped Ether",
+      "projectLink": "https://weth.io"
+    },
+    "token": {
+      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "chainId": 1,
+      "decimals": 6,
+      "symbol": "USDC",
+      "name": "USD Coin"
+    }
+  }
+]

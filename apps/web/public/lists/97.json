@@ -1,0 +1,132 @@
+[
+  {
+    "pid": 0,
+    "lpSymbol": "BLDT",
+    "lpAddress": "0x36e3E4fF6471559b19F66bD10985534d5e214D44",
+    "token": {
+      "address": "0xfE1e507CeB712BDe086f3579d2c03248b2dB77f9",
+      "chainId": 97,
+      "decimals": 18,
+      "symbol": "SYRUP",
+      "name": "SyrupBar Token",
+      "projectLink": "https://pancakeswap.finance/"
+    },
+    "quoteToken": {
+      "address": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "chainId": 97,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 3,
+    "lpSymbol": "BUSD-BLDT LP",
+    "lpAddress": "0xb98C30fA9f5e9cf6749B7021b4DDc0DBFe73b73e",
+    "token": {
+      "address": "0xaB1a4d4f1D656d2450692D237fdD6C7f9146e814",
+      "chainId": 97,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    },
+    "quoteToken": {
+      "address": "0x8d008B313C1d6C7fE2982F62d32Da7507cF43551",
+      "chainId": 97,
+      "decimals": 18,
+      "symbol": "BLDT",
+      "name": "BlueLotusDAO",
+      "projectLink": "https://pancakeswap.finance/"
+    }
+  },
+  {
+    "pid": 4,
+    "lpSymbol": "BLDT-BNB LP",
+    "lpAddress": "0xa96818CA65B57bEc2155Ba5c81a70151f63300CD",
+    "token": {
+      "address": "0x8d008B313C1d6C7fE2982F62d32Da7507cF43551",
+      "chainId": 97,
+      "decimals": 18,
+      "symbol": "BLDT",
+      "name": "BlueLotusDAO",
+      "projectLink": "https://pancakeswap.finance/"
+    },
+    "quoteToken": {
+      "address": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "chainId": 97,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    }
+  },
+  {
+    "pid": 10,
+    "lpSymbol": "BNB-BUSD LP",
+    "lpAddress": "0x4E96D2e92680Ca65D58A0e2eB5bd1c0f44cAB897",
+    "token": {
+      "address": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "chainId": 97,
+      "decimals": 18,
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "projectLink": "https://www.binance.org"
+    },
+    "quoteToken": {
+      "address": "0xaB1a4d4f1D656d2450692D237fdD6C7f9146e814",
+      "chainId": 97,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    }
+  },
+  {
+    "pid": 9,
+    "lpSymbol": "BUSD-USDC LP",
+    "lpAddress": "0x7CA885d338462790DD1B5416ebe6bec75ee045a1",
+    "token": {
+      "address": "0x3304dd20f6Fe094Cb0134a6c8ae07EcE26c7b6A7",
+      "chainId": 97,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD"
+    },
+    "quoteToken": {
+      "address": "0xCA8eB2dec4Fe3a5abbFDc017dE48E461A936623D",
+      "chainId": 97,
+      "decimals": 18,
+      "symbol": "USDC",
+      "name": "Binance-Peg USD Coin"
+    },
+    "stableSwapAddress": "0xd5E56CD4c8111643a94Ee084df31F44055a1EC9F",
+    "infoStableSwapAddress": "0xaE6C14AAA753B3FCaB96149e1E10Bc4EDF39F546",
+    "stableLpFee": 0.0002,
+    "stableLpFeeRateOfTotalFee": 0.5
+  },
+  {
+    "pid": 11,
+    "lpSymbol": "USDT-BUSD LP",
+    "lpAddress": "0x9Fa2Ef2C3dF6F903F4b73047311e861C51a11B60",
+    "token": {
+      "address": "0x0fB5D7c73FA349A90392f873a4FA1eCf6a3d0a96",
+      "chainId": 97,
+      "decimals": 18,
+      "symbol": "USDT",
+      "name": "Tether USD"
+    },
+    "quoteToken": {
+      "address": "0x3304dd20f6Fe094Cb0134a6c8ae07EcE26c7b6A7",
+      "chainId": 97,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD"
+    },
+    "stableSwapAddress": "0xc418d68751Cbe0407C8fdd90Cde73cE95b892f39",
+    "infoStableSwapAddress": "0xaE6C14AAA753B3FCaB96149e1E10Bc4EDF39F546",
+    "stableLpFee": 0.0002,
+    "stableLpFeeRateOfTotalFee": 0.5
+  }
+]

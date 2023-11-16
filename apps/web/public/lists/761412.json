@@ -1,0 +1,93 @@
+[
+  {
+    "pid": 0,
+    "v1pid": 0,
+    "lpSymbol": "MIES",
+    "lpAddress": "0xc4da43EC4C5Ed49dEEc75e1995d095b89b42Aba4",
+    "token": {
+      "address": "0xbC2e226ca76e4040aB0a02dD655D7A4a5706518a",
+      "chainId": 761412,
+      "decimals": 18,
+      "symbol": "SYRUP",
+      "name": "SyrupBar Token",
+      "projectLink": "https://miexs.com"
+    },
+    "quoteToken": {
+      "address": "0x449ff526a3D42c5293e19D68FA3c8D44ac47ee99",
+      "chainId": 761412,
+      "decimals": 18,
+      "symbol": "WMIX",
+      "name": "Wrapped MIX",
+      "projectLink": "https://miexs.com"
+    }
+  },
+  {
+    "pid": 2,
+    "v1pid": 2,
+    "lpSymbol": "MIES-MIX LP",
+    "lpAddress": "0x564e68A01405E48592c6BD9D90AaAB7476378940",
+    "token": {
+      "address": "0xc4da43EC4C5Ed49dEEc75e1995d095b89b42Aba4",
+      "chainId": 761412,
+      "decimals": 18,
+      "symbol": "MIES",
+      "name": "MiesSwap Token",
+      "projectLink": "https://pancakeswap.finance/"
+    },
+    "quoteToken": {
+      "address": "0x449ff526a3D42c5293e19D68FA3c8D44ac47ee99",
+      "chainId": 761412,
+      "decimals": 18,
+      "symbol": "WMIX",
+      "name": "Wrapped MIX",
+      "projectLink": "https://miexs.com"
+    },
+    "boosted": false
+  },
+  {
+    "pid": 3,
+    "v1pid": 3,
+    "lpSymbol": "BUSD-MIX LP",
+    "lpAddress": "0x48443dc276A7d993E1F6d07fC75F6a67958D64F9",
+    "token": {
+      "address": "0xfddaEc48aCa60294f814aB0cAc718491B3F64DDb",
+      "chainId": 761412,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    },
+    "quoteToken": {
+      "address": "0x449ff526a3D42c5293e19D68FA3c8D44ac47ee99",
+      "chainId": 761412,
+      "decimals": 18,
+      "symbol": "WMIX",
+      "name": "Wrapped MIX",
+      "projectLink": "https://miexs.com"
+    },
+    "boosted": true
+  },
+  {
+    "pid": 5,
+    "v1pid": 5,
+    "lpSymbol": "MIES-BUSD LP",
+    "lpAddress": "0x795ed1cdf94a56013dd89fcb2e0ed73908bfd35b",
+    "token": {
+      "address": "0xc4da43EC4C5Ed49dEEc75e1995d095b89b42Aba4",
+      "chainId": 761412,
+      "decimals": 18,
+      "symbol": "MIES",
+      "name": "MiesSwap Token",
+      "projectLink": "https://pancakeswap.finance/"
+    },
+    "quoteToken": {
+      "address": "0xfddaEc48aCa60294f814aB0cAc718491B3F64DDb",
+      "chainId": 761412,
+      "decimals": 18,
+      "symbol": "BUSD",
+      "name": "Binance USD",
+      "projectLink": "https://www.paxos.com/busd/"
+    },
+    "boosted": false
+  }
+]

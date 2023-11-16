@@ -1,0 +1,93 @@
+[
+  {
+    "pid": 0,
+    "v1pid": 0,
+    "lpSymbol": "BLDT",
+    "lpAddress": "0xf3F7Fe5DeB371726d0705536f398a7b0DE38790a",
+    "token": {
+      "address": "0xf98758A698FAa2624CD4EB61f1ae054F649c367D",
+      "chainId": 16507,
+      "decimals": 18,
+      "symbol": "SYRUP",
+      "name": "SyrupBar Token",
+      "projectLink": "https://gchainexplorer.genesys.network"
+    },
+    "quoteToken": {
+      "address": "0xAa7aE83eb30DDdd14A017D4222121776317EA8Ba",
+      "chainId": 16507,
+      "decimals": 18,
+      "symbol": "WGSYS",
+      "name": "Wrapped GSYS",
+      "projectLink": "https://gchainexplorer.genesys.network"
+    }
+  },
+  {
+    "pid": 2,
+    "v1pid": 2,
+    "lpSymbol": "BLDT-GSYS LP",
+    "lpAddress": "0x76cafB955C21A33D37b4D958850A861A05b54a77",
+    "token": {
+      "address": "0xf3F7Fe5DeB371726d0705536f398a7b0DE38790a",
+      "chainId": 16507,
+      "decimals": 18,
+      "symbol": "BLDT",
+      "name": "BlueLotusDAO",
+      "projectLink": "https://gchainexplorer.genesys.network/"
+    },
+    "quoteToken": {
+      "address": "0xAa7aE83eb30DDdd14A017D4222121776317EA8Ba",
+      "chainId": 16507,
+      "decimals": 18,
+      "symbol": "WGSYS",
+      "name": "Wrapped GSYS",
+      "projectLink": "https://gchainexplorer.genesys.network"
+    },
+    "boosted": false
+  },
+  {
+    "pid": 3,
+    "v1pid": 3,
+    "lpSymbol": "USDC-GSYS LP",
+    "lpAddress": "0x52e74b74ed5770571fA5637D93bf50a94d7066f1",
+    "token": {
+      "address": "0x772Bf1c089463341cD18E1C99FFA10d433e12db4",
+      "chainId": 16507,
+      "decimals": 18,
+      "symbol": "USDC",
+      "name": "USD Coin from Blue20",
+      "projectLink": "https://www.paxos.com/busd/"
+    },
+    "quoteToken": {
+      "address": "0xAa7aE83eb30DDdd14A017D4222121776317EA8Ba",
+      "chainId": 16507,
+      "decimals": 18,
+      "symbol": "WGSYS",
+      "name": "Wrapped GSYS",
+      "projectLink": "https://gchainexplorer.genesys.network"
+    },
+    "boosted": true
+  },
+  {
+    "pid": 4,
+    "v1pid": 4,
+    "lpSymbol": "USDT-GSYS LP",
+    "lpAddress": "0x1dc4aFFfe301b649BAaf03c9915DC77733eC6cC0",
+    "token": {
+      "address": "0x766C8AeD079D43D6B29dA8792b818373b933d80e",
+      "chainId": 16507,
+      "decimals": 18,
+      "symbol": "USDT",
+      "name": "Tether USD from Blue20",
+      "projectLink": "https://gchainexplorer.genesys.network/"
+    },
+    "quoteToken": {
+      "address": "0xAa7aE83eb30DDdd14A017D4222121776317EA8Ba",
+      "chainId": 16507,
+      "decimals": 18,
+      "symbol": "WGSYS",
+      "name": "Wrapped GSYS",
+      "projectLink": "https://gchainexplorer.genesys.network"
+    },
+    "boosted": false
+  }
+]
