@@ -2,7 +2,7 @@ import BN from 'bignumber.js'
 import { formatUnits } from 'viem'
 import { SerializedFarmConfig, FarmWithPrices } from '@pancakeswap/farms'
 import { ChainId, CurrencyAmount, Pair, WBNB, WGSYS } from '@pancakeswap/sdk'
-import { BUSD, BLDT, USDC } from '@pancakeswap/tokens'
+import { BUSD, BLDT, USDC, USDT } from '@pancakeswap/tokens'
 import { farmFetcher } from './helper'
 import { FarmKV, FarmResult } from './kv'
 import { updateLPsAPR } from './lpApr'
@@ -74,14 +74,14 @@ const cakeBusdPairMap = {
     tokenB: BUSD[ChainId.BSC_TESTNET],
   },
   [ChainId.GSYS]: {
-    address: Pair.getAddress(BLDT[ChainId.GSYS], USDC[ChainId.GSYS]),
+    address: Pair.getAddress(BLDT[ChainId.GSYS], USDT[ChainId.GSYS]),
     tokenA: BLDT[ChainId.GSYS],
-    tokenB: USDC[ChainId.GSYS],
+    tokenB: USDT[ChainId.GSYS],
   },
 }
 
 export const getCakePrice = async (isTestnet: boolean) => {
-  const pairConfig = cakeBusdPairMap[isTestnet ? ChainId.BSC_TESTNET : ChainId.GSYS]
+  const pairConfig = cakeBusdPairMap[isTestnet ? ChainId.GSYS : ChainId.GSYS]
   const client = isTestnet ? bscTestnetClient : gsysClient
   console.log(pairConfig.address, isTestnet)
   const [reserve0, reserve1] = await client.readContract({

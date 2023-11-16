@@ -13,7 +13,7 @@ import {
   TradeType,
 } from '@pancakeswap/sdk'
 import { FAST_INTERVAL } from 'config/constants'
-import { BUSD, BLDT, USDC, STABLE_COIN } from '@pancakeswap/tokens'
+import { BUSD, BLDT, USDC, STABLE_COIN, USDT } from '@pancakeswap/tokens'
 import { useMemo } from 'react'
 import useSWR from 'swr'
 import useSWRImmutable from 'swr/immutable'
@@ -329,7 +329,7 @@ export const useCakeBusdPrice = (
   const isTestnet = !forceMainnet && isChainTestnet(chainId)
   // Return bsc testnet bldt if chain is testnet
   const bldt: Token = isTestnet ? BLDT[ChainId.GSYS] : BLDT[ChainId.GSYS]
-  return usePriceByPairs(USDC[bldt.chainId], bldt)
+  return usePriceByPairs(USDT[bldt.chainId], bldt)
 }
 
 /**
