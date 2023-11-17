@@ -1,4 +1,4 @@
-# 🥞 Pancake Frontend
+# BlueLotusDAO Frontend
 
 <p align="center">
   <a href="https://bluelotusdaotemp.bluelotusdao.org">
@@ -6,7 +6,7 @@
   </a>
 </p>
 
-This project contains the main features of the pancake application.
+This project contains the main features of the BlueLotusDAO application.
 
 If you want to contribute, please refer to the [contributing guidelines](./CONTRIBUTING.md) of this project.
 
@@ -74,7 +74,7 @@ pnpm build:blog
 
 | Package                                                       | Description                                                                                                            |
 |---------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| [sdk](/packages/swap-sdk)                                     | An SDK for building applications on top of Pancakeswap                                                                 |
+| [sdk](/packages/swap-sdk)                                     | An SDK for building applications                                                                  |
 | [aptos-swap-sdk](/packages/aptos-swap-sdk)                    | Aptos version of Swap SDK                                                                                              |
 | [swap-sdk-core](/packages/swap-sdk-core)                      | Swap SDK Shared code                                                                                                   |
 | [wagmi](/packages/wagmi)                                      | Extension for [wagmi](https://github.com/wagmi-dev/wagmi), including bsc chain and binance wallet connector            |
