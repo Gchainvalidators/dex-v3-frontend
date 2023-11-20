@@ -5,6 +5,8 @@ import { Dispatch, useMemo, memo, SetStateAction, useCallback } from 'react'
 import styled from 'styled-components'
 import { getFullDisplayBalance } from '@pancakeswap/utils/formatBalance'
 import { getFullDecimalMultiplier } from '@pancakeswap/utils/getFullDecimalMultiplier'
+import { useActiveChainId } from 'hooks/useActiveChainId'
+import { tokenImageChainNameMapping } from 'components/TokenImage'
 import { useUserEnoughCakeValidator } from '../hooks/useUserEnoughCakeValidator'
 
 const StyledButton = styled(Button)`
@@ -35,6 +37,7 @@ const BalanceField: React.FC<React.PropsWithChildren<PropsType>> = ({
   needApprove,
 }) => {
   const { t } = useTranslation()
+  const { chainId } = useActiveChainId()
   const { userNotEnoughCake, notEnoughErrorMessage } = useUserEnoughCakeValidator(lockedAmount, stakingTokenBalance)
 
   const percent = useMemo(() => {
@@ -75,7 +78,12 @@ const BalanceField: React.FC<React.PropsWithChildren<PropsType>> = ({
           {t('BLDT to lock')}
         </Text>
         <Flex alignItems="center" minWidth="70px">
-          <Image src={`/images/tokens/${stakingAddress}.png`} width={24} height={24} alt={stakingSymbol} />
+          <Image
+            src={`/images/tokens/${tokenImageChainNameMapping[chainId]}/${stakingAddress}.png`}
+            width={24}
+            height={24}
+            alt={stakingSymbol}
+          />
           <Text ml="4px" bold>
             {stakingSymbol}
           </Text>

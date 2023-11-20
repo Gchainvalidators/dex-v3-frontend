@@ -40,6 +40,7 @@ import { Token } from '@pancakeswap/sdk'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useCallWithGasPrice } from 'hooks/useCallWithGasPrice'
 
+import { tokenImageChainNameMapping } from 'components/TokenImage'
 import { VaultRoiCalculatorModal } from '../Vault/VaultRoiCalculatorModal'
 import ConvertToLock from '../LockedPool/Common/ConvertToLock'
 import FeeSummary from './FeeSummary'
@@ -247,7 +248,7 @@ const VaultStakeModal: React.FC<React.PropsWithChildren<VaultStakeModalProps>> =
         <Text bold>{isRemovingStake ? t('Unstake') : t('Stake')}:</Text>
         <Flex alignItems="center" minWidth="70px">
           <Image
-            src={`/images/tokens/${stakingToken.address}.png`}
+            src={`/images/tokens/${tokenImageChainNameMapping[chainId]}/${stakingToken.address}.png`}
             width={24}
             height={24}
             alt={stakingToken.symbol}
