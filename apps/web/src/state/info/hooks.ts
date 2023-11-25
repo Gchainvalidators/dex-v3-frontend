@@ -297,7 +297,7 @@ export const useChainNameByQuery = (): MultiChainName => {
     if (query?.chainName === 'polygon-zkevm') return 'POLYGON_ZKEVM'
     if (query?.chainName === 'zksync') return 'ZKSYNC'
     if (query?.chainName === 'gsys') return 'GSYS'
-    return 'BSC'
+    return 'GSYS'
   }, [query])
   return chainName
 }
