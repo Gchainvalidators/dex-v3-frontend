@@ -304,6 +304,16 @@ export const WBTC_GSYS = new ERC20Token(
   'Wrapped BTC',
 )
 
+export const BBTC = {
+  [ChainId.GSYS]: new ERC20Token(
+    ChainId.GSYS,
+    '0xdeE429c269504586d976dB774078feA67ea1F1c2',
+    18,
+    'BBTC',
+    'Baby Bitcoin'
+  ),
+}
+
 export const STABLE_COIN = {
   [ChainId.GSYS]: USDT[ChainId.GSYS],
   [ChainId.ETHEREUM]: USDT[ChainId.ETHEREUM],

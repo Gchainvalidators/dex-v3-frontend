@@ -89,5 +89,51 @@
       "projectLink": "https://gchainexplorer.genesys.network"
     },
     "boosted": false
+  },
+  {
+    "pid": 5,
+    "v1pid": 5,
+    "lpSymbol": "USDT-USDC LP",
+    "lpAddress": "0xC207f8AC30a916101a4afED4aaD103F92046D7D4",
+    "token": {
+      "address": "0x766C8AeD079D43D6B29dA8792b818373b933d80e",
+      "chainId": 16507,
+      "decimals": 18,
+      "symbol": "USDT",
+      "name": "Tether USD from Blue20",
+      "projectLink": "https://gchainexplorer.genesys.network/"
+    },
+    "quoteToken": {
+      "address": "0x772Bf1c089463341cD18E1C99FFA10d433e12db4",
+      "chainId": 16507,
+      "decimals": 18,
+      "symbol": "USDC",
+      "name": "USD Coin from Blue20",
+      "projectLink": "https://gchainexplorer.genesys.network"
+    },
+    "boosted": false
+  },
+  {
+    "pid": 6,
+    "v1pid": 6,
+    "lpSymbol": "USDT-BLDT LP",
+    "lpAddress": "0xffc04B33e16C8EaDeaD545de0f105328B4D791D9",
+    "token": {
+      "address": "0x766C8AeD079D43D6B29dA8792b818373b933d80e",
+      "chainId": 16507,
+      "decimals": 18,
+      "symbol": "USDT",
+      "name": "Tether USD from Blue20",
+      "projectLink": "https://gchainexplorer.genesys.network/"
+    },
+    "quoteToken": {
+      "address": "0xf3F7Fe5DeB371726d0705536f398a7b0DE38790a",
+      "chainId": 16507,
+      "decimals": 18,
+      "symbol": "BLDT",
+      "name": "BlueLotusDAO",
+      "projectLink": "https://gchainexplorer.genesys.network/"
+    },
+    "boosted": false
   }
 ]

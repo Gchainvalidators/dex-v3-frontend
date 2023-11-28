@@ -1,6 +1,6 @@
 import { ChainId, WGSYS, WETH9, ERC20Token } from '@pancakeswap/sdk'
 
-import { CAKE_GSYS, USDT_GSYS } from './common'
+import { BBTC, CAKE_GSYS, USDC, USDT_GSYS } from './common'
 
 export const gsysTokens = {
   wgsys: WGSYS[ChainId.GSYS],
@@ -26,12 +26,6 @@ export const gsysTokens = {
     'SyrupBar Token',
     'https://gchainexplorer.genesys.network',
   ),
-  usdc: new ERC20Token(
-    ChainId.GSYS,
-    '0x772Bf1c089463341cD18E1C99FFA10d433e12db4',
-    18,
-    'USDC',
-    'USD Coin from Blue20',
-    'https://www.centre.io/usdc',
-  ),
+  usdc: USDC[ChainId.GSYS],
+  bbtc: BBTC[ChainId.GSYS],
 }
