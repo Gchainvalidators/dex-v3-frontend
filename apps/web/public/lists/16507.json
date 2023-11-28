@@ -135,5 +135,51 @@
       "projectLink": "https://gchainexplorer.genesys.network/"
     },
     "boosted": false
+  },
+  {
+    "pid": 7,
+    "v1pid": 7,
+    "lpSymbol": "BBTC-GSYS LP",
+    "lpAddress": "0xC8f9eb61C47Fddc7bB0B8f13A5b181D134674Ac5",
+    "token": {
+      "address": "0xdeE429c269504586d976dB774078feA67ea1F1c2",
+      "chainId": 16507,
+      "decimals": 18,
+      "symbol": "BBTC",
+      "name": "Baby Bitcoin",
+      "projectLink": "https://gchainexplorer.genesys.network/"
+    },
+    "quoteToken": {
+      "address": "0xAa7aE83eb30DDdd14A017D4222121776317EA8Ba",
+      "chainId": 16507,
+      "decimals": 18,
+      "symbol": "WGSYS",
+      "name": "Wrapped GSYS",
+      "projectLink": "https://gchainexplorer.genesys.network"
+    },
+    "boosted": false
+  },
+  {
+    "pid": 8,
+    "v1pid": 8,
+    "lpSymbol": "BBTC-BLDT LP",
+    "lpAddress": "0x3aA0406EC99B447B14938045f1F095ae5C70E84E",
+    "token": {
+      "address": "0xdeE429c269504586d976dB774078feA67ea1F1c2",
+      "chainId": 16507,
+      "decimals": 18,
+      "symbol": "BBTC",
+      "name": "Baby Bitcoin",
+      "projectLink": "https://gchainexplorer.genesys.network/"
+    },
+    "quoteToken": {
+      "address": "0xf3F7Fe5DeB371726d0705536f398a7b0DE38790a",
+      "chainId": 16507,
+      "decimals": 18,
+      "symbol": "BLDT",
+      "name": "BlueLotusDAO",
+      "projectLink": "https://gchainexplorer.genesys.network/"
+    },
+    "boosted": false
   }
 ]

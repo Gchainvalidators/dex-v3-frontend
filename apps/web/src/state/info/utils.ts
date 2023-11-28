@@ -28,6 +28,6 @@ export function getChainName(chainId: ChainId) {
     case ChainId.GSYS:
       return 'GSYS'
     default:
-      return 'BSC'
+      return 'GSYS'
   }
 }
