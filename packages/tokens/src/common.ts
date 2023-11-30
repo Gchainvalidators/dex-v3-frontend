@@ -314,6 +314,16 @@ export const BBTC = {
   ),
 }
 
+export const LOTTO = {
+  [ChainId.GSYS]: new ERC20Token(
+    ChainId.GSYS,
+    '0xC91b5288E0d4bf1e9ecB59a7a1ffD015b66A8Dc6',
+    18,
+    'LOTTO',
+    'CRYPTO LOTTERY NFT'
+  ),
+}
+
 export const STABLE_COIN = {
   [ChainId.GSYS]: USDT[ChainId.GSYS],
   [ChainId.ETHEREUM]: USDT[ChainId.ETHEREUM],

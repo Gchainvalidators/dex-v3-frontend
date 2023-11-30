@@ -82,6 +82,14 @@
       "chainId": 16507,
       "decimals": 18,
       "logoURI": ""
+    },
+    {
+      "name": "CRYPTO LOTTERY NFT",
+      "symbol": "LOTTO",
+      "address": "0xC91b5288E0d4bf1e9ecB59a7a1ffD015b66A8Dc6",
+      "chainId": 16507,
+      "decimals": 18,
+      "logoURI": ""
     }
   ]
 }

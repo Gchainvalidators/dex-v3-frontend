@@ -181,5 +181,97 @@
       "projectLink": "https://gchainexplorer.genesys.network/"
     },
     "boosted": false
+  },
+  {
+    "pid": 9,
+    "v1pid": 9,
+    "lpSymbol": "LOTTO-GSYS LP",
+    "lpAddress": "0x8Dc17E1D340C676a932D3a2503360aaD1Db5658c",
+    "token": {
+      "address": "0xAa7aE83eb30DDdd14A017D4222121776317EA8Ba",
+      "chainId": 16507,
+      "decimals": 18,
+      "symbol": "WGSYS",
+      "name": "Wrapped GSYS",
+      "projectLink": "https://gchainexplorer.genesys.network"
+    },
+    "quoteToken": {
+      "address": "0xC91b5288E0d4bf1e9ecB59a7a1ffD015b66A8Dc6",
+      "chainId": 16507,
+      "decimals": 18,
+      "symbol": "LOTTO",
+      "name": "CRYPTO LOTTERY NFT",
+      "projectLink": "https://gchainexplorer.genesys.network/"
+    },
+    "boosted": false
+  },
+  {
+    "pid": 10,
+    "v1pid": 10,
+    "lpSymbol": "LOTTO-USDT LP",
+    "lpAddress": "0x3aA0406EC99B447B14938045f1F095ae5C70E84E",
+    "token": {
+      "address": "0xC91b5288E0d4bf1e9ecB59a7a1ffD015b66A8Dc6",
+      "chainId": 16507,
+      "decimals": 18,
+      "symbol": "LOTTO",
+      "name": "CRYPTO LOTTERY NFT",
+      "projectLink": "https://gchainexplorer.genesys.network/"
+    },
+    "quoteToken": {
+      "address": "0x766C8AeD079D43D6B29dA8792b818373b933d80e",
+      "chainId": 16507,
+      "decimals": 18,
+      "symbol": "USDT",
+      "name": "Tether USD from Blue20",
+      "projectLink": "https://gchainexplorer.genesys.network/"
+    },
+    "boosted": false
+  },
+  {
+    "pid": 11,
+    "v1pid": 11,
+    "lpSymbol": "LOTTO-USDC LP",
+    "lpAddress": "0x5fEC9F7399507f7b2eb49c42C77Fa46ea63e0599",
+    "token": {
+      "address": "0xC91b5288E0d4bf1e9ecB59a7a1ffD015b66A8Dc6",
+      "chainId": 16507,
+      "decimals": 18,
+      "symbol": "LOTTO",
+      "name": "CRYPTO LOTTERY NFT",
+      "projectLink": "https://gchainexplorer.genesys.network/"
+    },
+    "quoteToken": {
+      "address": "0x772Bf1c089463341cD18E1C99FFA10d433e12db4",
+      "chainId": 16507,
+      "decimals": 18,
+      "symbol": "USDC",
+      "name": "USD Coin from Blue20",
+      "projectLink": "https://gchainexplorer.genesys.network"
+    },
+    "boosted": false
+  },
+  {
+    "pid": 12,
+    "v1pid": 12,
+    "lpSymbol": "LOTTO-BBTC LP",
+    "lpAddress": "0x33aD4DFf9f4370ccf52C419D9C2BF7Bb2aebD8c5",
+    "token": {
+      "address": "0xC91b5288E0d4bf1e9ecB59a7a1ffD015b66A8Dc6",
+      "chainId": 16507,
+      "decimals": 18,
+      "symbol": "LOTTO",
+      "name": "CRYPTO LOTTERY NFT",
+      "projectLink": "https://gchainexplorer.genesys.network/"
+    },
+    "quoteToken": {
+      "address": "0xdeE429c269504586d976dB774078feA67ea1F1c2",
+      "chainId": 16507,
+      "decimals": 18,
+      "symbol": "BBTC",
+      "name": "Baby Bitcoin",
+      "projectLink": "https://gchainexplorer.genesys.network/"
+    },
+    "boosted": false
   }
 ]
