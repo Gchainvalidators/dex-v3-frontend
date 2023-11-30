@@ -90,6 +90,14 @@
       "chainId": 16507,
       "decimals": 18,
       "logoURI": ""
+    },
+    {
+      "name": "PEPE Coin",
+      "symbol": "PEPE",
+      "address": "0xFc27Ebfd190893289cb7cB8559088ba2710f80AE",
+      "chainId": 16507,
+      "decimals": 18,
+      "logoURI": ""
     }
   ]
 }
