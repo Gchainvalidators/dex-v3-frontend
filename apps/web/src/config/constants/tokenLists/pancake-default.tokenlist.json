@@ -92,9 +92,9 @@
       "logoURI": ""
     },
     {
-      "name": "PEPE Coin",
-      "symbol": "PEPE",
-      "address": "0xFc27Ebfd190893289cb7cB8559088ba2710f80AE",
+      "name": "Blue Pepe",
+      "symbol": "BPEPE",
+      "address": "0x3D712c2aF5288c825ffFBDDC2c2eeD0c58339A50",
       "chainId": 16507,
       "decimals": 18,
       "logoURI": ""

@@ -9,7 +9,7 @@ const router = Router()
 
 router.post('/gsys-exchange', async (request, _, headers: Headers) => {
   const ip = headers.get('X-Forwarded-For') || headers.get('Cf-Connecting-Ip') || ''
-  const isLocalHost = headers.get('origin') === 'https://bluelotusdaotemp.bluelotusdao.org'
+  const isLocalHost = headers.get('origin') === 'https://bluelotusdao.org'
   const body = (await request.text?.()) as any
 
   if (!body) return error(400, 'Missing body')
@@ -17,7 +17,7 @@ router.post('/gsys-exchange', async (request, _, headers: Headers) => {
   const response = await fetch(NODE_REAL_DATA_ENDPOINT, {
     headers: {
       'X-Forwarded-For': ip,
-      origin: isLocalHost ? 'https://bluelotusdaotemp.bluelotusdao.org' : headers.get('origin') || '',
+      origin: isLocalHost ? 'https://bluelotusdao.org' : headers.get('origin') || '',
     },
     body,
     method: 'POST',

@@ -4,7 +4,7 @@ export const useCakePrice = () => {
   return useSWRImmutable(
     ['cake-usd-price'],
     async () => {
-      const bldt = await (await fetch('https://bluelotusdaotemp.bluelotusdao.org/api/farms/price/cake')).json()
+      const bldt = await (await fetch('https://bluelotusdao.org/api/farms/price/cake')).json()
       return bldt.price as string
     },
     {

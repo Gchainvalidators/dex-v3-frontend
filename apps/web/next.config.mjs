@@ -178,7 +178,7 @@ const config = {
       },
       {
         source: '/api/v3/:chainId/farms/liquidity/:address',
-        destination: 'https://bluelotusdaotemp.bluelotusdao.org/api/farms/v3/:chainId/liquidity/:address',
+        destination: 'https://bluelotusdao.org/api/farms/v3/:chainId/liquidity/:address',
         permanent: false,
       },
       // {

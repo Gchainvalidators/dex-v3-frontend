@@ -1,8 +1,7 @@
 export const CORS_ALLOW = [
-  /\.vexchange\.run$/,
-  /\.explorer\.55pegnet\.com$/,
-  /\.vexchange\.online$/,
-  'https://bluelotusdaotemp.bluelotusdao.org',
+  /\.bluelotusdao\.org$/,
+  /\.gchainexplorer\.genesys\.network$/,
+  'https://bluelotusdao.org',
   'https://gchainexplorer.genesys.network',
   /^http:\/\/localhost(:\d+)?$/,
 ]

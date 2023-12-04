@@ -296,7 +296,7 @@
       "address": "0xAa7aE83eb30DDdd14A017D4222121776317EA8Ba",
       "chainId": 16507,
       "decimals": 18,
-      "logoURI": "https://bluelotusdaotemp.bluelotusdao.org/images/tokens/gsys/0xAa7aE83eb30DDdd14A017D4222121776317EA8Ba.png",
+      "logoURI": "https://bluelotusdao.org/images/tokens/gsys/0xAa7aE83eb30DDdd14A017D4222121776317EA8Ba.png",
       "isNative": true
     },
     {
@@ -305,7 +305,7 @@
       "address": "0x766C8AeD079D43D6B29dA8792b818373b933d80e",
       "chainId": 16507,
       "decimals": 18,
-      "logoURI": "https://bluelotusdaotemp.bluelotusdao.org/images/tokens/gsys/0x766C8AeD079D43D6B29dA8792b818373b933d80e.png"
+      "logoURI": "https://bluelotusdao.org/images/tokens/gsys/0x766C8AeD079D43D6B29dA8792b818373b933d80e.png"
     },
     {
       "name": "BlueLotusDAO",
@@ -313,7 +313,7 @@
       "address": "0xf3F7Fe5DeB371726d0705536f398a7b0DE38790a",
       "chainId": 16507,
       "decimals": 18,
-      "logoURI": "https://bluelotusdaotemp.bluelotusdao.org/images/tokens/gsys/0xf3F7Fe5DeB371726d0705536f398a7b0DE38790a.png"
+      "logoURI": "https://bluelotusdao.org/images/tokens/gsys/0xf3F7Fe5DeB371726d0705536f398a7b0DE38790a.png"
     },
     {
       "name": "USD Coin from Blue20",
@@ -321,7 +321,7 @@
       "address": "0x772Bf1c089463341cD18E1C99FFA10d433e12db4",
       "chainId": 16507,
       "decimals": 18,
-      "logoURI": "https://bluelotusdaotemp.bluelotusdao.org/images/tokens/gsys/0x772Bf1c089463341cD18E1C99FFA10d433e12db4.png"
+      "logoURI": "https://bluelotusdao.org/images/tokens/gsys/0x772Bf1c089463341cD18E1C99FFA10d433e12db4.png"
     }
   ]
 }

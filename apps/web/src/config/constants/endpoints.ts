@@ -84,11 +84,11 @@ export const V3_SUBGRAPH_URLS = {
   [ChainId.GSYS]: 'https://thegraph.blue20bridge.io/subgraphs/name/gsysswap/exchange-v3-gsys',
 } satisfies Record<ChainId, string | null>
 
-export const TRADING_REWARD_API = 'https://bluelotusdaotemp.bluelotusdao.org/api/v1'
+export const TRADING_REWARD_API = 'https://bluelotusdao.org/api/v1'
 
 export const QUOTING_API = `${process.env.NEXT_PUBLIC_QUOTING_API}/v0/quote`
 
 // export const FARMS_API = 'https://farms-api.pancakeswap.com'
-export const FARMS_API = 'https://bluelotusdaotemp.bluelotusdao.org/api/farms'
+export const FARMS_API = 'https://bluelotusdao.org/api/farms'
 
 export const MERCURYO_WIDGET_ID = process.env.NEXT_PUBLIC_MERCURYO_WIDGET_ID || '76ba4ff5-2686-4ed4-8666-fadb0d9a5888'

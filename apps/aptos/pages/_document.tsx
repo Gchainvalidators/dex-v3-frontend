@@ -36,8 +36,8 @@ class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link rel="preconnect" href="https://raw.githubusercontent.com/fiwallets/token-list/gsys/lists" />
           <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&amp;display=swap" rel="stylesheet" />
-          <link rel="shortcut icon" href="https://bluelotusdaotemp.bluelotusdao.org/favicon.ico" />
-          <link rel="apple-touch-icon" href="https://bluelotusdaotemp.bluelotusdao.org/logo.png" />
+          <link rel="shortcut icon" href="https://bluelotusdao.org/favicon.ico" />
+          <link rel="apple-touch-icon" href="https://bluelotusdao.org/logo.png" />
         </Head>
         <body>
           <Main />

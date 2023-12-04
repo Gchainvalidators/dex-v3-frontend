@@ -1,8 +1,8 @@
 # BlueLotusDAO Frontend
 
 <p align="center">
-  <a href="https://bluelotusdaotemp.bluelotusdao.org">
-      <img src="https://bluelotusdaotemp.bluelotusdao.org/logo.png" height="128">
+  <a href="https://bluelotusdao.org">
+      <img src="https://bluelotusdao.org/logo.png" height="128">
   </a>
 </p>
 

@@ -67,7 +67,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           content="Cheaper and faster than Uniswap? Discover PancakeSwap, the leading DEX on Gchain with the best farms in DeFi and a lottery for BLDT."
         />
         <meta name="theme-color" content="#1FC7D4" />
-        <meta name="twitter:image" content="https://bluelotusdaotemp.bluelotusdao.org/images/hero.png" />
+        <meta name="twitter:image" content="https://bluelotusdao.org/images/hero.png" />
         <meta
           name="twitter:description"
           content="BlueLotusDao part of Genesys Network Ecosystem, earn BLDT through farming, staking or lottery,  swap your tokens with security and confidence."
