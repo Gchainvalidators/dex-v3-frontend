@@ -29,7 +29,6 @@ import { getViemClients } from 'utils/viem'
 import { publicClient } from 'utils/wagmi'
 import { Hex, decodeFunctionResult, encodeFunctionData } from 'viem'
 import { useAccount } from 'wagmi'
-import { result } from 'lodash'
 
 export const farmV3ApiFetch = (chainId: number): Promise<FarmsV3Response> =>
   fetch(`/api/v3/${chainId}/farms`)
