@@ -85,6 +85,14 @@ const config: (
       ].map((item) => addMenuItemSupported(item, chainId)),
     },
     {
+      label: t('Analytics'),
+      href: '/info/v3',
+      icon: MoreIcon,
+      fillIcon: MoreIcon,
+      // showOnMobile: false
+      showItemsOnMobile: false
+    },
+    {
       label: t('Perpetual BlueLotusDao'),
       href: 'https://perpetualbluelotusdao.org',
       icon: ChartIcon,
@@ -103,7 +111,7 @@ const config: (
       type: DropdownMenuItemType.EXTERNAL_LINK,
       // showOnMobile: false
       showItemsOnMobile: false
-    }
+    },
   ].map((item) => addMenuItemSupported(item, chainId))
 
 export default config
