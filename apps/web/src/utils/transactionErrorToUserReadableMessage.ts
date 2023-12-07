@@ -24,18 +24,18 @@ export function transactionErrorToUserReadableMessage(error: any, t: TranslateFu
 
   const formatErrorMessage = (message: string) => [message, `(${reason})`].join(' ')
   switch (reason) {
-    case 'BluelotusdaoRouter: EXPIRED':
+    case 'PancakeRouterRouter: EXPIRED':
       return formatErrorMessage(
         t(
           'The transaction could not be sent because the deadline has passed. Please check that your transaction deadline is not too low.',
         ),
       )
-    case 'BluelotusdaoRouter: INSUFFICIENT_OUTPUT_AMOUNT':
-    case 'BluelotusdaoRouter: EXCESSIVE_INPUT_AMOUNT':
-    case 'BluelotusdaoRouter: INSUFFICIENT_A_AMOUNT':
-    case 'BluelotusdaoRouter: INSUFFICIENT_B_AMOUNT':
+    case 'PancakeRouterRouter: INSUFFICIENT_OUTPUT_AMOUNT':
+    case 'PancakeRouterRouter: EXCESSIVE_INPUT_AMOUNT':
+    case 'PancakeRouterRouter: INSUFFICIENT_A_AMOUNT':
+    case 'PancakeRouterRouter: INSUFFICIENT_B_AMOUNT':
     case 'swapMulti: incorrect user balance':
-    case 'Bluelotusdao: K':
+    case 'PancakeRouter: K':
       return formatErrorMessage(
         t(
           'This transaction will not succeed either due to price movement or fee on transfer. Try increasing your slippage tolerance.',
@@ -43,7 +43,7 @@ export function transactionErrorToUserReadableMessage(error: any, t: TranslateFu
       )
     case 'TransferHelper: TRANSFER_FROM_FAILED':
       return formatErrorMessage(t('The input token cannot be transferred. There may be an issue with the input token.'))
-    case 'Bluelotusdao: TRANSFER_FAILED':
+    case 'PancakeRouter: TRANSFER_FAILED':
       return formatErrorMessage(
         t('The output token cannot be transferred. There may be an issue with the output token.'),
       )
@@ -65,7 +65,7 @@ export function transactionErrorToUserReadableMessage(error: any, t: TranslateFu
         )
       }
       return t('Unknown error%reason%. Try increasing your slippage tolerance.', {
-        reason: reason ? `: "${reason}"` : '',
+        reason: reason ? `: "${reason.replace('Pancake', 'Bluelotusdao')}"` : '',
       })
   }
 }

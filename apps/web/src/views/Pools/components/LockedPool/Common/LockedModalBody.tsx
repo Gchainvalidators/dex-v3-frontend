@@ -131,6 +131,7 @@ const LockedModalBody: React.FC<React.PropsWithChildren<LockedModalBodyPropsType
           isValidDuration={isValidDuration}
           openCalculator={_noop}
           duration={duration}
+          newDuration={duration}
           lockedAmount={lockedAmount?.toNumber()}
           usdValueStaked={usdValueStaked}
           showLockWarning

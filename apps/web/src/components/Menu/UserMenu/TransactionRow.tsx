@@ -79,7 +79,8 @@ const TransactionRow: React.FC<React.PropsWithChildren<TransactionRowProps>> = (
           : txn.summary ?? txn.hash}
       </Summary>
       <TxnIcon>
-        <BscScanIcon width="24px" color="primary" />
+        {/* <BscScanIcon width="24px" color="primary" /> */}
+        <img src={`/images/tokens/${chainId}.png`} alt="" width="24px" />
       </TxnIcon>
     </TxnLink>
   )

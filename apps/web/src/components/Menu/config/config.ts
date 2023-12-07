@@ -13,6 +13,7 @@ import {
   MoreIcon,
   DropdownMenuItems,
   ChartIcon,
+  BridgeIcon
 } from '@pancakeswap/uikit'
 import { ContextApi } from '@pancakeswap/localization'
 import { SUPPORTED_CHAIN_IDS as POOL_SUPPORTED_CHAINS } from '@pancakeswap/pools'
@@ -87,6 +88,16 @@ const config: (
       label: t('Perpetual BlueLotusDao'),
       href: 'https://perpetualbluelotusdao.org',
       icon: ChartIcon,
+      fillIcon: TrophyFillIcon,
+      image: '/images/decorations/pe2.png',
+      type: DropdownMenuItemType.EXTERNAL_LINK,
+      // showOnMobile: false
+      showItemsOnMobile: false
+    },
+    {
+      label: t('Bridge'),
+      href: 'https://blue20bridge.io',
+      icon: BridgeIcon,
       fillIcon: TrophyFillIcon,
       image: '/images/decorations/pe2.png',
       type: DropdownMenuItemType.EXTERNAL_LINK,
