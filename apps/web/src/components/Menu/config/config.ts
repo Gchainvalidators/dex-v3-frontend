@@ -54,10 +54,10 @@ const config: (
       href: '/swap',
       showItemsOnMobile: false,
       items: [
-        {
-          label: t('Swap'),
-          href: '/swap',
-        },
+        // {
+        //   label: t('Swap'),
+        //   href: '/swap',
+        // },
         {
           label: t('Liquidity'),
           href: '/liquidity',
