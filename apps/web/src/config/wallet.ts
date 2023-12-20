@@ -63,9 +63,9 @@ const walletsConfig = ({
         // && metaMaskConnector.ready
       },
       connectorId: ConnectorNames.MetaMask,
-      deepLink: 'https://metamask.app.link/dapp/bluelotusdao.org//',
+      deepLink: 'https://metamask.app.link/dapp/tempdex.genesys.network//',
       qrCode,
-      downloadLink: 'https://metamask.app.link/dapp/bluelotusdao.org//',
+      downloadLink: 'https://metamask.app.link/dapp/tempdex.genesys.network//',
     },
     {
       id: 'binance',
@@ -98,7 +98,7 @@ const walletsConfig = ({
       get installed() {
         return !!getTrustWalletProvider()
       },
-      deepLink: 'https://link.trustwallet.com/open_url?coin_id=20000714&url=https://bluelotusdao.org/',
+      deepLink: 'https://link.trustwallet.com/open_url?coin_id=20000714&url=https://tempdex.genesys.network/',
       downloadLink: 'https://chrome.google.com/webstore/detail/trust-wallet/egjidjbpglichdcondbcbdnbeeppgdph',
       guide: {
         desktop: 'https://trustwallet.com/browser-extension',

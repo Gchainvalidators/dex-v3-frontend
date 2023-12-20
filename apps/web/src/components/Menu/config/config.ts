@@ -64,29 +64,29 @@ const config: (
         },
       ].map((item) => addMenuItemSupported(item, chainId)),
     },
-    {
-      label: t('Earn'),
-      href: '/farms',
-      icon: EarnIcon,
-      fillIcon: EarnFillIcon,
-      image: '/images/decorations/pe2.png',
-      supportChainIds: SUPPORT_FARMS,
-      items: [
-        {
-          label: t('Farms'),
-          href: '/farms',
-          supportChainIds: SUPPORT_FARMS,
-        },
-        {
-          label: t('Pools'),
-          href: '/pools',
-          supportChainIds: POOL_SUPPORTED_CHAINS,
-        },
-      ].map((item) => addMenuItemSupported(item, chainId)),
-    },
+    // {
+    //   label: t('Earn'),
+    //   href: '/farms',
+    //   icon: EarnIcon,
+    //   fillIcon: EarnFillIcon,
+    //   image: '/images/decorations/pe2.png',
+    //   supportChainIds: SUPPORT_FARMS,
+    //   items: [
+    //     {
+    //       label: t('Farms'),
+    //       href: '/farms',
+    //       supportChainIds: SUPPORT_FARMS,
+    //     },
+    //     {
+    //       label: t('Pools'),
+    //       href: '/pools',
+    //       supportChainIds: POOL_SUPPORTED_CHAINS,
+    //     },
+    //   ].map((item) => addMenuItemSupported(item, chainId)),
+    // },
     {
       label: t('Perpetual BlueLotusDao'),
-      href: 'https://perpetualbluelotusdao.org',
+      href: 'https://perpetualtempdex.genesys.network',
       icon: ChartIcon,
       fillIcon: TrophyFillIcon,
       image: '/images/decorations/pe2.png',

@@ -28,7 +28,7 @@ const Menu = () => {
           langs={languageList}
           setLang={setLanguage}
         />
-        <Link external href="https://bluelotusdao.org/">
+        <Link external href="https://tempdex.genesys.network/">
           <Button scale="sm">{t('Launch App')}</Button>
         </Link>
       </Flex>

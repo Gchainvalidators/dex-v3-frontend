@@ -56,7 +56,7 @@ export const footerLinks: (t: ContextApi["t"]) => FooterLinkType[] = (t) => [
       },
       {
         label: t("BlueLotusDAO"),
-        href: "https://www.bluelotusdao.org/",
+        href: "https://www.tempdex.genesys.network/",
       },
       {
         label: t("Genesis of Blue NFT Marketplace"),

@@ -14,6 +14,6 @@ export const SEO: DefaultSeoProps = {
     title: '🥞 PancakeSwap - A next evolution DeFi exchange on Gchain',
     description:
       'The most popular AMM on Gchain! Earn BLDT through yield farming or win it in the Lottery, then stake it in Syrup Pools to earn more tokens! Initial Farm Offerings (new token launch model pioneered by PancakeSwap), NFTs, and more, on a platform you can trust.',
-    images: [{ url: 'https://bluelotusdao.org/images/hero.png' }],
+    images: [{ url: 'https://tempdex.genesys.network/images/hero.png' }],
   },
 }
