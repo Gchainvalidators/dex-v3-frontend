@@ -52,7 +52,11 @@ export const SUGGESTED_BASES: ChainTokenList = {
   [ChainId.ZKSYNC]: [zksyncTokens.usdc, zksyncTokens.weth],
   [ChainId.ZKSYNC_TESTNET]: [zkSyncTestnetTokens.usdc, zkSyncTestnetTokens.weth],
   [ChainId.LINEA_TESTNET]: [lineaTestnetTokens.usdc, lineaTestnetTokens.weth],
-  [ChainId.GSYS]: [gsysTokens.usdt, gsysTokens.bldt, gsysTokens.usdc],
+  [ChainId.GSYS]: [
+    gsysTokens.usdt, 
+    // gsysTokens.bldt, 
+    gsysTokens.usdc
+  ],
 }
 
 // used to construct the list of all pairs we consider by default in the frontend
@@ -94,7 +98,7 @@ export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } 
   [ChainId.GSYS]: [
     // [gsysTokens.bldt, gsysTokens.wgsys],
     // [gsysTokens.usdc, gsysTokens.usdt],
-    [gsysTokens.gsys, gsysTokens.bldt],
+    // [gsysTokens.gsys, gsysTokens.bldt],
     [gsysTokens.gsys, gsysTokens.usdc],
     [gsysTokens.gsys, gsysTokens.usdt],
   ],

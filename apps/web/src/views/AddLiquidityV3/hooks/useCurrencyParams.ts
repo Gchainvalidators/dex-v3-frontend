@@ -16,7 +16,8 @@ export function useCurrencyParams(): {
   const [currencyIdA, currencyIdB, feeAmountFromUrl] = router.isReady
     ? router.query.currency || [
         native.symbol,
-        BLDT[chainId]?.address || STABLE_COIN[chainId]?.address || USDC[chainId]?.address || USDT[chainId]?.address,
+        STABLE_COIN[chainId]?.address || USDC[chainId]?.address || USDT[chainId]?.address,
+        // BLDT[chainId]?.address || STABLE_COIN[chainId]?.address || USDC[chainId]?.address || USDT[chainId]?.address,
       ]
     : [undefined, undefined, undefined]
 

@@ -60,14 +60,6 @@
       "logoURI": ""
     },
     {
-      "name": "BlueLotusDAO",
-      "symbol": "BLDT",
-      "address": "0xf3F7Fe5DeB371726d0705536f398a7b0DE38790a",
-      "chainId": 16507,
-      "decimals": 18,
-      "logoURI": ""
-    },
-    {
       "name": "USD Coin from Blue20",
       "symbol": "USDC",
       "address": "0x772Bf1c089463341cD18E1C99FFA10d433e12db4",

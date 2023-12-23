@@ -10,6 +10,7 @@ import {
   TOKEN_BLACKLIST,
   BSC_TOKEN_WHITELIST,
   ETH_TOKEN_WHITELIST,
+  GSYS_TOKEN_BLACKLIST,
 } from 'config/constants/info'
 import { bsc, mainnet, polygonZkEvm, zkSync } from 'wagmi/chains'
 
@@ -93,7 +94,7 @@ export const multiChainTokenBlackList: Record<MultiChainName, string[]> = {
   ETH: ETH_TOKEN_BLACKLIST,
   POLYGON_ZKEVM: ['0x'],
   ZKSYNC: ['0x'],
-  GSYS: ['0x'],
+  GSYS: GSYS_TOKEN_BLACKLIST,
 }
 
 export const multiChainTokenWhiteList: Record<MultiChainName, string[]> = {

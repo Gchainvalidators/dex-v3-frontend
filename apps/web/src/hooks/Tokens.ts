@@ -7,6 +7,8 @@ import { GELATO_NATIVE } from 'config/constants'
 import { useAtomValue } from 'jotai'
 import { useMemo } from 'react'
 import { useToken as useToken_ } from 'wagmi'
+import { useGetChainName } from 'state/info/hooks'
+import { multiChainTokenBlackList } from 'state/info/constant'
 import {
   combinedCurrenciesMapFromActiveUrlsAtom,
   combinedTokenMapFromActiveUrlsAtom,
@@ -128,6 +130,11 @@ export function useIsTokenActive(token: ERC20Token | undefined | null): boolean 
   }
 
   const tokenAddress = isAddress(token.address)
+  const chainName = useGetChainName()
+  if(tokenAddress) {
+    const blackList = multiChainTokenBlackList[chainName]
+    return blackList.includes(tokenAddress)
+  }
 
   return tokenAddress && !!activeTokens[tokenAddress]
 }

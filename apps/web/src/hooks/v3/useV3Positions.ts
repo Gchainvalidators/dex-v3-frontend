@@ -3,6 +3,8 @@ import { masterChefV3ABI } from '@pancakeswap/v3-sdk'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useMasterchefV3, useV3NFTPositionManagerContract } from 'hooks/useContract'
 import { useEffect, useMemo } from 'react'
+import { multiChainTokenBlackList } from 'state/info/constant'
+import { useGetChainName } from 'state/info/hooks'
 import { useContractRead, useContractReads, Address } from 'wagmi'
 
 interface UseV3PositionsResults {
@@ -18,7 +20,9 @@ interface UseV3PositionResults {
 export function useV3PositionsFromTokenIds(tokenIds: bigint[] | undefined): UseV3PositionsResults {
   const positionManager = useV3NFTPositionManagerContract()
   const { chainId } = useActiveChainId()
-
+  const chainName = useGetChainName()
+  const blackList = multiChainTokenBlackList[chainName]
+  
   const inputs = useMemo(
     () =>
       tokenIds && positionManager
@@ -48,6 +52,9 @@ export function useV3PositionsFromTokenIds(tokenIds: bigint[] | undefined): UseV
           .filter((p) => p.status === 'success')
           .map((p) => {
             const r = p.result
+            if(blackList.includes(r[2]) || blackList.includes(r[3])) {
+              return null
+            }
             return {
               nonce: r[0],
               operator: r[1],
