@@ -1,7 +1,7 @@
 import { isStableFarm } from '@pancakeswap/farms'
 import { useCurrency } from 'hooks/Tokens'
 import { useRouter } from 'next/router'
-import { useCallback, useEffect, useMemo } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useAtom } from 'jotai'
 import { useFarmV2PublicAPI } from 'state/farms/hooks'
 import { useFarmsV3Public } from 'state/farmsV3/hooks'
@@ -13,6 +13,8 @@ import { useCurrencyParams } from 'views/AddLiquidityV3/hooks/useCurrencyParams'
 import { SELECTOR_TYPE } from 'views/AddLiquidityV3/types'
 import { mintReducerAtom } from 'state/mint/reducer'
 import { V3SubgraphHealthIndicator } from 'components/SubgraphHealthIndicator'
+import { useGetChainName } from 'state/info/hooks'
+import { multiChainTokenBlackList } from 'state/info/constant'
 
 const AddLiquidityPage = () => {
   const router = useRouter()
@@ -56,9 +58,19 @@ const AddLiquidityPage = () => {
       : undefined
   }, [farmsV2Public, farmV3Public?.farmsWithPrice, currencyA, currencyB, router])
 
+  const chainName = useGetChainName()
+  const blackList = multiChainTokenBlackList[chainName]
+  const [isBlock, setIsBlock] = useState<boolean>(false)
+
   useEffect(() => {
     if (!currencyIdA && !currencyIdB) {
       dispatch(resetMintState())
+    }
+    if(blackList.includes(currencyIdA) || blackList.includes(currencyIdB)) {
+      setIsBlock(true)
+    }
+    else {
+      setIsBlock(false)
     }
   }, [dispatch, currencyIdA, currencyIdB])
 
@@ -81,13 +93,15 @@ const AddLiquidityPage = () => {
         handleRefresh={handleRefresh}
         showRefreshButton={preferFarmType?.type === SELECTOR_TYPE.V3 && preferFarmType?.feeAmount !== feeAmount}
       >
-        <UniversalAddLiquidity
-          currencyIdA={currencyIdA}
-          currencyIdB={currencyIdB}
-          preferredSelectType={!feeAmount ? preferFarmType?.type : undefined}
-          isV2={!feeAmount ? preferFarmType?.type === SELECTOR_TYPE.V2 : undefined}
-          preferredFeeAmount={!feeAmount ? preferFarmType?.feeAmount : undefined}
-        />
+        {!isBlock && (
+          <UniversalAddLiquidity
+            currencyIdA={currencyIdA}
+            currencyIdB={currencyIdB}
+            preferredSelectType={!feeAmount ? preferFarmType?.type : undefined}
+            isV2={!feeAmount ? preferFarmType?.type === SELECTOR_TYPE.V2 : undefined}
+            preferredFeeAmount={!feeAmount ? preferFarmType?.feeAmount : undefined}
+          />
+        )}
         <V3SubgraphHealthIndicator />
       </AddLiquidityV3Layout>
     </LiquidityFormProvider>

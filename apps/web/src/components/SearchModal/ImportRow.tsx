@@ -2,6 +2,8 @@ import { CSSProperties } from 'react'
 import { Currency, Token } from '@pancakeswap/sdk'
 import { useCombinedInactiveList } from 'state/lists/hooks'
 import { useIsUserAddedToken, useIsTokenActive } from 'hooks/Tokens'
+import { useGetChainName } from 'state/info/hooks'
+import { multiChainTokenBlackList } from 'state/info/constant'
 import ImportTokenRow from './ImportTokenRow'
 
 export default function ImportRow({
@@ -26,6 +28,16 @@ export default function ImportRow({
   // check if already active on list or local storage tokens
   const isAdded = useIsUserAddedToken(token)
   const isActive = useIsTokenActive(token)
+
+  const chainName = useGetChainName()
+  const blackList = multiChainTokenBlackList[chainName]
+  let isBlock = false
+  if(token?.address) {
+    isBlock = blackList.includes(token.address)
+  }
+  if(isBlock) {
+    return <></>
+  }
 
   return (
     <ImportTokenRow
