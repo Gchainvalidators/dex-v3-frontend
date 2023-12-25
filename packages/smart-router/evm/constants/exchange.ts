@@ -89,7 +89,7 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
   [ChainId.LINEA_TESTNET]: [lineaTestnetTokens.usdc, lineaTestnetTokens.weth],
   [ChainId.GSYS]: [
     gsysTokens.wgsys,
-    // gsysTokens.bldt,
+    gsysTokens.bldt,
     // gsysTokens.busd,
     gsysTokens.usdt,
     // gsysTokens.wbtc,

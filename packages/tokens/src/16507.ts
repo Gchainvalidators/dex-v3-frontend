@@ -20,7 +20,7 @@ export const gsysTokens = {
   // busd: BUSD_GSYS,
   syrup: new ERC20Token(
     ChainId.GSYS,
-    '0xf98758A698FAa2624CD4EB61f1ae054F649c367D',
+    '0xb166F050A98d863636C6188eAFdD51548bEc3a43',
     18,
     'SYRUP',
     'SyrupBar Token',

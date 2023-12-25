@@ -8,7 +8,7 @@ export const livePools: SerializedPool[] = [
     sousId: 0,
     stakingToken: gsysTokens.bldt,
     earningToken: gsysTokens.bldt,
-    contractAddress: '0x6C0Dd001e1031296D1f0Ac38D6423c6C84588F05',
+    contractAddress: '0x9140B00Fd81871b7506FB78D348490BA1B61bD85',
     poolCategory: PoolCategory.CORE,
     tokenPerBlock: '10',
     isFinished: false,

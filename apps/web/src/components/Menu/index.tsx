@@ -56,7 +56,7 @@ const Menu = (props) => {
     }
     else if (chainId === 16507) {
       setLinkBy(
-        `${process.env.NEXT_PUBLIC_URL}/swap?outputCurrency=0xf3F7Fe5DeB371726d0705536f398a7b0DE38790a&chainId=16507`,
+        `${process.env.NEXT_PUBLIC_URL}/swap?outputCurrency=0xb4A3F9D3cEce2c298e9b73113f7B6C2B9f9d61fF&chainId=16507`,
       )
     }
   }, [chainId])

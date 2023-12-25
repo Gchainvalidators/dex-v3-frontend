@@ -3,9 +3,9 @@
     "pid": 0,
     "v1pid": 0,
     "lpSymbol": "BLDT",
-    "lpAddress": "0xf3F7Fe5DeB371726d0705536f398a7b0DE38790a",
+    "lpAddress": "0xb4A3F9D3cEce2c298e9b73113f7B6C2B9f9d61fF",
     "token": {
-      "address": "0xf98758A698FAa2624CD4EB61f1ae054F649c367D",
+      "address": "0xb166F050A98d863636C6188eAFdD51548bEc3a43",
       "chainId": 16507,
       "decimals": 18,
       "symbol": "SYRUP",
@@ -27,7 +27,7 @@
     "lpSymbol": "BLDT-GSYS LP",
     "lpAddress": "0x76cafB955C21A33D37b4D958850A861A05b54a77",
     "token": {
-      "address": "0xf3F7Fe5DeB371726d0705536f398a7b0DE38790a",
+      "address": "0xb4A3F9D3cEce2c298e9b73113f7B6C2B9f9d61fF",
       "chainId": 16507,
       "decimals": 18,
       "symbol": "BLDT",
@@ -127,7 +127,7 @@
       "projectLink": "https://gchainexplorer.genesys.network/"
     },
     "quoteToken": {
-      "address": "0xf3F7Fe5DeB371726d0705536f398a7b0DE38790a",
+      "address": "0xb4A3F9D3cEce2c298e9b73113f7B6C2B9f9d61fF",
       "chainId": 16507,
       "decimals": 18,
       "symbol": "BLDT",
@@ -173,7 +173,7 @@
       "projectLink": "https://gchainexplorer.genesys.network/"
     },
     "quoteToken": {
-      "address": "0xf3F7Fe5DeB371726d0705536f398a7b0DE38790a",
+      "address": "0xb4A3F9D3cEce2c298e9b73113f7B6C2B9f9d61fF",
       "chainId": 16507,
       "decimals": 18,
       "symbol": "BLDT",

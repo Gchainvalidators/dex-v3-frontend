@@ -153,7 +153,7 @@ const CakeDataRow = () => {
       <StyledColumn noMobileBorder style={{ gridArea: 'c' }}>
         <Text color="#75808B">{t('Max Supply')}</Text>
 
-        <Balance decimals={0} lineHeight="1.1" fontSize="24px" bold value={350000} color="#122549" />
+        <Balance decimals={0} lineHeight="1.1" fontSize="24px" bold value={500000} color="#122549" />
       </StyledColumn>
       <StyledColumn noDesktopBorder style={{ gridArea: 'd' }}>
         <Text color="#75808B">{t('Market cap')}</Text>

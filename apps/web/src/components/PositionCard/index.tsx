@@ -1,6 +1,6 @@
 import { useMemo, useContext } from 'react'
 import { Currency, CurrencyAmount, Pair, Percent } from '@pancakeswap/sdk'
-import { Text, Card, CardBody, Flex, CardProps, TooltipText, useTooltip, Link, AutoColumn } from '@pancakeswap/uikit'
+import { Text, Card, CardBody, Flex, CardProps, TooltipText, useTooltip, Link, AutoColumn, Titi } from '@pancakeswap/uikit'
 import styled from 'styled-components'
 import { useTranslation } from '@pancakeswap/localization'
 import useTotalSupply from 'hooks/useTotalSupply'
@@ -226,7 +226,8 @@ function MinimalPositionCardView({
         <LightCard>
           <Text fontSize="14px" style={{ textAlign: 'center' }}>
             <span role="img" aria-label="pancake-icon">
-              🥞
+              {/* 🥞 */}
+              <Titi width={14} height={14} />
             </span>{' '}
             {isStableLP ? (
               <>

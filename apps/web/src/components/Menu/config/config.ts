@@ -51,39 +51,39 @@ const config: (
       label: t('Trade'),
       icon: SwapIcon,
       fillIcon: SwapFillIcon,
-      href: '/liquidity',
+      href: '/swap',
       showItemsOnMobile: false,
       items: [
-        // {
-        //   label: t('Swap'),
-        //   href: '/swap',
-        // },
+        {
+          label: t('Swap'),
+          href: '/swap',
+        },
         {
           label: t('Liquidity'),
           href: '/liquidity',
         },
       ].map((item) => addMenuItemSupported(item, chainId)),
     },
-    // {
-    //   label: t('Earn'),
-    //   href: '/farms',
-    //   icon: EarnIcon,
-    //   fillIcon: EarnFillIcon,
-    //   image: '/images/decorations/pe2.png',
-    //   supportChainIds: SUPPORT_FARMS,
-    //   items: [
-    //     {
-    //       label: t('Farms'),
-    //       href: '/farms',
-    //       supportChainIds: SUPPORT_FARMS,
-    //     },
-    //     {
-    //       label: t('Pools'),
-    //       href: '/pools',
-    //       supportChainIds: POOL_SUPPORTED_CHAINS,
-    //     },
-    //   ].map((item) => addMenuItemSupported(item, chainId)),
-    // },
+    {
+      label: t('Earn'),
+      href: '/farms',
+      icon: EarnIcon,
+      fillIcon: EarnFillIcon,
+      image: '/images/decorations/pe2.png',
+      supportChainIds: SUPPORT_FARMS,
+      items: [
+        {
+          label: t('Farms'),
+          href: '/farms',
+          supportChainIds: SUPPORT_FARMS,
+        },
+        {
+          label: t('Pools'),
+          href: '/pools',
+          supportChainIds: POOL_SUPPORTED_CHAINS,
+        },
+      ].map((item) => addMenuItemSupported(item, chainId)),
+    },
     {
       label: t('Perpetual BlueLotusDao'),
       href: 'https://perpetualtempdex.genesys.network',

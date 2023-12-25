@@ -128,7 +128,7 @@ const farms: SerializedFarmConfig[] = [
   //   pid: 0,
   //   v1pid: 0,
   //   lpSymbol: 'BLDT',
-  //   lpAddress: '0xf3F7Fe5DeB371726d0705536f398a7b0DE38790a',
+  //   lpAddress: '0xb4A3F9D3cEce2c298e9b73113f7B6C2B9f9d61fF',
   //   token: gsysTokens.syrup,
   //   quoteToken: gsysTokens.wgsys,
   // },
