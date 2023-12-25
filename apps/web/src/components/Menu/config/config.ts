@@ -51,7 +51,7 @@ const config: (
       label: t('Trade'),
       icon: SwapIcon,
       fillIcon: SwapFillIcon,
-      href: '/swap',
+      href: '/liquidity',
       showItemsOnMobile: false,
       items: [
         // {

@@ -51,7 +51,8 @@ export const priceHelperTokens = {
   },
   [ChainId.GSYS]: {
     chain: 'gsys',
-    list: [gsysTokens.wgsys, gsysTokens.usdt, gsysTokens.usdc],
+    // list: [gsysTokens.wgsys, gsysTokens.usdt, gsysTokens.usdc],
+    list: []
   },
 } satisfies Record<number, PriceHelper>
 
@@ -74,5 +75,8 @@ export const DEFAULT_COMMON_PRICE: Record<FarmV3SupportedChainId, CommonPrice> =
   [ChainId.POLYGON_ZKEVM]: {},
   [ChainId.ZKSYNC]: {},
   [ChainId.POLYGON_ZKEVM_TESTNET]: {},
-  [ChainId.GSYS]: {},
+  [ChainId.GSYS]: {
+    [gsysTokens.usdt.address]: '1',
+    [gsysTokens.usdc.address]: '1',
+  },
 }
