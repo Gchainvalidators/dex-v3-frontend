@@ -25,7 +25,7 @@
     "pid": 2,
     "v1pid": 2,
     "lpSymbol": "BLDT-GSYS LP",
-    "lpAddress": "0x76cafB955C21A33D37b4D958850A861A05b54a77",
+    "lpAddress": "0xB8B0c75E10afF1B62be9A8eB16077829aA395Ea1",
     "token": {
       "address": "0xb4A3F9D3cEce2c298e9b73113f7B6C2B9f9d61fF",
       "chainId": 16507,
@@ -117,7 +117,7 @@
     "pid": 6,
     "v1pid": 6,
     "lpSymbol": "USDT-BLDT LP",
-    "lpAddress": "0xffc04B33e16C8EaDeaD545de0f105328B4D791D9",
+    "lpAddress": "0x2b35ac62ad4a1cbcc863ab1ca95dd35f7ea60b62",
     "token": {
       "address": "0x766C8AeD079D43D6B29dA8792b818373b933d80e",
       "chainId": 16507,
