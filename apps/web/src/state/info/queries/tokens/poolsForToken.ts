@@ -1,4 +1,4 @@
-import { TOKEN_BLACKLIST } from 'config/constants/info'
+import { GSYS_TOKEN_BLACKLIST, TOKEN_BLACKLIST } from 'config/constants/info'
 import { gql } from 'graphql-request'
 import { MultiChainName, multiChainQueryMainToken, getMultiChainQueryEndPointWithStableSwap } from '../../constant'
 
@@ -50,7 +50,7 @@ const fetchPoolsForToken = async (
       POOLS_FOR_TOKEN(chainName),
       {
         address,
-        blacklist: TOKEN_BLACKLIST,
+        blacklist: GSYS_TOKEN_BLACKLIST,
       },
     )
     return {

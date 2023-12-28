@@ -54,5 +54,5 @@ export const ETH_TOKEN_WHITELIST = [
 
 export const GSYS_TOKEN_BLACKLIST = [
   // BLDT old
-  '0xf3F7Fe5DeB371726d0705536f398a7b0DE38790a',
+  '0xf3f7fe5deb371726d0705536f398a7b0de38790a',
 ]

@@ -1,12 +1,13 @@
 import { ChainId } from '@pancakeswap/sdk'
 import { gql, GraphQLClient } from 'graphql-request'
 
+import { GSYS_TOKEN_BLACKLIST } from 'config/constants/info'
 import { POOL_HIDE } from '../../constants'
 import { notEmpty } from '../../utils'
 
 export const TOP_POOLS = gql`
-  query topPools {
-    pools(first: 50, orderBy: totalValueLockedUSD, orderDirection: desc) {
+  query topPools($blacklist: [String!]) {
+    pools(first: 50, orderBy: totalValueLockedUSD, orderDirection: desc, where: {token0_not_in: $blacklist, token1_not_in: $blacklist}) {
       id
     }
   }
@@ -32,6 +33,7 @@ export async function fetchTopPoolAddresses(
     const data = await dataClient.request<TopPoolsResponse>(TOP_POOLS, {
       client: dataClient,
       fetchPolicy: 'cache-first',
+      blacklist: GSYS_TOKEN_BLACKLIST
     })
 
     const formattedData = data

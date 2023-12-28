@@ -66,10 +66,9 @@ const AddLiquidityPage = () => {
     if (!currencyIdA && !currencyIdB) {
       dispatch(resetMintState())
     }
-    if(blackList.includes(currencyIdA) || blackList.includes(currencyIdB)) {
+    if (blackList.includes(currencyIdA.toLowerCase()) || blackList.includes(currencyIdB.toLowerCase())) {
       setIsBlock(true)
-    }
-    else {
+    } else {
       setIsBlock(false)
     }
   }, [dispatch, currencyIdA, currencyIdB])

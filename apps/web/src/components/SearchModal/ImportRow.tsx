@@ -33,7 +33,7 @@ export default function ImportRow({
   const blackList = multiChainTokenBlackList[chainName]
   let isBlock = false
   if(token?.address) {
-    isBlock = blackList.includes(token.address)
+    isBlock = blackList.includes(token.address.toLowerCase())
   }
   if(isBlock) {
     return <></>
