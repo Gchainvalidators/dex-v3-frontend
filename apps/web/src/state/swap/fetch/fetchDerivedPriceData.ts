@@ -12,7 +12,7 @@ import { getUnixTime, startOfHour, sub } from 'date-fns'
 import request from 'graphql-request'
 import mapValues from 'lodash/mapValues'
 import orderBy from 'lodash/orderBy'
-import { multiChainName } from 'state/info/constant'
+import { multiChainName, multiChainStartTime } from 'state/info/constant'
 import { Block } from 'state/info/types'
 import { getBlocksFromTimestamps } from 'utils/getBlocksFromTimestamps'
 import { multiQuery } from 'views/Info/utils/infoQueryHelpers'
@@ -166,6 +166,7 @@ const fetchDerivedPriceData = async (
   protocol0: Protocol,
   protocol1: Protocol,
   chainId: ChainId,
+  chainName: string,
 ) => {
   const interval = getInterval(timeWindow)
   const endTimestamp = getUnixTime(new Date())
@@ -175,8 +176,11 @@ const fetchDerivedPriceData = async (
   if (!SWAP_INFO_BY_CHAIN[chainId][protocol0] || !SWAP_INFO_BY_CHAIN[chainId][protocol1]) {
     return null
   }
+  console.debug(time, multiChainStartTime[chainName])
   while (time <= endTimestamp) {
-    timestamps.push(time)
+    if(time >= multiChainStartTime[chainName]) {
+      timestamps.push(time)
+    }
     time += interval
   }
 

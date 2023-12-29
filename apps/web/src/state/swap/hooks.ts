@@ -19,6 +19,7 @@ import { isAddress } from 'utils'
 import { computeSlippageAdjustedAmounts } from 'utils/exchange'
 import { getTokenAddress } from 'views/Swap/components/Chart/utils'
 import { useAccount } from 'wagmi'
+import { useGetChainName } from 'state/info/hooks'
 import { useCurrencyBalances } from '../wallet/hooks'
 import { Field, replaceSwapState } from './actions'
 import fetchDerivedPriceData, { getTokenBestTvlProtocol } from './fetch/fetchDerivedPriceData'
@@ -296,6 +297,7 @@ export const useFetchPairPricesV3 = ({
   currentSwapPrice,
 }: useFetchPairPricesParams) => {
   const { chainId } = useActiveChainId()
+  const chainName = useGetChainName()
   const { data: protocol0 } = useSWRImmutable(
     token0Address && chainId && ['protocol', token0Address, chainId],
     async () => {
@@ -327,6 +329,7 @@ export const useFetchPairPricesV3 = ({
         protocol0 ?? 'v3',
         protocol1 ?? 'v3',
         chainId,
+        chainName,
       )
       return normalizeDerivedPairDataByActiveToken({
         activeToken: token0Address,

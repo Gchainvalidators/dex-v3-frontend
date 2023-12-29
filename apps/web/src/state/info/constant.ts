@@ -54,7 +54,7 @@ export const multiChainStartTime = {
   ETH: PCS_ETH_START,
   POLYGON_ZKEVM: 1686236845,
   ZKSYNC: 1690462800, // Thu Jul 27 2023 13:00:00 UTC+0000
-  GSYS: 1691520000,
+  GSYS: 1698960228,
 }
 
 export const multiChainId: Record<MultiChainName, ChainId> = {
