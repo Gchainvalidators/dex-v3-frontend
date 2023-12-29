@@ -222,6 +222,15 @@ const farms: SerializedFarmConfig[] = [
     quoteToken: gsysTokens.bbtc,
     boosted: false,
   },
+  {
+    pid: 12,
+    v1pid: 12,
+    lpSymbol: 'BLDT-USDC LP',
+    lpAddress: '0x8b6A2Dc73B19093525db357f24491375dcc11464',
+    token: gsysTokens.bldt,
+    quoteToken: gsysTokens.usdc,
+    boosted: false,
+  },
   // {
   //   pid: 8,
   //   v1pid: 8,

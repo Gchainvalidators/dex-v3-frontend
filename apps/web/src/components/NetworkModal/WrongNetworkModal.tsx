@@ -1,6 +1,6 @@
 import { useTranslation } from '@pancakeswap/localization'
 import { ChainId } from '@pancakeswap/sdk'
-import { ArrowForwardIcon, Button, Grid, Message, MessageText, Modal, Text, FlexGap } from '@pancakeswap/uikit'
+import { ArrowForwardIcon, Button, Grid, Message, MessageText, Modal, Text, FlexGap, Titi } from '@pancakeswap/uikit'
 import { ChainLogo } from 'components/Logo/ChainLogo'
 import useAuth from 'hooks/useAuth'
 import { useSessionChainId } from 'hooks/useSessionChainId'
@@ -29,7 +29,8 @@ export function WrongNetworkModal({ currentChain, onDismiss }: { currentChain: C
           {t('You are under %network% now, please switch the network to continue.', { network: chain?.name ?? '' })}
         </Text>
         <div style={{ textAlign: 'center' }}>
-          <Image width={184} height={140} src="/images/decorations/3d-pan-bunny.png" alt="check your network" />
+          {/* <Image width={184} height={140} src="/images/decorations/3d-pan-bunny.png" alt="check your network" /> */}
+          <Titi width={140} height={140} />
         </div>
         <Message variant="warning" icon={false} p="8px 12px">
           <MessageText>
