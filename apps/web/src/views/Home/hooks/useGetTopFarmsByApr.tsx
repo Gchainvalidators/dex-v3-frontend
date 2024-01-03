@@ -63,10 +63,10 @@ const useGetTopFarmsByApr = (isIntersecting: boolean) => {
           version: 3 as const,
         }))
 
-      const sortedByApr = orderBy([...farmsWithApr, ...activeFarmV3], (farm) => farm.apr + farm.lpRewardsApr, 'desc')
+      const sortedByApr = orderBy([...farmsWithApr, ...activeFarmV3], (farm) => farm.apr ? farm.apr + farm.lpRewardsApr : 0, 'desc')
       setTopFarms(sortedByApr.slice(0, 5))
     }
-  }, [cakePriceBusd, chainId, farms, farmsV3.farmsWithPrice, fetchStatus, isLoading, regularCakePerBlock])
+  }, [cakePriceBusd.toNumber(), chainId, farms, farmsV3.farmsWithPrice, fetchStatus, isLoading, regularCakePerBlock])
   return { topFarms, fetched: fetchStatus === FetchStatus.Fetched && !isValidating, chainId }
 }
 
