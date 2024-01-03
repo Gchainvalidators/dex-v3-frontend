@@ -11,7 +11,7 @@ export const SEO: DefaultSeoProps = {
     site: '@BLDTSwap',
   },
   openGraph: {
-    title: '🥞 BLDTSwap - A next evolution DeFi exchange on GSYS Smart Chain (GSYS)',
+    title: 'BLDTSwap - A next evolution DeFi exchange on GSYS Smart Chain (GSYS)',
     description:
       'BlueLotusDao part of Genesys Network Ecosystem, earn BLDT through farming, staking or lottery,  swap your tokens with security and confidence.',
     images: [{ url: process.env.NEXT_PUBLIC_URL + '/images/hero.png?v=1.2' }],
