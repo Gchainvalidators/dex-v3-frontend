@@ -176,7 +176,6 @@ const fetchDerivedPriceData = async (
   if (!SWAP_INFO_BY_CHAIN[chainId][protocol0] || !SWAP_INFO_BY_CHAIN[chainId][protocol1]) {
     return null
   }
-  console.debug(time, multiChainStartTime[chainName])
   while (time <= endTimestamp) {
     if(time >= multiChainStartTime[chainName]) {
       timestamps.push(time)
