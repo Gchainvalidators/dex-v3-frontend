@@ -137,8 +137,8 @@ const farms: SerializedFarmConfig[] = [
     v1pid: 2,
     lpSymbol: 'BLDT-GSYS LP',
     lpAddress: CAKE_GSYS_LP_MAINNET,
-    token: gsysTokens.bldt,
-    quoteToken: gsysTokens.wgsys,
+    token: gsysTokens.wgsys,
+    quoteToken: gsysTokens.bldt,
     boosted: false,
   },
   {
@@ -146,8 +146,8 @@ const farms: SerializedFarmConfig[] = [
     v1pid: 3,
     lpSymbol: 'USDC-GSYS LP',
     lpAddress: '0x52e74b74ed5770571fA5637D93bf50a94d7066f1',
-    token: gsysTokens.usdc,
-    quoteToken: gsysTokens.wgsys,
+    token: gsysTokens.wgsys,
+    quoteToken: gsysTokens.usdc,
     boosted: true,
   },
   {
@@ -155,8 +155,8 @@ const farms: SerializedFarmConfig[] = [
     v1pid: 4,
     lpSymbol: 'GSYS-USDT LP',
     lpAddress: '0x1dc4aFFfe301b649BAaf03c9915DC77733eC6cC0',
-    token: gsysTokens.usdt,
-    quoteToken: gsysTokens.wgsys,
+    quoteToken: gsysTokens.usdt,
+    token: gsysTokens.wgsys,
     boosted: false,
   },
   {
@@ -182,8 +182,8 @@ const farms: SerializedFarmConfig[] = [
     v1pid: 7,
     lpSymbol: 'BBTC-GSYS LP',
     lpAddress: '0xC8f9eb61C47Fddc7bB0B8f13A5b181D134674Ac5',
-    token: gsysTokens.bbtc,
-    quoteToken: gsysTokens.wgsys,
+    token: gsysTokens.wgsys,
+    quoteToken: gsysTokens.bbtc,
     boosted: false,
   },
   {

@@ -272,7 +272,6 @@ const Farms: React.FC<React.PropsWithChildren> = ({ children }) => {
     (farm) =>
       farmsFinished.includes(farm.lpAddress) || (farm.pid !== 0 && farm.multiplier === '0X'),
   )
-  console.debug(inactiveFarms)
 
   const archivedFarms = farmsLP
 

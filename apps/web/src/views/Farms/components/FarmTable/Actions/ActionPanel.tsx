@@ -24,6 +24,7 @@ import { AddLiquidityV3Modal } from 'views/AddLiquidityV3/Modal'
 import { SELECTOR_TYPE } from 'views/AddLiquidityV3/types'
 import { V2Farm, V3Farm } from 'views/Farms/FarmsV3'
 import { useAccount } from 'wagmi'
+import { farmsFinished } from '@pancakeswap/farms/constants/16507'
 import { FarmV3ApyButton } from '../../FarmCard/V3/FarmV3ApyButton'
 import FarmV3CardList from '../../FarmCard/V3/FarmV3CardList'
 import { YieldBoosterStateContext } from '../../YieldBooster/components/ProxyFarmContainer'
@@ -169,7 +170,7 @@ export const ActionPanelV3: FC<ActionPanelV3Props> = ({
   const { chainId } = useActiveChainId()
   const { address: account } = useAccount()
   const farm = details
-  const isActive = farm.multiplier !== '0X'
+  const isActive = farm.multiplier !== '0X' && !farmsFinished.includes(farm.lpAddress)
   const lpLabel = useMemo(() => farm.lpSymbol && farm.lpSymbol.replace(/pancake/gi, ''), [farm.lpSymbol])
   const bsc = useMemo(
     () => getBlockExploreLink(farm.lpAddress, 'address', farm.token.chainId),
@@ -278,7 +279,7 @@ export const ActionPanelV2: React.FunctionComponent<React.PropsWithChildren<Acti
     t,
     currentLanguage: { locale },
   } = useTranslation()
-  const isActive = farm.multiplier !== '0X'
+  const isActive = farm.multiplier !== '0X' && !farmsFinished.includes(farm.lpAddress)
   const lpLabel = useMemo(() => farm.lpSymbol && farm.lpSymbol.replace(/pancake/gi, ''), [farm.lpSymbol])
   const bsc = useMemo(
     () => getBlockExploreLink(farm.lpAddress, 'address', farm.token.chainId),
