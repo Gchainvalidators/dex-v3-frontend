@@ -47,6 +47,7 @@ import { V3SubgraphHealthIndicator } from 'components/SubgraphHealthIndicator'
 import { isV3MigrationSupported } from 'utils/isV3MigrationSupported'
 import FarmV3MigrationBanner from 'views/Home/components/Banners/FarmV3MigrationBanner'
 import { useAccount } from 'wagmi'
+import { farmsFinished } from '@pancakeswap/farms/constants/16507'
 import Table from './components/FarmTable/FarmTable'
 import { FarmTypesFilter } from './components/FarmTypesFilter'
 import { BCakeBoosterCard } from './components/YieldBooster/components/bCakeV3/BCakeBoosterCard'
@@ -261,12 +262,17 @@ const Farms: React.FC<React.PropsWithChildren> = ({ children }) => {
 
   const activeFarms = farmsLP.filter(
     (farm) =>
+      !farmsFinished.includes(farm.lpAddress) &&
       farm.pid !== 0 &&
       farm.multiplier !== '0X' &&
       (farm.version === 3 ? !v3PoolLength || v3PoolLength >= farm.pid : !v2PoolLength || v2PoolLength > farm.pid),
   )
 
-  const inactiveFarms = farmsLP.filter((farm) => farm.pid !== 0 && farm.multiplier === '0X')
+  const inactiveFarms = farmsLP.filter(
+    (farm) =>
+      farmsFinished.includes(farm.lpAddress) || (farm.pid !== 0 && farm.multiplier === '0X'),
+  )
+  console.debug(inactiveFarms)
 
   const archivedFarms = farmsLP
 
