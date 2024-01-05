@@ -9,6 +9,7 @@ import { getFarmConfig } from '@pancakeswap/farms/constants'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useFarmsV3 } from 'state/farmsV3/hooks'
 import useSWR from 'swr'
+import { farmsFinished } from '@pancakeswap/farms/constants/16507'
 
 const useGetTopFarmsByApr = (isIntersecting: boolean) => {
   const dispatch = useAppDispatch()
@@ -34,6 +35,7 @@ const useGetTopFarmsByApr = (isIntersecting: boolean) => {
     if (fetchStatus === FetchStatus.Fetched && farms?.length > 0 && !isLoading) {
       const farmsWithPrices = farms.filter(
         (farm) =>
+          !farmsFinished.includes(farm.lpAddress) &&
           farm.lpTotalInQuoteToken &&
           farm.quoteTokenPriceBusd &&
           farm.pid !== 0 &&
@@ -54,7 +56,7 @@ const useGetTopFarmsByApr = (isIntersecting: boolean) => {
       })
 
       const activeFarmV3 = farmsV3.farmsWithPrice
-        .filter((f) => f.multiplier !== '0X' && 'cakeApr' in f)
+        .filter((f) => !farmsFinished.includes(f.lpAddress) && f.multiplier !== '0X' && 'cakeApr' in f)
         .map((f) => ({
           ...f,
           apr: +f.cakeApr,
