@@ -110,7 +110,7 @@ export const getStaticProps: GetStaticProps = async () => {
         }
       }
     `)
-    const bldt = await(await fetch('https://tempdex.genesys.network/api/farms/price/cake')).json()
+    const bldt = await(await fetch('https://bluelotusdao.org/api/farms/price/cake')).json()
     const { totalLiquidityUSD } = result.pancakeFactories[0]
     const cakeVaultV2 = getCakeVaultAddress()
     const cakeContract = getCakeContract()

@@ -103,7 +103,7 @@ export const getCakePrice = async (isTestnet: boolean) => {
   return pair.priceOf(tokenA)
 }
 
-const farmConfigApi = 'https://tempdex.genesys.network/lists'
+const farmConfigApi = 'https://bluelotusdao.org/lists'
 
 export async function saveFarms(chainId: number, event: ScheduledEvent | FetchEvent) {
   try {

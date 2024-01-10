@@ -1,7 +1,7 @@
 export const CORS_ALLOW = [
-  /\.tempdex\.genesys\.network$/,
+  /\.bluelotusdao\.org$/,
   /\.gchainexplorer\.genesys\.network$/,
-  'https://tempdex.genesys.network',
+  'https://bluelotusdao.org',
   'https://gchainexplorer.genesys.network',
   /^http:\/\/localhost(:\d+)?$/,
 ]

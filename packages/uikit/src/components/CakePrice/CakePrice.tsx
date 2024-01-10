@@ -33,7 +33,7 @@ const CakePrice: React.FC<React.PropsWithChildren<Props>> = ({
 }) => {
   return cakePriceUsd ? (
     <PriceLink
-      href={`https://tempdex.genesys.network/swap?outputCurrency=0xb4A3F9D3cEce2c298e9b73113f7B6C2B9f9d61fF&chainId=${chainId}`}
+      href={`https://bluelotusdao.org/swap?outputCurrency=0xb4A3F9D3cEce2c298e9b73113f7B6C2B9f9d61fF&chainId=${chainId}`}
       target="_blank"
     >
       <LogoRound width="24px" mr="8px" />

@@ -62,24 +62,26 @@ export function useStablecoinPrice(
 
   const shouldEnabled = currency && stableCoin && enabled && currentChainId === chainId && !isCake && !isStableCoin
 
-  const enableLlama = currency?.chainId === ChainId.ETHEREUM && shouldEnabled
+  const enableLlama = false //currency?.chainId === ChainId.ETHEREUM && shouldEnabled
 
   // we don't have too many AMM pools on ethereum yet, try to get it from api
-  const { data: priceFromLlama, isLoading } = useSWRImmutable<string>(
-    currency && enableLlama && ['fiat-price-ethereum', currency],
-    async () => {
-      const address = currency?.isToken ? currency.address : WETH9[ChainId.ETHEREUM]?.address
-      return fetch(`https://coins.llama.fi/prices/current/ethereum:${address}`) // <3 llama
-        .then((res) => res.json())
-        .then(
-          (res) => res?.coins?.[`ethereum:${address}`]?.confidence > 0.9 && res?.coins?.[`ethereum:${address}`]?.price,
-        )
-    },
-    {
-      dedupingInterval: 30_000,
-      refreshInterval: 30_000,
-    },
-  )
+  const isLoading = true
+  const priceFromLlama = ''
+  // const { data: priceFromLlama, isLoading } = useSWRImmutable<string>(
+  //   currency && enableLlama && ['fiat-price-ethereum', currency],
+  //   async () => {
+  //     const address = currency?.isToken ? currency.address : WETH9[ChainId.ETHEREUM]?.address
+  //     return fetch(`https://coins.llama.fi/prices/current/ethereum:${address}`) // <3 llama
+  //       .then((res) => res.json())
+  //       .then(
+  //         (res) => res?.coins?.[`ethereum:${address}`]?.confidence > 0.9 && res?.coins?.[`ethereum:${address}`]?.price,
+  //       )
+  //   },
+  //   {
+  //     dedupingInterval: 30_000,
+  //     refreshInterval: 30_000,
+  //   },
+  // )
 
   const amountOut = useMemo(
     () => (stableCoin ? CurrencyAmount.fromRawAmount(stableCoin, 5 * 10 ** stableCoin.decimals) : undefined),

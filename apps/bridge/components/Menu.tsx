@@ -73,7 +73,7 @@ export function Menu() {
   return (
     <Flex height="56px" bg="backgroundAlt" px="16px" alignItems="center" justifyContent="space-between" zIndex={9}>
       <Flex>
-        <Logo href="https://tempdex.genesys.network" />
+        <Logo href="https://bluelotusdao.org" />
 
         <Flex pl={['10px', null, '50px']}>
           {MenuConfig.map((menu) => (
@@ -97,7 +97,7 @@ export function Menu() {
               )}
             </Flex>
           ))}
-          <a href="https://tempdex.genesys.network/swap" target="_blank" rel="noreferrer noopener">
+          <a href="https://bluelotusdao.org/swap" target="_blank" rel="noreferrer noopener">
             <StyledMenuItem>Swap</StyledMenuItem>
           </a>
         </Flex>

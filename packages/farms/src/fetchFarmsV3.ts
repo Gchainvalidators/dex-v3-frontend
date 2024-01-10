@@ -38,7 +38,7 @@ export async function farmV3FetchFarms({
 }) {
   const [poolInfos, cakePrice, v3PoolData] = await Promise.all([
     fetchPoolInfos(farms, chainId, provider, masterChefAddress),
-    (await (await fetch('https://tempdex.genesys.network/api/farms/price/cake')).json())?.price,
+    (await (await fetch('https://bluelotusdao.org/api/farms/price/cake')).json())?.price,
     // provider({ chainId: ChainId.BSC })
     //   .readContract({
     //     abi: chainlinkAbi,
