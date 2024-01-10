@@ -62,7 +62,8 @@ export function useStablecoinPrice(
 
   const shouldEnabled = currency && stableCoin && enabled && currentChainId === chainId && !isCake && !isStableCoin
 
-  const enableLlama = false //currency?.chainId === ChainId.ETHEREUM && shouldEnabled
+  const enableLlama = false 
+  // currency?.chainId === ChainId.ETHEREUM && shouldEnabled
 
   // we don't have too many AMM pools on ethereum yet, try to get it from api
   const isLoading = true
