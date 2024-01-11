@@ -12,6 +12,7 @@ import {
   RowBetween,
   StyledTooltip,
   Text,
+  Titi,
   useModalV2,
 } from '@pancakeswap/uikit'
 import { formatBigInt } from '@pancakeswap/utils/formatBalance'
@@ -250,12 +251,13 @@ const SingleFarmV3Card: React.FunctionComponent<
                       )}
                       <Arrow />
                     </StyledTooltip>
-                    <Image
+                    <Titi width={120} height={120} />
+                    {/* <Image
                       src="/images/decorations/bulb-bunny.png"
                       width={135}
                       height={120}
                       alt="bulb bunny reminds unstaking"
-                    />
+                    /> */}
                   </AtomBox>
                 </AtomBox>
                 <LightCard>
