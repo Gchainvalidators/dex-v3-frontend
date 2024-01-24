@@ -324,6 +324,26 @@ export const LOTTO = {
   ),
 }
 
+export const EMPIRE = {
+  [ChainId.GSYS]: new ERC20Token(
+    ChainId.GSYS,
+    '0xA061EBe8CeA596e9C300b7B6A83bbb3f1E893Eb6',
+    18,
+    'EMPIRE',
+    'Dark Empire',
+  ),
+}
+
+export const DRALPH = {
+  [ChainId.GSYS]: new ERC20Token(
+    ChainId.GSYS,
+    '0x396A955563f77Eb4AA2c62762ED7f24c999c4742',
+    18,
+    'DRALPH',
+    'Dead RALPH',
+  ),
+}
+
 export const STABLE_COIN = {
   [ChainId.GSYS]: USDT[ChainId.GSYS],
   [ChainId.ETHEREUM]: USDT[ChainId.ETHEREUM],
