@@ -86,7 +86,7 @@ const config: (
     },
     {
       label: t('Perpetual BlueLotusDao'),
-      href: 'https://perpetualtempdex.genesys.network',
+      href: 'https://perpetualbluelotusdao.org',
       icon: ChartIcon,
       fillIcon: TrophyFillIcon,
       image: '/images/decorations/pe2.png',
