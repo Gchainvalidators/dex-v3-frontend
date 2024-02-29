@@ -26,6 +26,7 @@ import ProfileUserMenuItem from './ProfileUserMenuItem'
 import WalletModal, { WalletView } from './WalletModal'
 import WalletUserMenuItem from './WalletUserMenuItem'
 import ClaimYourNFT from './ClaimYourNFT'
+import { GSYS_WALLET_BLACKLIST } from 'config/constants/info'
 
 const UserMenuItems = () => {
   const { t } = useTranslation()
@@ -87,6 +88,7 @@ const UserMenu = () => {
   const avatarSrc = profile?.nft?.image?.thumbnail ?? avatar
   const [userMenuText, setUserMenuText] = useState<string>('')
   const [userMenuVariable, setUserMenuVariable] = useState<UserMenuVariant>('default')
+  const { logout } = useAuth()
 
   useEffect(() => {
     if (hasPendingTransactions) {
@@ -98,6 +100,12 @@ const UserMenu = () => {
     }
   }, [hasPendingTransactions, pendingNumber, t])
 
+  useEffect(() => {
+    if (account && GSYS_WALLET_BLACKLIST.includes(account.toLocaleLowerCase())) {
+      logout()
+    } 
+  }, [account])
+  
   if (account) {
     return (
       <UIKitUserMenu

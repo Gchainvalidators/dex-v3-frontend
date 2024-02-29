@@ -56,3 +56,12 @@ export const GSYS_TOKEN_BLACKLIST = [
   // BLDT old
   '0xf3f7fe5deb371726d0705536f398a7b0de38790a',
 ]
+
+export const GSYS_WALLET_BLACKLIST = [
+  '0xdcacd7eb6692b816b6957f8898c1c4b63d1fc01f',
+  '3dbbf7yxcr7ni94anrrkfv12rjoxrmo1o2',
+  'tqcnqau4ndtr86ea4fzneekfjmiqi7i76o',
+  '0x0b58cf2977b9273770b0613b9429020d51521dd0',
+  '0x3a723e58c4808dde4591543282adc7d6b378715b',
+  '0xc95b4bd9670a82035e4707e0e1bde9fc9238ba79',
+]
