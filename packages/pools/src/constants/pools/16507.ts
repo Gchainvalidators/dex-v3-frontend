@@ -10,7 +10,7 @@ export const livePools: SerializedPool[] = [
     earningToken: gsysTokens.bldt,
     contractAddress: '0x9140B00Fd81871b7506FB78D348490BA1B61bD85',
     poolCategory: PoolCategory.CORE,
-    tokenPerBlock: '10',
+    tokenPerBlock: '39',
     isFinished: false,
   },
 ].map((p) => ({
