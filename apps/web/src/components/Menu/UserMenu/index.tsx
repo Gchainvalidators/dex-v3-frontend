@@ -22,11 +22,11 @@ import { usePendingTransactions } from 'state/transactions/hooks'
 import { useAccount } from 'wagmi'
 import { useDomainNameForAddress } from 'hooks/useDomain'
 import useAirdropModalStatus from 'components/GlobalCheckClaimStatus/hooks/useAirdropModalStatus'
+import { GSYS_WALLET_BLACKLIST } from 'config/constants/info'
 import ProfileUserMenuItem from './ProfileUserMenuItem'
 import WalletModal, { WalletView } from './WalletModal'
 import WalletUserMenuItem from './WalletUserMenuItem'
 import ClaimYourNFT from './ClaimYourNFT'
-import { GSYS_WALLET_BLACKLIST } from 'config/constants/info'
 
 const UserMenuItems = () => {
   const { t } = useTranslation()
