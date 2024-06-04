@@ -114,14 +114,6 @@
       "chainId": 16507,
       "decimals": 18,
       "logoURI": ""
-    },
-    {
-      "name": "PIPI_LOL",
-      "symbol": "PIPI",
-      "address": "0x250606C2870147d8cf1Ab242466A38bA6646B8B8",
-      "chainId": 16507,
-      "decimals": 18,
-      "logoURI": ""
     }
   ]
 }

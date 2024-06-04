@@ -129,7 +129,6 @@ export const parsePoolData = (pairs?: PoolFields[]) => {
   }
   return pairs.reduce((accum: { [address: string]: FormattedPoolFields }, poolData) => {
     const { volumeUSD, reserveUSD, reserve0, reserve1, token0Price, token1Price, volumeOutUSD } = poolData
-    console.debug(volumeOutUSD)
     accum[poolData.id.toLowerCase()] = {
       ...poolData,
       volumeUSD: parseFloat(volumeUSD),
