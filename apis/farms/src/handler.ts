@@ -4,7 +4,7 @@ import { SerializedFarmConfig, FarmWithPrices } from '@pancakeswap/farms'
 import { ChainId, CurrencyAmount, Pair, WBNB, WGSYS } from '@pancakeswap/sdk'
 import { BUSD, BLDT, USDC, USDT } from '@pancakeswap/tokens'
 import { farmFetcher } from './helper'
-import { FarmKV, FarmResult } from './kv'
+import { FarmKV, FarmResult, FarmResultV2 } from './kv'
 import { updateLPsAPR } from './lpApr'
 import { bscClient, bscTestnetClient, gsysClient } from './provider'
 import { is } from 'date-fns/locale'
@@ -146,6 +146,62 @@ export async function saveFarms(chainId: number, event: ScheduledEvent | FetchEv
     }
 
     event.waitUntil(FarmKV.saveFarms(chainId, savedFarms))
+
+    return savedFarms
+  } catch (error) {
+    console.error('[ERROR] fetching farms', error)
+    throw error
+  }
+}
+
+export async function saveFarmsV2(chainId: number, event: ScheduledEvent | FetchEvent) {
+  try {
+    const isTestnet = farmFetcher.isTestnet(chainId)
+    const farmsConfig = await (await fetch(`${farmConfigApi}/${chainId}.json`)).json<SerializedFarmConfig[]>()
+    let lpPriceHelpers: SerializedFarmConfig[] = []
+    // try {
+    //   lpPriceHelpers = await (
+    //     await fetch(`${farmConfigApi}/priceHelperLps/${chainId}.json`)
+    //   ).json<SerializedFarmConfig[]>()
+    // } catch (error) {
+    //   console.error('Get LP price helpers error', error)
+    // }
+
+    if (!farmsConfig) {
+      throw new Error(`Farms config not found ${chainId}`)
+    }
+    const { farmsWithPrice, poolLength, regularCakePerBlock } = await farmFetcher.fetchFarms({
+      chainId,
+      isTestnet,
+      farms: farmsConfig.filter((f) => f.pid !== 0).concat(lpPriceHelpers),
+    })
+
+    const cakeBusdPrice = await getCakePrice(isTestnet)
+    const lpAprs = await handleLpAprs(chainId, farmsConfig)
+
+    const finalFarm = farmsWithPrice.map((f) => {
+      return {
+        name: f.lpSymbol,
+        pair: `${f.token.symbol}-${f.quoteToken.symbol}`,
+        pairLink: '',
+        logo: '',
+        poolRewards: ['BLDT'],
+        apr: getFarmCakeRewardApr(f, new BN(cakeBusdPrice.toSignificant(3)), regularCakePerBlock),
+        totalStaked: f.lpTokenStakedAmount
+        // ...f,
+        // lpApr: lpAprs?.[f.lpAddress.toLowerCase()] || 0,
+        // cakeApr: getFarmCakeRewardApr(f, new BN(cakeBusdPrice.toSignificant(3)), regularCakePerBlock),
+      }
+    }) as FarmResultV2
+
+    const savedFarms = {
+      updatedAt: new Date().toISOString(),
+      poolLength,
+      regularCakePerBlock,
+      data: finalFarm,
+    }
+
+    event.waitUntil(FarmKV.saveFarmsV2(chainId, savedFarms))
 
     return savedFarms
   } catch (error) {

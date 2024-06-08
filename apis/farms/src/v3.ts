@@ -387,3 +387,87 @@ const handler_ = async (req: Request) => {
     },
   )
 }
+
+export const getPairsDataV3 = async (req: Request, event: FetchEvent) => {
+  const chainIdString = req.params?.chainId
+  const chainId = Number(chainIdString) as Exclude<FarmV3SupportedChainId, ChainId.POLYGON_ZKEVM_TESTNET>
+  console.log(chainId)
+  if (chainId != ChainId.GSYS) {
+    return json({
+      status: false,
+      error: 'Chain is not supported',
+    })
+  }
+  try {
+    const data = await V3_SUBGRAPH_CLIENTS[chainId].request(
+      gql`
+        query pools {
+          pools(orderBy: totalValueLockedUSD, orderDirection: desc) {
+            id
+            feeTier
+            liquidity
+            sqrtPrice
+            tick
+            token0 {
+              id
+              symbol
+              name
+              decimals
+              derivedETH
+            }
+            token1 {
+              id
+              symbol
+              name
+              decimals
+              derivedETH
+            }
+            token0Price
+            token1Price
+            volumeUSD
+            volumeToken0
+            volumeToken1
+            txCount
+            totalValueLockedToken0
+            totalValueLockedToken1
+            totalValueLockedUSD
+            feesUSD
+            protocolFeesUSD
+          }
+          bundles(where: { id: "1" }) {
+            ethPriceUSD
+          }
+        }
+      `,
+    )
+
+    const result = data.pools.reduce((accumulator, pair) => {
+      accumulator[`${pair.token0.id}_${pair.token1.id}`] = {
+        pair_address: pair.id,
+        feeTier: pair.feeTier,
+        base_id: pair.token0.id,
+        base_name: pair.token0.name,
+        base_symbol: pair.token0.symbol,
+        quote_id: pair.token1.id,
+        quote_name: pair.token1.name,
+        quote_symbol: pair.token1.symbol,
+        base_price: pair.token0Price,
+        quote_rice: pair.token1Price,
+        base_volume: pair.volumeToken0,
+        quote_volume: pair.volumeToken1,
+      }
+      return accumulator
+    }, {})
+
+    return json({
+      status: true,
+      data: result,
+    })
+  } catch (e) {
+    console.log(e)
+    return json({
+      status: false,
+      error: 'Error',
+    })
+  }
+}

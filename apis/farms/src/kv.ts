@@ -9,11 +9,28 @@ const KV_PREFIX = {
 
 export type FarmResult = Array<FarmWithPrices & { cakeApr?: string; lpApr?: number }>
 
+export type FarmResultV2 = Array<{
+  name: string,
+  pair: string,
+  pairLink: string,
+  logo: string,
+  poolRewards: Array<string>,
+  apr?: string,
+  totalStaked?: number
+}>
+
 export type SavedFarmResult = {
   updatedAt: string
   poolLength: number
   regularCakePerBlock: number
   data: FarmResult
+}
+
+export type SavedFarmResultV2 = {
+  updatedAt: string
+  poolLength: number
+  regularCakePerBlock: number
+  data: FarmResultV2
 }
 
 const createKvKey = {
@@ -31,7 +48,17 @@ export class FarmKV {
     })
   }
 
+  static async getFarmsV2(chainId: number | string) {
+    return FARMS.get<SavedFarmResultV2>(createKvKey.farms(chainId), {
+      type: 'json',
+    })
+  }
+
   static async saveFarms(chainId: number | string, farms: SavedFarmResult) {
+    return FARMS.put(createKvKey.farms(chainId), JSON.stringify(farms))
+  }
+
+  static async saveFarmsV2(chainId: number | string, farms: SavedFarmResultV2) {
     return FARMS.put(createKvKey.farms(chainId), JSON.stringify(farms))
   }
 

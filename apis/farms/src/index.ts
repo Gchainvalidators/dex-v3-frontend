@@ -14,11 +14,13 @@ import { Router } from 'itty-router'
 import { error, json, missing } from 'itty-router-extras'
 import { wrapCorsHeader, handleCors, CORS_ALLOW } from '@pancakeswap/worker-utils'
 import BigNumber from 'bignumber.js'
-import { saveFarms, saveLPsAPR, getCakePrice } from './handler'
+import { saveFarms, saveLPsAPR, getCakePrice, saveFarmsV2 } from './handler'
 import { farmFetcher, requireChainId } from './helper'
-import { handler as v3Handler } from './v3'
+import { getPairsDataV3, handler as v3Handler } from './v3'
 import { FarmKV } from './kv'
 import BN from 'bignumber.js'
+import { getPairsData } from './v2'
+import { ChainId } from '@pancakeswap/sdk'
 
 BigNumber.config({
   EXPONENTIAL_AT: 1000,
@@ -97,7 +99,51 @@ router.get('/:chainId', async ({ params }, event) => {
   })
 })
 
+router.get('/:chainId/getfarms', async ({ params }, event) => {
+  const err = requireChainId(params)
+  if (err) return err
+  const chainIdString = params?.chainId
+  const chainId = Number(chainIdString)
+
+  console.log(chainId)
+  if (chainId != ChainId.GSYS) {
+    return json({
+      status: false,
+      error: 'Chain is not supported',
+    })
+  }
+
+  const cached = KV_CACHE && (await FarmKV.getFarmsV2(chainId))
+
+  if (!cached || Date.now() - new Date(cached.updatedAt).getTime() > 2 * 1000 * 60) {
+    if (KV_CACHE) {
+      console.info('no cached found!')
+    }
+    try {
+      const savedFarms = await saveFarmsV2(+chainId, event)
+
+      return json(savedFarms, {
+        headers: {
+          'Cache-Control': 'public, max-age=60, s-maxage=60',
+        },
+      })
+    } catch (e) {
+      console.log(e)
+      return error(500, 'Fetch Farms error')
+    }
+  }
+
+  return json(cached, {
+    headers: {
+      'Cache-Control': 'public, max-age=60, s-maxage=60',
+    },
+  })
+})
+
 router.get('/v3/:chainId/liquidity/:address', v3Handler)
+
+router.get('/:chainId/getpairs', getPairsData)
+router.get('/v3/:chainId/getpairs', getPairsDataV3)
 
 router.all('*', () => missing('Not found'))
 
