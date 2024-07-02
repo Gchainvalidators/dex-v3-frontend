@@ -114,6 +114,14 @@
       "chainId": 16507,
       "decimals": 18,
       "logoURI": ""
+    },
+    {
+      "name": "Shitcats",
+      "symbol": "SHATS",
+      "address": "0xF8213760f3A91C8092bc9D6c877b5623610f2913",
+      "chainId": 16507,
+      "decimals": 18,
+      "logoURI": ""
     }
   ]
 }
