@@ -76,14 +76,6 @@
       "logoURI": ""
     },
     {
-      "name": "Baby Bitcoin",
-      "symbol": "BBTC",
-      "address": "0xdeE429c269504586d976dB774078feA67ea1F1c2",
-      "chainId": 16507,
-      "decimals": 18,
-      "logoURI": ""
-    },
-    {
       "name": "CRYPTO LOTTERY NFT",
       "symbol": "LOTTO",
       "address": "0xC91b5288E0d4bf1e9ecB59a7a1ffD015b66A8Dc6",
