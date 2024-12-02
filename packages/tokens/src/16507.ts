@@ -1,6 +1,6 @@
 import { ChainId, WGSYS, WETH9, ERC20Token } from '@pancakeswap/sdk'
 
-import { BBTC, CAKE_GSYS, DRALPH, EMPIRE, LOTTO, USDC, USDT_GSYS } from './common'
+import { BBTC, CAKE_GSYS, DRALPH, EMPIRE, LOTTO, USDC, USDT_GSYS, SHATS } from './common'
 
 export const gsysTokens = {
   wgsys: WGSYS[ChainId.GSYS],
@@ -31,4 +31,5 @@ export const gsysTokens = {
   lotto: LOTTO[ChainId.GSYS],
   empire: EMPIRE[ChainId.GSYS],
   dralph: DRALPH[ChainId.GSYS],
+  shats: SHATS[ChainId.GSYS],
 }

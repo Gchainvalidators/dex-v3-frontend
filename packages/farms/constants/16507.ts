@@ -231,6 +231,15 @@ const farms: SerializedFarmConfig[] = [
     quoteToken: gsysTokens.usdc,
     boosted: false,
   },
+  {
+    pid: 14,
+    v1pid: 14,
+    lpSymbol: 'GSYS-SHATS LP',
+    lpAddress: '0x02C0124b4D41CC68225597789ac8F1Ede685a8DE',
+    token: gsysTokens.shats,
+    quoteToken: gsysTokens.wgsys,
+    boosted: false,
+  },
   // {
   //   pid: 8,
   //   v1pid: 8,

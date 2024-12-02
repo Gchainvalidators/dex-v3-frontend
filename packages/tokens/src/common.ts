@@ -344,6 +344,10 @@ export const DRALPH = {
   ),
 }
 
+export const SHATS = {
+  [ChainId.GSYS]: new ERC20Token(ChainId.GSYS, '0xF8213760f3A91C8092bc9D6c877b5623610f2913', 18, 'SHATS', 'Shitcats'),
+}
+
 export const STABLE_COIN = {
   [ChainId.GSYS]: USDT[ChainId.GSYS],
   [ChainId.ETHEREUM]: USDT[ChainId.ETHEREUM],
