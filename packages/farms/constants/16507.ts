@@ -237,7 +237,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'GSYS-SHATS LP',
     lpAddress: '0x02C0124b4D41CC68225597789ac8F1Ede685a8DE',
     token: gsysTokens.shats,
-    quoteToken: gsysTokens.wgsys,
+    quoteToken: gsysTokens.gsys,
     boosted: false,
   },
   // {
