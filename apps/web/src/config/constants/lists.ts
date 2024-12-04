@@ -9,17 +9,17 @@ export const PANCAKE_ETH_MM = 'https://tokens.pancakeswap.finance/pancakeswap-et
 export const PANCAKE_BSC_MM = 'https://tokens.pancakeswap.finance/pancakeswap-bnb-mm.json'
 export const COINGECKO_ETH = 'https://tokens.coingecko.com/uniswap/all.json'
 export const CMC = 'https://tokens.pancakeswap.finance/cmc.json'
-export const GSYS_DEFAULT = 'https://raw.githubusercontent.com/fiwallets/token-list/gsys/lists/gsysswap-default.json'
+export const GSYS_DEFAULT = 'https://raw.githubusercontent.com/Gchainvalidators/dex-assets/main/tokenlist.json'
 
 export const ETH_URLS = [PANCAKE_ETH_DEFAULT, PANCAKE_ETH_MM, COINGECKO_ETH]
 export const BSC_URLS = []
 // export const BSC_URLS = [PANCAKE_EXTENDED, CMC, COINGECKO, PANCAKE_BSC_MM]
 export const POLYGON_ZKEVM_URLS = [PANCAKE_POLYGON_ZKEVM_DEFAULT]
 export const ZKSYNC_URLS = [PANCAKE_ZKSYNC_DEFAULT]
-export const GSYS_URLS = []
+export const GSYS_URLS = [GSYS_DEFAULT]
 
 // List of official tokens list
-export const OFFICIAL_LISTS = []
+export const OFFICIAL_LISTS = [GSYS_DEFAULT]
 // export const OFFICIAL_LISTS = [PANCAKE_EXTENDED, PANCAKE_ETH_DEFAULT, GSYS_DEFAULT]
 
 export const UNSUPPORTED_LIST_URLS: string[] = []
@@ -53,4 +53,5 @@ export const MULTI_CHAIN_LIST_URLS: { [chainId: number]: string[] } = {
   [ChainId.ETHEREUM]: ETH_URLS,
   [ChainId.ZKSYNC]: ZKSYNC_URLS,
   [ChainId.POLYGON_ZKEVM]: POLYGON_ZKEVM_URLS,
+  [ChainId.GSYS]: GSYS_URLS,
 }

@@ -1,5 +1,5 @@
 {
-  "name": "PancakeSwap Default List",
+  "name": "bluelotusdao Default List",
   "timestamp": "2022-01-26T11:45:09Z",
   "version": {
     "major": 4,
@@ -7,7 +7,7 @@
     "patch": 0
   },
   "tags": {},
-  "logoURI": "https://pancakeswap.finance/logo.png",
+  "logoURI": "https://bluelotusdao.org/logo.png",
   "keywords": ["pancake", "default"],
   "tokens": [
     {
