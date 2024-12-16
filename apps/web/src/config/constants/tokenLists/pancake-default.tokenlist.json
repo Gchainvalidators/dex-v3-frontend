@@ -74,38 +74,6 @@
       "chainId": 16507,
       "decimals": 18,
       "logoURI": ""
-    },
-    {
-      "name": "CRYPTO LOTTERY NFT",
-      "symbol": "LOTTO",
-      "address": "0xC91b5288E0d4bf1e9ecB59a7a1ffD015b66A8Dc6",
-      "chainId": 16507,
-      "decimals": 18,
-      "logoURI": ""
-    },
-    {
-      "name": "Blue Pepe",
-      "symbol": "BPEPE",
-      "address": "0x3D712c2aF5288c825ffFBDDC2c2eeD0c58339A50",
-      "chainId": 16507,
-      "decimals": 18,
-      "logoURI": ""
-    },
-    {
-      "name": "Dead RALPH",
-      "symbol": "DRALPH",
-      "address": "0x396A955563f77Eb4AA2c62762ED7f24c999c4742",
-      "chainId": 16507,
-      "decimals": 18,
-      "logoURI": ""
-    },
-    {
-      "name": "Shitcats",
-      "symbol": "SHATS",
-      "address": "0xF8213760f3A91C8092bc9D6c877b5623610f2913",
-      "chainId": 16507,
-      "decimals": 18,
-      "logoURI": ""
     }
   ]
 }
