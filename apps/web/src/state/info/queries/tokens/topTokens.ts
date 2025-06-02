@@ -1,15 +1,15 @@
 import { gql } from 'graphql-request'
-import { useCallback, useState, useEffect } from 'react'
-import { getDeltaTimestamps } from 'utils/getDeltaTimestamps'
 import union from 'lodash/union'
-import { useGetChainName } from '../../hooks'
+import { useCallback, useEffect, useState } from 'react'
+import { getDeltaTimestamps } from 'utils/getDeltaTimestamps'
 import {
-  getMultiChainQueryEndPointWithStableSwap,
   checkIsStableSwap,
+  getMultiChainQueryEndPointWithStableSwap,
+  MultiChainNameExtend,
   multiChainTokenBlackList,
   multiChainTokenWhiteList,
-  MultiChainNameExtend,
 } from '../../constant'
+import { useGetChainName } from '../../hooks'
 
 interface TopTokensResponse {
   tokenDayDatas: {
@@ -29,12 +29,7 @@ interface StableSwapTopTokensResponse {
  * Note: dailyTxns_gt: 300 is there to prevent fetching incorrectly priced tokens with high dailyVolumeUSD
  */
 const fetchTopTokens = async (chainName: MultiChainNameExtend, timestamp24hAgo: number): Promise<string[]> => {
-  const whereCondition =
-    chainName === 'ETH'
-      ? `where: { date_gt: ${timestamp24hAgo}, token_not_in: $blacklist, dailyVolumeUSD_gt:2000 }`
-      : checkIsStableSwap()
-      ? ''
-      : `where: { dailyTxns_gt: 300, id_not_in: $blacklist, date_gt: ${timestamp24hAgo}}`
+  const whereCondition = `where: { id_not_in: $blacklist, date_gt: ${timestamp24hAgo}}`
   const firstCount = 50
   try {
     const query = gql`
