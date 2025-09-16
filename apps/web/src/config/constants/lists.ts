@@ -10,16 +10,17 @@ export const PANCAKE_BSC_MM = 'https://tokens.pancakeswap.finance/pancakeswap-bn
 export const COINGECKO_ETH = 'https://tokens.coingecko.com/uniswap/all.json'
 export const CMC = 'https://tokens.pancakeswap.finance/cmc.json'
 export const GSYS_DEFAULT = 'https://raw.githubusercontent.com/Gchainvalidators/dex-assets/main/tokenlist.json'
+export const GSYS_DEXLIST = 'https://rulando.fun/api/token/dexlist/16507'
 
 export const ETH_URLS = [PANCAKE_ETH_DEFAULT, PANCAKE_ETH_MM, COINGECKO_ETH]
 export const BSC_URLS = []
 // export const BSC_URLS = [PANCAKE_EXTENDED, CMC, COINGECKO, PANCAKE_BSC_MM]
 export const POLYGON_ZKEVM_URLS = [PANCAKE_POLYGON_ZKEVM_DEFAULT]
 export const ZKSYNC_URLS = [PANCAKE_ZKSYNC_DEFAULT]
-export const GSYS_URLS = [GSYS_DEFAULT]
+export const GSYS_URLS = [GSYS_DEFAULT, GSYS_DEXLIST]
 
 // List of official tokens list
-export const OFFICIAL_LISTS = [GSYS_DEFAULT]
+export const OFFICIAL_LISTS = [GSYS_DEFAULT, GSYS_DEXLIST]
 // export const OFFICIAL_LISTS = [PANCAKE_EXTENDED, PANCAKE_ETH_DEFAULT, GSYS_DEFAULT]
 
 export const UNSUPPORTED_LIST_URLS: string[] = []
