@@ -9,8 +9,8 @@ import { MultiChainName, getMultiChainQueryEndPointWithStableSwap, checkIsStable
  */
 const TOKEN_TRANSACTIONS = () => {
   const isStableSwap = checkIsStableSwap()
-  const whereToken0 = isStableSwap ? 'pair_: {token0: $address}' : 'token0: $address'
-  const whereToken1 = isStableSwap ? 'pair_: {token1: $address}' : 'token1: $address'
+  const whereToken0 = !isStableSwap ? 'pair_: {token0: $address}' : 'token0: $address'
+  const whereToken1 = !isStableSwap ? 'pair_: {token1: $address}' : 'token1: $address'
   return gql`
     query tokenTransactions($address: String!) {
       mintsAs0: mints(first: 10, orderBy: timestamp, orderDirection: desc, where: { ${whereToken0} }) {
