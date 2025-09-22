@@ -84,16 +84,16 @@ const config: (
         },
       ].map((item) => addMenuItemSupported(item, chainId)),
     },
-    {
-      label: t('Perpetual BlueLotusDao'),
-      href: 'https://perpetualbluelotusdao.org',
-      icon: ChartIcon,
-      fillIcon: TrophyFillIcon,
-      image: '/images/decorations/pe2.png',
-      type: DropdownMenuItemType.EXTERNAL_LINK,
-      // showOnMobile: false
-      showItemsOnMobile: false
-    },
+    // {
+    //   label: t('Perpetual BlueLotusDao'),
+    //   href: 'https://perpetualbluelotusdao.org',
+    //   icon: ChartIcon,
+    //   fillIcon: TrophyFillIcon,
+    //   image: '/images/decorations/pe2.png',
+    //   type: DropdownMenuItemType.EXTERNAL_LINK,
+    //   // showOnMobile: false
+    //   showItemsOnMobile: false
+    // },
     {
       label: t('Bridge'),
       href: 'https://blue20bridge.io',
