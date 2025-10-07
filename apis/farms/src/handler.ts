@@ -1,13 +1,12 @@
+import { FarmWithPrices, SerializedFarmConfig } from '@pancakeswap/farms'
+import { ChainId, CurrencyAmount, Pair } from '@pancakeswap/sdk'
+import { BLDT, BUSD, USDC, USDT } from '@pancakeswap/tokens'
 import BN from 'bignumber.js'
 import { formatUnits } from 'viem'
-import { SerializedFarmConfig, FarmWithPrices } from '@pancakeswap/farms'
-import { ChainId, CurrencyAmount, Pair, WBNB, WGSYS } from '@pancakeswap/sdk'
-import { BUSD, BLDT, USDC, USDT } from '@pancakeswap/tokens'
 import { farmFetcher } from './helper'
 import { FarmKV, FarmResult, FarmResultV2 } from './kv'
 import { updateLPsAPR } from './lpApr'
 import { bscClient, bscTestnetClient, gsysClient } from './provider'
-import { is } from 'date-fns/locale'
 
 // copy from src/config, should merge them later
 const BSC_BLOCK_TIME = 3

@@ -54,7 +54,7 @@ export const SUGGESTED_BASES: ChainTokenList = {
   [ChainId.LINEA_TESTNET]: [lineaTestnetTokens.usdc, lineaTestnetTokens.weth],
   [ChainId.GSYS]: [
     gsysTokens.usdt, 
-    gsysTokens.bldt,
+    // gsysTokens.bldt,
     gsysTokens.usdc
   ],
 }
@@ -72,7 +72,7 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   [ChainId.ZKSYNC]: [zksyncTokens.usdc, zksyncTokens.weth],
   [ChainId.ZKSYNC_TESTNET]: [zkSyncTestnetTokens.usdc, zkSyncTestnetTokens.weth],
   [ChainId.LINEA_TESTNET]: [lineaTestnetTokens.usdc, lineaTestnetTokens.weth],
-  [ChainId.GSYS]: [gsysTokens.wgsys, gsysTokens.usdc, gsysTokens.usdt, gsysTokens.bldt],
+  [ChainId.GSYS]: [gsysTokens.wgsys, gsysTokens.usdc, gsysTokens.usdt],
 }
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
@@ -98,7 +98,7 @@ export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } 
   [ChainId.GSYS]: [
     // [gsysTokens.bldt, gsysTokens.wgsys],
     // [gsysTokens.usdc, gsysTokens.usdt],
-    [gsysTokens.gsys, gsysTokens.bldt],
+    // [gsysTokens.gsys, gsysTokens.bldt],
     [gsysTokens.gsys, gsysTokens.usdc],
     [gsysTokens.gsys, gsysTokens.usdt],
   ],
@@ -131,8 +131,8 @@ export const INPUT_FRACTION_AFTER_FEE = ONE_HUNDRED_PERCENT.subtract(BASE_FEE)
 
 // BNB
 export const DEFAULT_INPUT_CURRENCY = 'GSYS'
-// BLDT
-export const DEFAULT_OUTPUT_CURRENCY = '0xb4A3F9D3cEce2c298e9b73113f7B6C2B9f9d61fF'
+// USDT
+export const DEFAULT_OUTPUT_CURRENCY = '0x766C8AeD079D43D6B29dA8792b818373b933d80e'
 
 // Handler string is passed to Gelato to use PCS router
 export const GELATO_HANDLER = 'pancakeswap'

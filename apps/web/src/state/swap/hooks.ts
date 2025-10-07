@@ -263,7 +263,8 @@ export function useDefaultsFromURLSearch():
     const parsed = queryParametersToSwapState(
       query,
       native.symbol,
-      BLDT[chainId]?.address ?? STABLE_COIN[chainId]?.address ?? USDC[chainId]?.address ?? USDT[chainId]?.address,
+      STABLE_COIN[chainId]?.address ?? USDC[chainId]?.address ?? USDT[chainId]?.address,
+      // BLDT[chainId]?.address ?? STABLE_COIN[chainId]?.address ?? USDC[chainId]?.address ?? USDT[chainId]?.address,
     )
 
     dispatch(

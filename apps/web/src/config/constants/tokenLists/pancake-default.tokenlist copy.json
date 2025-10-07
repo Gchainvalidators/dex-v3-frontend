@@ -308,14 +308,6 @@
       "logoURI": "https://bluelotusdao.org/images/tokens/gsys/0x766C8AeD079D43D6B29dA8792b818373b933d80e.png"
     },
     {
-      "name": "BlueLotusDAO",
-      "symbol": "BLDT",
-      "address": "0xb4A3F9D3cEce2c298e9b73113f7B6C2B9f9d61fF",
-      "chainId": 16507,
-      "decimals": 18,
-      "logoURI": "https://bluelotusdao.org/images/tokens/gsys/0xb4A3F9D3cEce2c298e9b73113f7B6C2B9f9d61fF.png"
-    },
-    {
       "name": "USD Coin from Blue20",
       "symbol": "USDC",
       "address": "0x772Bf1c089463341cD18E1C99FFA10d433e12db4",
