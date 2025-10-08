@@ -1,28 +1,28 @@
-import { useRef, RefObject, useCallback, useState, useMemo } from 'react'
+import { useTranslation } from '@pancakeswap/localization'
 import { Token } from '@pancakeswap/sdk'
 import {
-  Text,
+  AutoColumn,
+  BscScanIcon,
   Button,
+  Column,
   DeleteOutlineIcon,
   IconButton,
-  BscScanIcon,
   Input,
   Link,
-  AutoColumn,
-  Column,
+  Text,
 } from '@pancakeswap/uikit'
-import styled from 'styled-components'
 import Row, { RowBetween, RowFixed } from 'components/Layout/Row'
+import { CurrencyLogo } from 'components/Logo'
+import { GSYS_TOKEN_BLACKLIST } from 'config/constants/info'
 import { useToken } from 'hooks/Tokens'
+import { useActiveChainId } from 'hooks/useActiveChainId'
+import { RefObject, useCallback, useMemo, useRef, useState } from 'react'
 import { useRemoveUserAddedToken } from 'state/user/hooks'
 import useUserAddedTokens from 'state/user/hooks/useUserAddedTokens'
-import { CurrencyLogo } from 'components/Logo'
+import styled from 'styled-components'
 import { getBlockExploreLink, isAddress } from 'utils'
-import { useTranslation } from '@pancakeswap/localization'
-import { useActiveChainId } from 'hooks/useActiveChainId'
 import ImportRow from './ImportRow'
 import { CurrencyModalView } from './types'
-import { GSYS_TOKEN_BLACKLIST } from 'config/constants/info'
 
 const Wrapper = styled.div`
   width: 100%;
