@@ -22,6 +22,7 @@ import { useTranslation } from '@pancakeswap/localization'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import ImportRow from './ImportRow'
 import { CurrencyModalView } from './types'
+import { GSYS_TOKEN_BLACKLIST } from 'config/constants/info'
 
 const Wrapper = styled.div`
   width: 100%;
@@ -105,7 +106,7 @@ export default function ManageTokens({
     )
   }, [userAddedTokens, chainId, removeToken])
 
-  const isAddressValid = searchQuery === '' || isAddress(searchQuery)
+  const isAddressValid = searchQuery === '' || GSYS_TOKEN_BLACKLIST.includes(searchQuery.toLowerCase()) || isAddress(searchQuery)
 
   return (
     <Wrapper>
